@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<picc id="000000" no_of_keys="1" settings ="0F" key_type="DES" key_xml_file=".\resources\master_keys.xml">
+
+  <applications>
+  
+    <!-- key type could be  DES, TDES, TKTDES, AES, 
+			if TKTDES then no_of_keys = 0x40 | key_nos = 0x4E
+			if AES then no_of_keys = 0x80 | key_nos = 0x8E
+			
+			If you choose MACED, the read key must not 0x0E
+	-->
+    <application id="A00001" no_of_keys="4E" settings ="0F" key_type="TKTDES" key_xml_file=".\resources\app_keys.xml">
+      <files>
+        
+        <!-- Personal Data -->
+        <!--E means free access-->
+        <file id="00" type="standard" access_rights="E234" comm_settings="PLAIN" max_size="250" name="PersonalData">
+        </file>
+
+        <!-- Image/Photo -->
+        <!--E means free access-->
+		<!--   
+		<file id="01" type="standard" access_rights="E234" comm_settings="PLAIN" max_size="800" name="PhotoData">          
+        </file> 
+		-->
+        <!-- Fingerprint -->
+        <!--E means free access-->        
+		<!--   
+		<file id="02" type="standard" access_rights="1234" comm_settings="ENCIPHERED" max_size="512" name="FingerPrintData">
+        </file>
+		-->
+
+        <!-- University Data -->
+        <!--E means free access-->
+        <file id="03" type="standard" access_rights="E234" comm_settings="PLAIN" max_size="250" name="UniversityData"> 
+        </file>
+      
+      </files>
+    </application>
+
+
+    <application id="B00001" no_of_keys="4E" settings ="0F" key_type="TKTDES" key_xml_file=".\resources\trans_keys.xml">
+      <files>
+        
+        <!-- contains the balance credit -->
+        <file id = "00" type="value" access_rights="1234" comm_settings="MACED" upper_limit="000001F4" lower_limit="00000000" limited_credit_enabled="00" name="CreditsValue"></file>
+                
+        <!-- contains the purchase transactions history -->
+        <file id = "01" type="record_cyclic" access_rights="E234" comm_settings="PLAIN" rec_size="000020" no_records="00000A" name="PurchaseHistory"></file>	
+
+		<!-- contains the credit transactions history -->
+        <file id = "02" type="record_cyclic" access_rights="E234" comm_settings="PLAIN" rec_size="000020" no_records="000002" name="CreditHistory"></file>
+		
+		<!-- contains the transport transactions history -->
+        <file id = "03" type="record_cyclic" access_rights="E234" comm_settings="PLAIN" rec_size="000020" no_records="00000A" name="TransportHistory"></file>
+      
+      </files>
+	  
+    </application>
+
+	
+   <application id="C00001" no_of_keys="4E" settings ="0F" key_type="TKTDES" key_xml_file=".\resources\library_keys.xml">
+      
+	<files>
+        
+        <!-- contains the Book credit -->
+        <file id = "00" type="value" access_rights="1234" comm_settings="MACED" upper_limit="00000005" lower_limit="00000000" limited_credit_enabled="00" name="LibraryCreditValue"></file>
+                
+        <!-- contains the 1st book history -->
+        <file id = "01" type="record_cyclic" access_rights="E234" comm_settings="PLAIN" rec_size="00002D" no_records="000002" name="Book1History"></file>	
+
+        <!-- contains the 1st book history -->
+        <file id = "02" type="record_cyclic" access_rights="E234" comm_settings="PLAIN" rec_size="00002D" no_records="000002" name="Book2History"></file>	
+
+		
+      </files>
+	  
+    </application>
+  
+  </applications>
+
+</picc>
