@@ -15,6 +15,21 @@
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,8 +51,34 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdvancedWizard, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f78a146ea70566cc, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdvancedWizard.4.0.0.0\lib\AdvancedWizard.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AForge">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>C:\Users\a.mustafa\Desktop\Aforge Library\Player\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
     <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
       <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Aspose.OCR, Version=17.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.OCR.17.11.0\lib\net46\Aspose.OCR.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -47,6 +88,18 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="FastReport, Version=2013.2.11.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Card Master Web For Royal Comision\CMWEB_Royal_CardPrintActiveX\bin\Debug\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2013.2.11.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Card Master Web For Royal Comision\CMWEB_Royal_CardPrintActiveX\bin\Debug\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2013.2.11.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Card Master Web For Royal Comision\CMWEB_Royal_CardPrintActiveX\bin\Debug\FastReport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
@@ -67,6 +120,18 @@
     </Reference>
     <Reference Include="IKVM.Runtime">
       <HintPath>libs\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="IronOcr, Version=4.1.1.30421, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.4.1.1.0\lib\net40\IronOcr.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IronOcr.Arabic, Version=4.0.0.25037, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Arabic.4.0.0\lib\net40\IronOcr.Arabic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="leptonica.net, Version=1.74.4.14, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\leptonica.net.1.74.4.14\lib\net452\leptonica.net.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
@@ -106,6 +171,11 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.105.2\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.OCR.17.11.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -115,78 +185,313 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Tesseract, Version=0.0.0.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tesseract.3.2.0-alpha4\lib\net451\Tesseract.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="tesseract.net, Version=4.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tesseract.net.4.0.0.6\lib\net452\tesseract.net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apps_Cood\CloseAllForms.cs" />
-    <Compile Include="Apps_Cood\SQlConnect.cs" />
-    <Compile Include="BookLog.cs" />
-    <Compile Include="Loginfrm.cs">
+    <Compile Include="Apps_Cod\CloseAllForms.cs" />
+    <Compile Include="Apps_Cod\ComboboxItem.cs" />
+    <Compile Include="Apps_Cod\DatabaseProvider.cs" />
+    <Compile Include="Apps_Cod\DBFun.cs" />
+    <Compile Include="Apps_Cod\General.cs" />
+    <Compile Include="Apps_Cod\GetAllMenuStripItems.cs" />
+    <Compile Include="Apps_Cod\PermitionClass.cs" />
+    <Compile Include="Apps_Cod\ScanImage.cs" />
+    <Compile Include="Apps_Cod\Setting.cs" />
+    <Compile Include="Apps_Cod\SQlConnect.cs" />
+    <Compile Include="Apps_Cod\WIAScanner.cs" />
+    <Compile Include="Apps_Cod\BookLog.cs" />
+    <Compile Include="Configurations Pages\LibrarySetup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loginfrm.Designer.cs">
+    <Compile Include="Configurations Pages\LibrarySetup.Designer.cs">
+      <DependentUpon>LibrarySetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations Pages\MenuSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations Pages\MenuSetup.Designer.cs">
+      <DependentUpon>MenuSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations Pages\ReaderSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations Pages\ReaderSetting.Designer.cs">
+      <DependentUpon>ReaderSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configurations Pages\TerminalSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations Pages\TerminalSetup.Designer.cs">
+      <DependentUpon>TerminalSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CardTemplatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CardTemplatesForm.Designer.cs">
+      <DependentUpon>CardTemplatesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IssueCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IssueCards.Designer.cs">
+      <DependentUpon>IssueCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loginfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loginfrm.Designer.cs">
       <DependentUpon>Loginfrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainPage.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps_Cod\Ocr.cs" />
+    <Compile Include="Wizered Pages\IssueCard_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\IssueCard_Pag.Designer.cs">
+      <DependentUpon>IssueCard_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\LastPageInfo_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\LastPageInfo_Pag.Designer.cs">
+      <DependentUpon>LastPageInfo_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\StdEdInfo_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\StdEdInfo_Pag.Designer.cs">
+      <DependentUpon>StdEdInfo_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library Pages\FrmLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library Pages\FrmLibrary.Designer.cs">
+      <DependentUpon>FrmLibrary.cs</DependentUpon>
     </Compile>
     <Compile Include="OneCard_SolutionDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>OneCard_SolutionDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Users.cs">
+    <Compile Include="OneCard_SolutionDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OneCard_SolutionDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StdInformations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Users.Designer.cs">
+    <Compile Include="Forms\StdInformations.Designer.cs">
+      <DependentUpon>StdInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentsFrm.Designer.cs">
+      <DependentUpon>StudentsFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users Permitions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users Permitions.Designer.cs">
+      <DependentUpon>Users Permitions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.cs">
       <DependentUpon>Users.cs</DependentUpon>
     </Compile>
-    <Compile Include="Users\Form2.cs">
+    <Compile Include="Forms\UsersCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Users\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Forms\UsersCategory.Designer.cs">
+      <DependentUpon>UsersCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="LibraryDataFactory.cs" />
-    <Compile Include="DesfireApplication.cs" />
-    <Compile Include="DesfirePersonalizerExceptions.cs" />
-    <Compile Include="LogWrapper.cs" />
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Apps_Cod\LibraryDataFactory.cs" />
+    <Compile Include="Apps_Cod\DesfireApplication.cs" />
+    <Compile Include="Apps_Cod\DesfirePersonalizerExceptions.cs" />
+    <Compile Include="Apps_Cod\LogWrapper.cs" />
     <Compile Include="Mapping\BookMapping.cs" />
     <Compile Include="Mapping\MenuMapping.cs" />
     <Compile Include="Model\Book.cs" />
     <Compile Include="Model\Menu.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Apps_Cod\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SettingsForm.cs">
+    <Compile Include="Forms\SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SettingsForm.Designer.cs">
+    <Compile Include="Forms\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Student.cs" />
-    <Compile Include="StudentLogClass.cs" />
-    <EmbeddedResource Include="Loginfrm.resx">
+    <Compile Include="Apps_Cod\Student.cs" />
+    <Compile Include="Apps_Cod\StudentLogClass.cs" />
+    <Compile Include="Purchasing Pages\FrmEItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchasing Pages\FrmEItems.Designer.cs">
+      <DependentUpon>FrmEItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchasing Pages\FrmPurchaseTrAc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchasing Pages\FrmPurchaseTrAc.Designer.cs">
+      <DependentUpon>FrmPurchaseTrAc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\FrmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\FrmReports.Designer.cs">
+      <DependentUpon>FrmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmIssueCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmIssueCard.Designer.cs">
+      <DependentUpon>FrmIssueCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmLastPageInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmLastPageInfo.Designer.cs">
+      <DependentUpon>FrmLastPageInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdEdInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdEdInfo.Designer.cs">
+      <DependentUpon>FrmStdEdInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdIncoding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdIncoding.Designer.cs">
+      <DependentUpon>FrmStdIncoding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdPrintCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdPrintCard.Designer.cs">
+      <DependentUpon>FrmStdPrintCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdtakPic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmStdtakPic.Designer.cs">
+      <DependentUpon>FrmStdtakPic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmWizered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\FrmWizered.Designer.cs">
+      <DependentUpon>FrmWizered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps_Cod\IWizardPage.cs" />
+    <Compile Include="Wizered Pages\StdIncoding_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\StdIncoding_Pag.Designer.cs">
+      <DependentUpon>StdIncoding_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\StdPrintCard_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\StdPrintCard_Pag.Designer.cs">
+      <DependentUpon>StdPrintCard_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\StdtakPic_Pag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\StdtakPic_Pag.Designer.cs">
+      <DependentUpon>StdtakPic_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\WizardHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\WizardHost.Designer.cs">
+      <DependentUpon>WizardHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Apps_Cod\WizardPageCollection.cs" />
+    <Content Include="x64\liblept1742.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\libtesseract3051.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\liblept1742.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\libtesseract3051.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Configurations Pages\LibrarySetup.resx">
+      <DependentUpon>LibrarySetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\MenuSetup.resx">
+      <DependentUpon>MenuSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\ReaderSetting.resx">
+      <DependentUpon>ReaderSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\TerminalSetup.resx">
+      <DependentUpon>TerminalSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CardTemplatesForm.resx">
+      <DependentUpon>CardTemplatesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IssueCards.resx">
+      <DependentUpon>IssueCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loginfrm.resx">
       <DependentUpon>Loginfrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainPage.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Users.resx">
+    <EmbeddedResource Include="Forms\StdInformations.resx">
+      <DependentUpon>StdInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentsFrm.resx">
+      <DependentUpon>StudentsFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\IssueCard_Pag.resx">
+      <DependentUpon>IssueCard_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdEdInfo_Pag.resx">
+      <DependentUpon>StdEdInfo_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users Permitions.resx">
+      <DependentUpon>Users Permitions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Users\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\UsersCategory.resx">
+      <DependentUpon>UsersCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Library Pages\FrmLibrary.resx">
+      <DependentUpon>FrmLibrary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -198,8 +503,58 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SettingsForm.resx">
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Content\tessdata\eng.DangAmbigs" />
+    <Content Include="Content\tessdata\eng.freq-dawg" />
+    <Content Include="Content\tessdata\eng.inttemp" />
+    <Content Include="Content\tessdata\eng.normproto" />
+    <Content Include="Content\tessdata\eng.pffmtable" />
+    <Content Include="Content\tessdata\eng.unicharset" />
+    <Content Include="Content\tessdata\eng.user-words" />
+    <Content Include="Content\tessdata\eng.word-dawg" />
+    <EmbeddedResource Include="Purchasing Pages\FrmEItems.resx">
+      <DependentUpon>FrmEItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchasing Pages\FrmPurchaseTrAc.resx">
+      <DependentUpon>FrmPurchaseTrAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FrmReports.resx">
+      <DependentUpon>FrmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmIssueCard.resx">
+      <DependentUpon>FrmIssueCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmLastPageInfo.resx">
+      <DependentUpon>FrmLastPageInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmStdEdInfo.resx">
+      <DependentUpon>FrmStdEdInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmStdIncoding.resx">
+      <DependentUpon>FrmStdIncoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmStdPrintCard.resx">
+      <DependentUpon>FrmStdPrintCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmStdtakPic.resx">
+      <DependentUpon>FrmStdtakPic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\FrmWizered.resx">
+      <DependentUpon>FrmWizered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdIncoding_Pag.resx">
+      <DependentUpon>StdIncoding_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdPrintCard_Pag.resx">
+      <DependentUpon>StdPrintCard_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdtakPic_Pag.resx">
+      <DependentUpon>StdtakPic_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\WizardHost.resx">
+      <DependentUpon>WizardHost.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="log4net.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -214,6 +569,17 @@
     </None>
     <None Include="OneCard_SolutionDataSet.xss">
       <DependentUpon>OneCard_SolutionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OneCard_SolutionDataSet1.xsc">
+      <DependentUpon>OneCard_SolutionDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OneCard_SolutionDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OneCard_SolutionDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OneCard_SolutionDataSet1.xss">
+      <DependentUpon>OneCard_SolutionDataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -235,6 +601,25 @@
     <Content Include="images\fp.png" />
     <Content Include="images\photo25.png" />
     <Content Include="images\photo50.png" />
+    <None Include="resources\500px-Notepad_icon.svg_.png" />
+    <Content Include="lib\x64\pvt.cppan.demo.danbloomberg.leptonica-1.74.4.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.google.tesseract.libtesseract400.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.jpeg-9.2.0.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.madler.zlib-1.2.11.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.openjpeg.openjp2-2.1.2.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.png-1.6.30.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.tiff-4.0.7.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.webp-0.6.0.dll" />
+    <Content Include="lib\x64\pvt.cppan.demo.xz_utils.lzma-5.2.3.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.danbloomberg.leptonica-1.74.4.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.google.tesseract.libtesseract400.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.jpeg-9.2.0.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.madler.zlib-1.2.11.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.openjpeg.openjp2-2.1.2.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.png-1.6.30.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.tiff-4.0.7.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.webp-0.6.0.dll" />
+    <Content Include="lib\x86\pvt.cppan.demo.xz_utils.lzma-5.2.3.dll" />
     <Content Include="resources\app_keys.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -244,6 +629,11 @@
     <Content Include="resources\country.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="resources\Document Add.ico" />
+    <None Include="resources\images %281%29.jpg" />
+    <None Include="resources\Document-Delete-icon.png" />
+    <None Include="resources\Document-icon.png" />
+    <None Include="resources\images %282%29.jpg" />
     <Content Include="resources\library_keys.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -267,6 +657,30 @@
       <Name>DesFireWrapperLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WIA">
+      <Guid>{94A0E92D-43C0-494E-AC29-FD45948A5221}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -274,6 +688,11 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.105.2\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets" Condition="Exists('..\packages\MSBuild.NugetContentRestore.0.1.6\build\net40\MSBuild.NugetContentRestore.targets')" />
+  <Target Name="BeforeBuild">
+    <NugetContentRestoreTask SolutionDir="$(SolutionDir)" ProjectDir="$(ProjectDir)" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
