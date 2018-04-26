@@ -43,7 +43,6 @@ namespace DesFirePersonalizer
 
         private static bool writeRespMsg(DesFireWrappeResponse dsf_str)
         {
-
             string sw1sw2 = dsf_str.sw1sw2;
 
             if (String.IsNullOrWhiteSpace(sw1sw2))
@@ -74,9 +73,12 @@ namespace DesFirePersonalizer
 
                     return false;
                 }
+                
             }
-
+         
             return true;
         }
+               
+
     }
 }

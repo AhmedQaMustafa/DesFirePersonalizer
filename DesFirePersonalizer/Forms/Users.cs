@@ -23,7 +23,7 @@ namespace DesFirePersonalizer
         private DataTable dtMnu;
         private DataTable ROleDt;
         private DataTable CatDt;
-
+    
         int ID = 0;
         string PermissionScreen = DatabaseProvider.UsrPermission;
         string commandAction = "";
@@ -155,7 +155,7 @@ namespace DesFirePersonalizer
         /*                                                  User Permitions Code                                              */
         /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        string[] ScreenText = { "Usr", "Std", "Cat", "Per", "Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran", "PurchEItem", "Library", "LibraryInOu", "LibSet", "MenuSet", "Cards", "IssuCards", "IssCardsSet", "CardsSet", "TermSet", "LibraryBorrow", "Libraryreturn", "RestCards", "IssueCards" };
+        string[] ScreenText = { "Usr", "Std", "Cat", "Per", "Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran", "PurchEItem", "Library", "LibraryInOu", "LibSet", "MenuSet", "Cards", "IssuCards", "IssCardsSet", "CardsSet", "TermSet", "LibraryBorrow", "Libraryreturn", "RestCards", "IssueCards" , "ReaderSettings", "WaRep", "Rep" };
         string[] PermText = { "View", "Add", "Update", "Delete", "Refresh", "Print", "Edit", "Insert", "Search", "Restore" };
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -199,7 +199,7 @@ namespace DesFirePersonalizer
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        string[] ScreenTextMnu = { "Usr", "Std", "Cat", "Per", "Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran", "PurchEItem", "Library", "LibraryInOu", "Cards", "IssuCards", "IssCardsSet", "CardsSet", "TermSet" };
+        string[] ScreenTextMnu = { "Usr", "Std", "Cat", "Per", "Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran", "PurchEItem", "Library", "LibraryInOu", "Cards", "IssuCards", "IssCardsSet", "CardsSet", "TermSet", "ReaderSettings", "WaRep", "Rep" };
         string[] PermTextMnu = { "View" };
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -323,7 +323,7 @@ namespace DesFirePersonalizer
             string strPermissionMenu = ReadPermissionMnu();
             try
             {
-                dt = FillGridData("WHERE UsrLoginID = '" + TxtSearch.Text + " ' ");
+                dt    = FillGridData("WHERE UsrLoginID = '" + TxtSearch.Text + " ' ");
                 dtMnu = FillGridDataMnu("where userid ='" + TxtUserID.Text + "'");
                 if (commandAction == "Add")
                 {

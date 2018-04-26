@@ -394,8 +394,11 @@ namespace SimpleWizard
         {
             WizardPages.MovePageFirst();
             // label1.Text = DatabaseProvider.Command;
+            BtnStep1.Enabled = false;
 
         }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public void LoadNextPage(int pageIndex, int previousPageIndex, bool savePreviousPage)
         {
             if (pageIndex != -1)
@@ -440,10 +443,10 @@ namespace SimpleWizard
             if (WizardPages.CanMoveNext)
             {
                 #region StdEditIformations
-
+                BtnStep1.Enabled = true;
                 if (this.contentPanel.Controls["StdEdInfo_Pag"] != null)
                 {
-                    if (label1.Text == "Add")
+                   if (label1.Text == "Add")
                     {
                         callFormsControlsNew();
                         if (valueID != "")//&& valueNat == "" && valueCollage.ToString() == "" && valueTempTy == "" && valueActNotAct == "" && valueEmail == ""
@@ -475,6 +478,7 @@ namespace SimpleWizard
                             MessageBox.Show("Please Fill All Fields", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             return;
                         }
+                        BtnStep1.Enabled = true;
                     }
                     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -547,13 +551,16 @@ namespace SimpleWizard
                             MessageBox.Show("Procces Not compleate please contact administrator", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
+                    BtnStep1.Enabled = true;
                 }
                 #endregion
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 #region Studentd Picture
                 if (this.contentPanel.Controls["StdtakPic_Pag"] != null)
                 {
+                    //BtnStep1.Enabled = true;
+                    //BtnStep2.Enabled = false;
                     try
                     {
                         if (label1.Text == "Update" && valueID != "")
@@ -573,12 +580,14 @@ namespace SimpleWizard
                                         Provider.UpdateStudentInfoImage(valueID, valueImageCaptured);//, ImageCaptured.Image
                                         FillData();
                                         WizardPages.MovePageNext();
+                                 
                                     }
                                 }
 
                                 else if (dialogResult == DialogResult.No)
                                 {
                                     WizardPages.MovePageNext();
+                         
                                 }
                             }
 
@@ -588,11 +597,51 @@ namespace SimpleWizard
                     {
                         MessageBox.Show("Procces Not compleate please contact administrator", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
+                    BtnStep2.Enabled = true;
                 }
                 #endregion
-          ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+             
+                #region Incoding
+                if (this.contentPanel.Controls["StdIncoding_Pag"] != null)
+                {
+                    //BtnStep1.Enabled = true;
+                    //BtnStep2.Enabled = true;
+                    //BtnStep3.Enabled = false;
+                    BtnStep3.Enabled = true;
+                }
+                #endregion
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+               
+                #region Issue Card
+                if (this.contentPanel.Controls["IssueCard_Pag"] != null)
+                {
+                    //  BtnStep1.Enabled = true;
+                    //  BtnStep2.Enabled = true;
+                    //  BtnStep3.Enabled = true;
+                    //  BtnStep4.Enabled = false;
+                    ////  BtnStep6.Enabled = true;
+                    BtnStep4.Enabled = true;
+                }
+                #endregion
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+              
+                #region Print Card
+                if (this.contentPanel.Controls["StdPrintCard_Pag"] != null)
+                {
+                    //BtnStep1.Enabled = true;
+                    //BtnStep2.Enabled = true;
+                    //BtnStep3.Enabled = true;
+                    //BtnStep4.Enabled = true;
+                    BtnStep6.Enabled = false;
 
+                }
+                #endregion
+                ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                 WizardPages.MovePageNext();
             }
             else
@@ -602,7 +651,8 @@ namespace SimpleWizard
             }
 
         }
-
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public void CloseChildForms()
         {
             foreach (Form Frm in this.MdiChildren)
@@ -615,7 +665,8 @@ namespace SimpleWizard
             }
 
         }
-      
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void btnLast_Click(object sender, EventArgs e)
         {
             if (!CheckPageIsValid())
@@ -633,12 +684,122 @@ namespace SimpleWizard
                // CloseChildForms();
             }
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void WizardHost_Load(object sender, EventArgs e)
         {
             label1.Text = DatabaseProvider.Command;
         }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep2_Click(object sender, EventArgs e)
+        {
+            int pageIndex = 2;
+            if (pageIndex != -1)
+            {
+                contentPanel.Controls.Clear();
+                contentPanel.Controls.Add(WizardPages[pageIndex].Content);
+                WizardPages[pageIndex].Load();
+                UpdateNavigation();
+            }
+                BtnStep1.Enabled = true;
+                BtnStep2.Enabled = false;
+                BtnStep3.Enabled = false;
+                BtnStep4.Enabled = false;
+               // BtnStep5.Enabled = false;
+                BtnStep6.Enabled = false;
+            WizardPages.MovePagePrevious();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep1_Click(object sender, EventArgs e)
+        {
+            int pageIndex = 1;
+            if (pageIndex != -1)
+            {
+                contentPanel.Controls.Clear();
+                contentPanel.Controls.Add(WizardPages[pageIndex].Content);
+                WizardPages[pageIndex].Load();
+                UpdateNavigation();
+               
+            }
 
+            BtnStep2.Enabled = false;
+            BtnStep3.Enabled = false;
+            BtnStep4.Enabled = false;
+            BtnStep6.Enabled = false;
+           // WizardPages.MovePagePrevious();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep3_Click(object sender, EventArgs e)
+        {
+            int pageIndex = 3;
+            if (pageIndex != -1)
+            {
+                contentPanel.Controls.Clear();
+                contentPanel.Controls.Add(WizardPages[pageIndex].Content);
+                WizardPages[pageIndex].Load();
+                UpdateNavigation();
+            }
+           // BtnStep2.Enabled = false;
+            BtnStep3.Enabled = false;
+            BtnStep4.Enabled = false;
+            BtnStep6.Enabled = false;
+            //WizardPages.MovePagePrevious();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep4_Click(object sender, EventArgs e)
+        {
+            int pageIndex = 3;
+            if (pageIndex != -1)
+            {
+                contentPanel.Controls.Clear();
+                contentPanel.Controls.Add(WizardPages[pageIndex].Content);
+                WizardPages[pageIndex].Load();
+                UpdateNavigation();
+            }
+          
+            //BtnStep3.Enabled = false;
+            //BtnStep4.Enabled = false;
+            BtnStep6.Enabled = false;
+            //WizardPages.MovePagePrevious();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep5_Click(object sender, EventArgs e)
+        {
+            int pageIndex = 4;
+            if (pageIndex != -1)
+            {
+                contentPanel.Controls.Clear();
+                contentPanel.Controls.Add(WizardPages[pageIndex].Content);
+                WizardPages[pageIndex].Load();
+                UpdateNavigation();
+
+            }
+            BtnStep6.Enabled = false;
+         
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void BtnStep6_Click(object sender, EventArgs e)
+        {
+            contentPanel.Controls.Clear();
+            var LastPageInfo_Pag = new LastPageInfo_Pag();
+            contentPanel.Controls.Add(LastPageInfo_Pag);
+            //WizardPages.MovePagePrevious();
+
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         #endregion
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

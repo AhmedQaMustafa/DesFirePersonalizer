@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 360</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 13</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>اضافة </value>
+  </data>
+  <data name="Txtsearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 14</value>
+  </data>
+  <data name="Txtsearch.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>اسم مجموعة الصلاحيات</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 445</value>
+  </data>
+  <data name="chbInsertMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 244</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbInsertMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbInsertMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbInsertMenuSet.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="chbSearchIssueCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 557</value>
+  </data>
+  <data name="chbSearchIssueCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbSearchIssueCards.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="chbAddIssuCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 557</value>
+  </data>
+  <data name="chbAddIssuCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddIssuCards.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbViewIssCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 557</value>
+  </data>
+  <data name="chbViewIssCardsSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbRestoreRestCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 536</value>
+  </data>
+  <data name="chbEditCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 536</value>
+  </data>
+  <data name="chbUpdateCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 536</value>
+  </data>
+  <data name="chbUpdateCardsSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateCardsSet.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbAddCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 536</value>
+  </data>
+  <data name="chbAddCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddCards.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbViewCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 536</value>
+  </data>
+  <data name="chbViewCardsSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 486</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Text" xml:space="preserve">
+    <value>استعارة </value>
+  </data>
+  <data name="chbViewRedSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 304</value>
+  </data>
+  <data name="chbViewRedSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewRedSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 305</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>اعدادات القارئ</value>
+  </data>
+  <data name="chbViewCoun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 279</value>
+  </data>
+  <data name="chbViewCoun.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewCoun.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 280</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Counter                 :</value>
+  </data>
+  <data name="chbSearchMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 244</value>
+  </data>
+  <data name="chbSearchMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbSearchMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbSearchMenuSet.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="chbSearchLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 218</value>
+  </data>
+  <data name="chbSearchLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbSearchLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbSearchLibSet.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="chbRefreshPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 129</value>
+  </data>
+  <data name="chbRefreshPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshPeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbRefreshPeGr.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="chbRefreshLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 218</value>
+  </data>
+  <data name="chbRefreshLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshLibSet.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbRefreshMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 244</value>
+  </data>
+  <data name="chbRefreshMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshMenuSet.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbDeleteLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 218</value>
+  </data>
+  <data name="chbDeleteLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeleteLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="chbDeleteLibSet.Text" xml:space="preserve">
+    <value>حذف </value>
+  </data>
+  <data name="chbRefreshCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 107</value>
+  </data>
+  <data name="chbRefreshCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshCat.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbDeleteMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 244</value>
+  </data>
+  <data name="chbDeleteMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeleteMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="chbDeleteMenuSet.Text" xml:space="preserve">
+    <value>حذف </value>
+  </data>
+  <data name="chbUpdateLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 218</value>
+  </data>
+  <data name="chbUpdateLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdateLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateLibSet.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbViewTermSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 193</value>
+  </data>
+  <data name="chbViewTermSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewTermSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewWalSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 170</value>
+  </data>
+  <data name="chbViewWalSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewWalSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbUpdateMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 244</value>
+  </data>
+  <data name="chbUpdateMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdateMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateMenuSet.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 171</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>اعدادات المحفظة</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 245</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>اعدادات قائمة الطعام</value>
+  </data>
+  <data name="chbInsertLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 218</value>
+  </data>
+  <data name="chbInsertLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbInsertLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbInsertLibSet.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 219</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>اعدادات المكتبة</value>
+  </data>
+  <data name="chbAddLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 218</value>
+  </data>
+  <data name="chbAddLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddLibSet.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbRefreshPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 88</value>
+  </data>
+  <data name="chbRefreshPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshPer.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbAddMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 244</value>
+  </data>
+  <data name="chbAddMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddMenuSet.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 320</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 194</value>
+  </data>
+  <data name="chbViewLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 218</value>
+  </data>
+  <data name="chbViewLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewLibSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbRefreshUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 66</value>
+  </data>
+  <data name="chbRefreshUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbRefreshUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshUsr.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbDeleteUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 66</value>
+  </data>
+  <data name="chbDeleteUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeleteUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="chbDeleteUsr.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="chbAddUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 66</value>
+  </data>
+  <data name="chbAddUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddUsr.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbViewMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 244</value>
+  </data>
+  <data name="chbViewMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewMenuSet.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbDeleteCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 108</value>
+  </data>
+  <data name="chbDeleteCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeleteCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="chbDeleteCat.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="chbDeletePeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 129</value>
+  </data>
+  <data name="chbDeletePeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeletePeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="chbDeletePeGr.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="chbDeletePer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 88</value>
+  </data>
+  <data name="chbDeletePer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbDeletePer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="chbDeletePer.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="chbViewPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 85</value>
+  </data>
+  <data name="chbViewPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewPer.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbUpdateUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 66</value>
+  </data>
+  <data name="chbUpdateUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdateUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateUsr.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbUpdatePer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 88</value>
+  </data>
+  <data name="chbUpdatePer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdatePer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdatePer.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbViewLibraryreturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 486</value>
+  </data>
+  <data name="chbViewLibraryreturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="chbViewLibraryreturn.Text" xml:space="preserve">
+    <value>استرجاع</value>
+  </data>
+  <data name="chbUpdateCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 108</value>
+  </data>
+  <data name="chbUpdateCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdateCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateCat.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbViewUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 66</value>
+  </data>
+  <data name="chbViewUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewUsr.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbUpdatePeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 129</value>
+  </data>
+  <data name="chbUpdatePeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbUpdatePeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdatePeGr.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbViewLibraryInOu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 486</value>
+  </data>
+  <data name="chbViewLibraryInOu.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbAddPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 88</value>
+  </data>
+  <data name="chbAddPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddPer.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbDeleteStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 341</value>
+  </data>
+  <data name="chbDeleteStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="chbDeleteStd.Text" xml:space="preserve">
+    <value>حذف </value>
+  </data>
+  <data name="chbAddStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 341</value>
+  </data>
+  <data name="chbAddStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddStd.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbRefreshStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 341</value>
+  </data>
+  <data name="chbRefreshStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="chbRefreshStd.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="chbUpdateStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 341</value>
+  </data>
+  <data name="chbUpdateStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbUpdateStd.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="chbPrintStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 341</value>
+  </data>
+  <data name="chbPrintStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbPrintStd.Text" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="chbViewStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 341</value>
+  </data>
+  <data name="chbViewStd.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbAddPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 127</value>
+  </data>
+  <data name="chbAddPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddPeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddPeGr.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbAddCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 107</value>
+  </data>
+  <data name="chbAddCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbAddCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="chbAddCat.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="chbViewCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 105</value>
+  </data>
+  <data name="chbViewCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewCat.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 126</value>
+  </data>
+  <data name="chbViewPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewPeGr.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 44</value>
+  </data>
+  <data name="chbViewConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="chbViewConfig.Text" xml:space="preserve">
+    <value>استعراض</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 146</value>
+  </data>
+  <data name="label23.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 130</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>مجموعة الصلاحيات</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 67</value>
+  </data>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>المستخدمين </value>
+  </data>
+  <data name="Permitions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 89</value>
+  </data>
+  <data name="Permitions.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="Permitions.Text" xml:space="preserve">
+    <value>الصلاحيات </value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 109</value>
+  </data>
+  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>النماذج </value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 558</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>انشاء البطاقات </value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 537</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>اعدادات البطاقات</value>
+  </data>
+  <data name="chbViewCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 514</value>
+  </data>
+  <data name="chbViewCards.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 515</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>النماذج</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 487</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>الإعارة والإسترجاع</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 404</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="AddPermisionsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 66</value>
+  </data>
+  <data name="AddPermisionsGroup.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="AddPermisionsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="AddPermisionsGroup.Text" xml:space="preserve">
+    <value>مجموعة الصلاحيات </value>
+  </data>
+  <data name="chbViewWaRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 624</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 623</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>تقارير عامة</value>
+  </data>
+  <data name="chbViewRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 601</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 598</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>التقارير </value>
+  </data>
+  <data name="chbViewReaderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 309</value>
+  </data>
+  <data name="chbViewReaderSettings.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewReaderSettings.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewReaderSettings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 309</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>اختيار القارئ</value>
+  </data>
+  <data name="chbViewLibrary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 461</value>
+  </data>
+  <data name="chbViewLibrary.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 462</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>المكتبة</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 429</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>شراء المواد</value>
+  </data>
+  <data name="chbViewPurchEItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 428</value>
+  </data>
+  <data name="chbViewPurchEItem.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 405</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>عمليات الشراء</value>
+  </data>
+  <data name="chbViewPurchEtran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 404</value>
+  </data>
+  <data name="chbViewPurchEtran.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="chbViewPurch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 380</value>
+  </data>
+  <data name="chbViewPurch.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 380</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>الشراء</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 341</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>الطلاب </value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 45</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>الضبط</value>
+  </data>
+  <data name="chbSelectAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 15</value>
+  </data>
+  <data name="chbSelectAll.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="chbSelectAll.Text" xml:space="preserve">
+    <value>اختيار الكل </value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 261</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 321</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 357</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1115, 42</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>اختيار مجموعة الصلاحيات</value>
+  </data>
+  <data name="CombPermitions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 40</value>
+  </data>
+  <data name="CombPermitions.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="btnEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 272</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>تعديل </value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>

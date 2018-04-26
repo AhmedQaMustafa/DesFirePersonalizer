@@ -117,17 +117,211 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="TypeName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="envSettingsReportCard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>305, 41</value>
-  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDefTmp.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="previewSettings2.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnEditTmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 22</value>
+  </data>
+  <data name="bntAddTmp.Text" xml:space="preserve">
+    <value>Add Template</value>
+  </data>
+  <data name="&gt;&gt;txtTmpPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTmpID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtTmpID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTmpPath.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblTmpType.Text" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="&gt;&gt;btnEditTmp.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="&gt;&gt;btnUpdTmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDefTmp.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="&gt;&gt;TypeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Template Path  : </value>
+  </data>
+  <data name="&gt;&gt;btnTmpPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ofdReport.Name" xml:space="preserve">
+    <value>ofdReport</value>
+  </data>
+  <data name="&gt;&gt;grbInsRep.Name" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="&gt;&gt;btnEditTmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEditTmp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblTmpType.Parent" xml:space="preserve">
+    <value>pnlTmpType</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDefTmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtTmpName.Name" xml:space="preserve">
+    <value>txtTmpName</value>
+  </data>
+  <data name="&gt;&gt;txtTmpID.Name" xml:space="preserve">
+    <value>txtTmpID</value>
+  </data>
+  <data name="&gt;&gt;Catcombbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTmpID.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CardTemplatesForm</value>
+  </data>
+  <data name="&gt;&gt;pnlTemplateCard.Name" xml:space="preserve">
+    <value>pnlTemplateCard</value>
+  </data>
+  <data name="&gt;&gt;txtTmpName.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="dvgTemplateCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 126</value>
+  </data>
+  <data name="bntAddTmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TmpName.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;txtTmpID.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="Type.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Catcombbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 4</value>
+  </data>
+  <data name="lblTmpType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="pnlTmpType.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btnUpdTmp.Text" xml:space="preserve">
+    <value>UpdateTemplate</value>
+  </data>
+  <data name="&gt;&gt;pnlTemplateCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grbInsRep.Text" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEditTmp.Text" xml:space="preserve">
+    <value>Edit Templates</value>
+  </data>
+  <data name="&gt;&gt;txtTmpName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTemplateCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>855, 409</value>
+  </data>
+  <data name="btnEditTmp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="bntAddTmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;btnTmpPath.Name" xml:space="preserve">
+    <value>btnTmpPath</value>
+  </data>
+  <data name="&gt;&gt;Catcombbox.Parent" xml:space="preserve">
+    <value>pnlTmpType</value>
+  </data>
+  <data name="bntAddTmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 21</value>
+  </data>
+  <data name="&gt;&gt;TmpID2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TypeName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 79</value>
+  </data>
+  <data name="&gt;&gt;TmpName.Name" xml:space="preserve">
+    <value>TmpName</value>
+  </data>
+  <data name="btnDefTmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 22</value>
+  </data>
+  <data name="&gt;&gt;txtTmpPath.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="grbInsRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 11</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;Type.Name" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="&gt;&gt;pnlTemplateCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditTmp.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="&gt;&gt;TypeName.Name" xml:space="preserve">
+    <value>TypeName</value>
+  </data>
+  <data name="dvgTemplateCard.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTemplateCard.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="previewSettings1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
         AAA4ODhhODg45zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4OP84ODj/ODg4/zg4
@@ -151,13 +345,313 @@
         //8AAP//AAD//w==
 </value>
   </data>
-  <metadata name="ofdReport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>482, 41</value>
-  </metadata>
-  <metadata name="Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="btnTmpPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dvgTemplateCard.Name" xml:space="preserve">
+    <value>dvgTemplateCard</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CardTemplatesForm</value>
+  </data>
+  <data name="&gt;&gt;btnDefTmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TmpName.HeaderText" xml:space="preserve">
+    <value>Template Name</value>
+  </data>
+  <data name="&gt;&gt;btnTmpPath.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="TypeName.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="pnlTmpType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 52</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;txtTmpName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bntAddTmp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lblTmpType.Name" xml:space="preserve">
+    <value>lblTmpType</value>
+  </data>
+  <data name="&gt;&gt;txtTmpPath.Name" xml:space="preserve">
+    <value>txtTmpPath</value>
+  </data>
+  <data name="&gt;&gt;grbInsRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTmpPath.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTmpID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnTmpPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="pnlTemplateCard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="dvgTemplateCard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTmpName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 51</value>
+  </data>
+  <data name="&gt;&gt;btnTmpPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTmpType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTmpType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgTemplateCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgTemplateCard.Parent" xml:space="preserve">
+    <value>pnlTemplateCard</value>
+  </data>
+  <data name="Type.HeaderText" xml:space="preserve">
+    <value>EmpType</value>
+  </data>
+  <data name="txtTmpPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 20</value>
+  </data>
+  <data name="&gt;&gt;Catcombbox.Name" xml:space="preserve">
+    <value>Catcombbox</value>
+  </data>
+  <data name="btnEditTmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="Catcombbox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pnlTmpType.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="bntAddTmp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pnlTmpType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ofdReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Template Name :   </value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grbInsRep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grbInsRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>838, 109</value>
+  </data>
+  <data name="pnlTmpType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 51</value>
+  </data>
+  <data name="&gt;&gt;pnlTemplateCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblTmpType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtTmpID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="txtTmpID.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="grbInsRep.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnDefTmp.Text" xml:space="preserve">
+    <value>Restore Defult</value>
+  </data>
+  <data name="lblTmpType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="&gt;&gt;Catcombbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbInsRep.Parent" xml:space="preserve">
+    <value>pnlTemplateCard</value>
+  </data>
+  <data name="&gt;&gt;btnUpdTmp.Name" xml:space="preserve">
+    <value>btnUpdTmp</value>
+  </data>
+  <data name="btnUpdTmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="lblTmpType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlTemplateCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 34</value>
+  </data>
+  <data name="TmpID2.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;btnUpdTmp.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="btnUpdTmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTmpName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 20</value>
+  </data>
+  <data name="Catcombbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 21</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;envSettingsReportCard.Type" xml:space="preserve">
+    <value>FastReport.EnvironmentSettings, FastReport, Version=2013.2.11.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c</value>
+  </data>
+  <data name="btnTmpPath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnEditTmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TmpID2.HeaderText" xml:space="preserve">
+    <value>Template ID</value>
+  </data>
+  <data name="grbInsRep.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txtTmpID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 22</value>
+  </data>
+  <data name="&gt;&gt;TmpID2.Name" xml:space="preserve">
+    <value>TmpID2</value>
+  </data>
+  <data name="btnDefTmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="&gt;&gt;envSettingsReportCard.Name" xml:space="preserve">
+    <value>envSettingsReportCard</value>
+  </data>
+  <data name="&gt;&gt;lblTmpType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnUpdTmp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnDefTmp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEditTmp.Name" xml:space="preserve">
+    <value>btnEditTmp</value>
+  </data>
+  <data name="&gt;&gt;bntAddTmp.Name" xml:space="preserve">
+    <value>bntAddTmp</value>
+  </data>
+  <data name="&gt;&gt;bntAddTmp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bntAddTmp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1212, 537</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="&gt;&gt;pnlTmpType.Name" xml:space="preserve">
+    <value>pnlTmpType</value>
+  </data>
+  <data name="dvgTemplateCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>837, 272</value>
+  </data>
+  <data name="&gt;&gt;TmpName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUpdTmp.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dvgTemplateCard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnUpdTmp.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTmpType.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="btnTmpPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 77</value>
+  </data>
+  <data name="&gt;&gt;bntAddTmp.Parent" xml:space="preserve">
+    <value>grbInsRep</value>
+  </data>
+  <data name="txtTmpPath.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnDefTmp.Name" xml:space="preserve">
+    <value>btnDefTmp</value>
+  </data>
+  <data name="txtTmpName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtTmpPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtTmpPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 77</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="TypeName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ofdReport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 41</value>
+  </metadata>
+  <metadata name="envSettingsReportCard.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>305, 41</value>
+  </metadata>
+  <metadata name="Type.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

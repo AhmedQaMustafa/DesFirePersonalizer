@@ -117,22 +117,496 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="SelectCard.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="LicNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="TmpID.HeaderText" xml:space="preserve">
+    <value>TmpID</value>
+  </data>
+  <data name="&gt;&gt;EmpType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsName.Name" xml:space="preserve">
+    <value>IsName</value>
+  </data>
+  <data name="&gt;&gt;IsID.Name" xml:space="preserve">
+    <value>IsID</value>
+  </data>
+  <data name="&gt;&gt;btnSearchCard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSearchCard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tcard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SelectCard.Name" xml:space="preserve">
+    <value>SelectCard</value>
+  </data>
+  <data name="btnCancelCard.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSearchCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="tTemplate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtStudentPrintID.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;STDFamilyName.Name" xml:space="preserve">
+    <value>STDFamilyName</value>
+  </data>
+  <data name="&gt;&gt;dvgPrintCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 71</value>
+  </data>
+  <data name="tEmpID.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnPreviewCard.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;STDSecondName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchCard.Name" xml:space="preserve">
+    <value>btnSearchCard</value>
+  </data>
+  <data name="&gt;&gt;STDFirstName.Name" xml:space="preserve">
+    <value>STDFirstName</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteCrd.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="&gt;&gt;StudentID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPreviewCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentID.Name" xml:space="preserve">
+    <value>StudentID</value>
+  </data>
+  <data name="btnPrintCard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSearchCard.Parent" xml:space="preserve">
+    <value>grbSearch</value>
+  </data>
+  <data name="&gt;&gt;btnCancelCard.Parent" xml:space="preserve">
+    <value>grbSearch</value>
+  </data>
+  <data name="&gt;&gt;SelectCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtStudentPrintID.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CardID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsName.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="lblEmpID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnPrintCard.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="btnSearchCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 14</value>
+  </data>
+  <data name="pnlPrintCard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="btnSearchCard.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCancelCard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12px</value>
+  </data>
+  <data name="&gt;&gt;dvgPrintCard.Name" xml:space="preserve">
+    <value>dvgPrintCard</value>
+  </data>
+  <data name="StudentID.HeaderText" xml:space="preserve">
+    <value>Student ID</value>
+  </data>
+  <data name="SelectCard.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;grbSearch.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="dvgPrintCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 95</value>
+  </data>
+  <data name="&gt;&gt;tcard.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="&gt;&gt;STDFamilyName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPrintCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 68</value>
+  </data>
+  <data name="&gt;&gt;pnlPrintCard.Name" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="grbSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="&gt;&gt;STDFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteCrd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeleteCrd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lblEmpID.Name" xml:space="preserve">
+    <value>lblEmpID</value>
+  </data>
+  <data name="&gt;&gt;pnlPrintCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EmpType.Name" xml:space="preserve">
+    <value>EmpType</value>
+  </data>
+  <data name="&gt;&gt;tcard.Name" xml:space="preserve">
+    <value>tcard</value>
+  </data>
+  <data name="STDFirstName.Width" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="btnCancelCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="txtStudentPrintID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="&gt;&gt;btnCancelCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tcard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 71</value>
+  </data>
+  <data name="btnPreviewCard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="STDFirstName.HeaderText" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="btnCancelCard.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SelectCard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnDeleteCrd.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtStudentPrintID.Name" xml:space="preserve">
+    <value>txtStudentPrintID</value>
+  </data>
+  <data name="pnlPrintCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 406</value>
+  </data>
+  <data name="btnPreviewCard.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtStudentPrintID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancelCard.Name" xml:space="preserve">
+    <value>btnCancelCard</value>
+  </data>
+  <data name="btnPreviewCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 67</value>
+  </data>
+  <data name="&gt;&gt;CardID.Name" xml:space="preserve">
+    <value>CardID</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteCrd.Name" xml:space="preserve">
+    <value>btnDeleteCrd</value>
+  </data>
+  <data name="btnDeleteCrd.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;tTemplate.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="&gt;&gt;grbSearch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tEmpID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="dvgPrintCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>834, 300</value>
+  </data>
+  <data name="&gt;&gt;pnlPrintCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tTemplate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEmpID.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnPreviewCard.Name" xml:space="preserve">
+    <value>btnPreviewCard</value>
+  </data>
+  <data name="&gt;&gt;grbSearch.Name" xml:space="preserve">
+    <value>grbSearch</value>
+  </data>
+  <data name="&gt;&gt;btnCancelCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmpType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;btnPrintCard.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtStudentPrintID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 20</value>
+  </data>
+  <data name="btnDeleteCrd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dvgPrintCard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnCancelCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 15</value>
+  </data>
+  <data name="tEmpID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grbSearch.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="STDSecondName.HeaderText" xml:space="preserve">
+    <value>Student Second Name</value>
+  </data>
+  <data name="btnPreviewCard.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="lblEmpID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="tEmpID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 71</value>
+  </data>
+  <data name="tTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="SelectCard.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tEmpID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tEmpID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEmpID.Parent" xml:space="preserve">
+    <value>grbSearch</value>
+  </data>
+  <data name="tcard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="pnlPrintCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 42</value>
+  </data>
+  <data name="txtStudentPrintID.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="TmpID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dvgPrintCard.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tEmpID.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="&gt;&gt;btnPreviewCard.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="IsID.HeaderText" xml:space="preserve">
+    <value>IsID</value>
+  </data>
+  <data name="&gt;&gt;dvgPrintCard.Parent" xml:space="preserve">
+    <value>pnlPrintCard</value>
+  </data>
+  <data name="btnPreviewCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1210, 547</value>
+  </data>
+  <data name="lblEmpID.Text" xml:space="preserve">
+    <value>Student ID :</value>
+  </data>
+  <data name="&gt;&gt;lblEmpID.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grbSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 47</value>
+  </data>
+  <data name="btnSearchCard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TmpID.Name" xml:space="preserve">
+    <value>TmpID</value>
+  </data>
+  <data name="btnSearchCard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12px</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStudentPrintID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSearchCard.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnDeleteCrd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 68</value>
+  </data>
+  <data name="btnCancelCard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pnlPrintCard.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteCrd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IsName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btnCancelCard.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnPrintCard.Name" xml:space="preserve">
+    <value>btnPrintCard</value>
+  </data>
+  <data name="&gt;&gt;tcard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grbSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtStudentPrintID.Parent" xml:space="preserve">
+    <value>grbSearch</value>
+  </data>
+  <data name="IsName.HeaderText" xml:space="preserve">
+    <value>Issue Name</value>
+  </data>
+  <data name="&gt;&gt;grbSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="IsID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblEmpID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="btnDeleteCrd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnPrintCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tEmpID.Name" xml:space="preserve">
+    <value>tEmpID</value>
+  </data>
+  <data name="&gt;&gt;lblEmpID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcard.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnPrintCard.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grbSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;dvgPrintCard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnPrintCard.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="STDFamilyName.HeaderText" xml:space="preserve">
+    <value>Family Name</value>
+  </data>
+  <data name="&gt;&gt;TmpID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;STDSecondName.Name" xml:space="preserve">
+    <value>STDSecondName</value>
+  </data>
+  <data name="&gt;&gt;pnlPrintCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StdPrintCard_Pag</value>
+  </data>
+  <data name="btnPrintCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="CardID.HeaderText" xml:space="preserve">
+    <value>Card ID</value>
+  </data>
+  <data name="&gt;&gt;tTemplate.Name" xml:space="preserve">
+    <value>tTemplate</value>
+  </data>
+  <data name="tcard.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
   <metadata name="EmpType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="STDSecondName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar-SA</value>
+  </metadata>
+  <metadata name="STDFamilyName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="SelectCard.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="LicNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="EmpType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

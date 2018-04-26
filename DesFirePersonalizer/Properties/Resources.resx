@@ -127,16 +127,25 @@
   <data name="Document-Delete-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Document-Delete-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1355747-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1355747-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\no_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="500px-Notepad_icon.svg_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\500px-Notepad_icon.svg_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Actions-window-close-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Actions-window-close-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Document Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Document Add.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="no_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\no_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

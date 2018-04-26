@@ -117,4 +117,514 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="RestMenuID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RestMenuID.HeaderText" xml:space="preserve">
+    <value>Meal #</value>
+  </data>
+  <metadata name="RestMenuName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RestMenuName.HeaderText" xml:space="preserve">
+    <value>Meal Name</value>
+  </data>
+  <metadata name="RestPrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RestPrice.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 221</value>
+  </data>
+  <data name="MenuDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 437</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;MenuDataGridView.Name" xml:space="preserve">
+    <value>MenuDataGridView</value>
+  </data>
+  <data name="&gt;&gt;MenuDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuDataGridView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 27</value>
+  </data>
+  <data name="BtnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="BtnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BtnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;BtnAdd.Name" xml:space="preserve">
+    <value>BtnAdd</value>
+  </data>
+  <data name="&gt;&gt;BtnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAdd.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;BtnAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UpdateMenuBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UpdateMenuBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpdateMenuBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 27</value>
+  </data>
+  <data name="UpdateMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="UpdateMenuBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="UpdateMenuBtn.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;UpdateMenuBtn.Name" xml:space="preserve">
+    <value>UpdateMenuBtn</value>
+  </data>
+  <data name="&gt;&gt;UpdateMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpdateMenuBtn.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;UpdateMenuBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="showAllMenuBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="showAllMenuBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="showAllMenuBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 27</value>
+  </data>
+  <data name="showAllMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="showAllMenuBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="showAllMenuBtn.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="&gt;&gt;showAllMenuBtn.Name" xml:space="preserve">
+    <value>showAllMenuBtn</value>
+  </data>
+  <data name="&gt;&gt;showAllMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showAllMenuBtn.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;showAllMenuBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 27</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DeleteMenuBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DeleteMenuBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeleteMenuBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 27</value>
+  </data>
+  <data name="DeleteMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="DeleteMenuBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="DeleteMenuBtn.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;DeleteMenuBtn.Name" xml:space="preserve">
+    <value>DeleteMenuBtn</value>
+  </data>
+  <data name="&gt;&gt;DeleteMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteMenuBtn.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;DeleteMenuBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCancel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 27</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 44</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="searchMenuBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchMenuBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="searchMenuBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 24</value>
+  </data>
+  <data name="searchMenuBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="searchMenuBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="searchMenuBtn.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;searchMenuBtn.Name" xml:space="preserve">
+    <value>searchMenuBtn</value>
+  </data>
+  <data name="&gt;&gt;searchMenuBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchMenuBtn.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;searchMenuBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label45.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label45.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 53</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label45.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Menu Name</value>
+  </data>
+  <data name="&gt;&gt;label45.Name" xml:space="preserve">
+    <value>label45</value>
+  </data>
+  <data name="&gt;&gt;label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label45.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;label45.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label46.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label46.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 76</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label46.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PriceTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PriceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 79</value>
+  </data>
+  <data name="PriceTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 20</value>
+  </data>
+  <data name="PriceTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;PriceTextBox.Name" xml:space="preserve">
+    <value>PriceTextBox</value>
+  </data>
+  <data name="&gt;&gt;PriceTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PriceTextBox.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;PriceTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MenuIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 27</value>
+  </data>
+  <data name="MenuIDTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="MenuIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>483, 20</value>
+  </data>
+  <data name="MenuIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;MenuIDTextBox.Name" xml:space="preserve">
+    <value>MenuIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;MenuIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuIDTextBox.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;MenuIDTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MenuNameTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 53</value>
+  </data>
+  <data name="MenuNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 20</value>
+  </data>
+  <data name="MenuNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;MenuNameTextBox.Name" xml:space="preserve">
+    <value>MenuNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;MenuNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuNameTextBox.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;MenuNameTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label44.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label44.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 30</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>Menu ID</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Informations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 12</value>
+  </data>
+  <data name="Informations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 120</value>
+  </data>
+  <data name="Informations.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Informations.Text" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Informations.Name" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;Informations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Informations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Informations.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Actions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 138</value>
+  </data>
+  <data name="Actions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 77</value>
+  </data>
+  <data name="Actions.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Actions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;Actions.Name" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="&gt;&gt;Actions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Actions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Actions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1247, 585</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MenuSetup</value>
+  </data>
+  <data name="&gt;&gt;RestMenuID.Name" xml:space="preserve">
+    <value>RestMenuID</value>
+  </data>
+  <data name="&gt;&gt;RestMenuID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RestMenuName.Name" xml:space="preserve">
+    <value>RestMenuName</value>
+  </data>
+  <data name="&gt;&gt;RestMenuName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RestPrice.Name" xml:space="preserve">
+    <value>RestPrice</value>
+  </data>
+  <data name="&gt;&gt;RestPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MenuSetup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

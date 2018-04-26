@@ -14,7 +14,7 @@ namespace DesFirePersonalizer.Apps_Cood
     {
         //Call Class SqlConnect
         SQlConnect Dbconnection = new SQlConnect();
-
+      //  public virtual string STDID { get; set; }
         #region  Parameters 
         public string UsrLoginID { get; private set; }
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49,13 +49,13 @@ namespace DesFirePersonalizer.Apps_Cood
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private static string g_ApplicationDataEPurse = "";
         public static string ApplicationDataCommand { get { return g_ApplicationDataEPurse; } set { g_ApplicationDataEPurse = value; } }
-        #endregion
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private static string g_LoginUserID = "";
         public static string gLoginUserID { get { return g_LoginUserID; } set { g_LoginUserID = value; } }
-
-        
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         #region Add Update Delete Users
         //insert new user into db
         public void InsertNewUser(String TxtLoginID, string TxtUserName, string CeckBoxStatus, string TxtPassword, string TxtUserDescription, ValueType ExpiryDate ,string strPermission,string Catcombbox,string CombPermitions,string UserNID)
@@ -538,5 +538,247 @@ namespace DesFirePersonalizer.Apps_Cood
         #endregion
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Resturant Menu
+
+        public void insertRestMenu(string MenuIDTextBox, string MenuNameTextBox, string PriceTextBox)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("INSERT INTO ResturantMenu (RestMenuID,RestMenuName,RestPrice) values (@RestMenuID,@RestMenuName,@RestPrice)");
+          
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@RestMenuID", MenuIDTextBox);
+            SQlCMD.Parameters.AddWithValue("@RestMenuName", MenuNameTextBox);
+            SQlCMD.Parameters.AddWithValue("@RestPrice", PriceTextBox);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void UpdateRestMenu(string MenuIDTextBox, string MenuNameTextBox, string PriceTextBox)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("UPDATE ResturantMenu set RestMenuID=@RestMenuID, RestMenuName=@RestMenuName ,RestPrice=@RestPrice where RestMenuID=@RestMenuID ");
+
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@RestMenuID", MenuIDTextBox);
+            SQlCMD.Parameters.AddWithValue("@RestMenuName", MenuNameTextBox);
+            SQlCMD.Parameters.AddWithValue("@RestPrice", PriceTextBox);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void DeleteResturantMenu(String MenuIDTextBox)
+        {
+            SQlConnect.OpenDbCon();
+            string DeleteResturantMenuQuery = ("DELETE From ResturantMenu WHERE RestMenuID='" + MenuIDTextBox + "'");
+            SqlCommand SQlCMD = new SqlCommand(DeleteResturantMenuQuery, Dbconnection.GetDbConnection());
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+
+        }
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Library Books 
+        public void inserBooks(string SetupBookIDTextBox, string SetupTitleTextBox, string SetupAuthorTextBox,string SetupYearTextBox ,string SetupStatusAvailabilityComboBox,string TxtQuantity)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("INSERT INTO LibraryBooks (Book_ID,BookTitle,BookAuthor,BookYear,status,Quantity) values (@Book_ID,@BookTitle,@BookAuthor,@BookYear,@status,@Quantity)");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@Book_ID", SetupBookIDTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookTitle", SetupTitleTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookAuthor", SetupAuthorTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookYear", SetupYearTextBox);
+            SQlCMD.Parameters.AddWithValue("@status", SetupStatusAvailabilityComboBox);
+            SQlCMD.Parameters.AddWithValue("@Quantity", TxtQuantity);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void UpdateBooks(string SetupBookIDTextBox, string SetupTitleTextBox, string SetupAuthorTextBox, string SetupYearTextBox, string SetupStatusAvailabilityComboBox,string TxtQuantity)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("UPDATE LibraryBooks set Book_ID=@Book_ID, BookTitle=@BookTitle ,BookAuthor=@BookAuthor,BookYear=@BookYear ,status=@status,Quantity=@Quantity where Book_ID=@Book_ID ");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@Book_ID", SetupBookIDTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookTitle", SetupTitleTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookAuthor", SetupAuthorTextBox);
+            SQlCMD.Parameters.AddWithValue("@BookYear", SetupYearTextBox);
+            SQlCMD.Parameters.AddWithValue("@status", SetupStatusAvailabilityComboBox);
+            SQlCMD.Parameters.AddWithValue("@Quantity", TxtQuantity);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void DeleteBooks(String MenuIDTextBox)
+        {
+            SQlConnect.OpenDbCon();
+            string DeleteResturantMenuQuery = ("DELETE From LibraryBooks WHERE Book_ID='" + MenuIDTextBox + "'");
+            SqlCommand SQlCMD = new SqlCommand(DeleteResturantMenuQuery, Dbconnection.GetDbConnection());
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+
+        }
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Borrow Books  
+        public void borrowbooks(string TxtStdID, string BookNoComboBox, string TxtbookQuantiy, string TerminalIDLibComboBox,string BookDateTimePicker,string LblIncode)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("INSERT INTO BorrowReturntbl (StudentID,Book_ID,Book_Quantity,Terminal_ID,borrow_date,Std_flag_borrow) values (@StudentID,@Book_ID,@Book_Quantity,@Terminal_ID,@borrow_date,@Std_flag_borrow)");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@StudentID", TxtStdID);
+            SQlCMD.Parameters.AddWithValue("@Book_ID", BookNoComboBox);
+            SQlCMD.Parameters.AddWithValue("@Book_Quantity", TxtbookQuantiy);
+            SQlCMD.Parameters.AddWithValue("@Terminal_ID", TerminalIDLibComboBox);
+            SQlCMD.Parameters.AddWithValue("@borrow_date", BookDateTimePicker);
+            SQlCMD.Parameters.AddWithValue("@Std_flag_borrow", "1");
+
+
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void DecreaseQuantity(string TxtbookQuantiy, string BookNoComboBox)
+        {
+            SQlConnect.OpenDbCon();
+
+            string Query = ("UPDATE LibraryBooks set Quantity=@Quantity-1 where Book_ID=@Book_ID ");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@Book_ID", BookNoComboBox);
+            SQlCMD.Parameters.AddWithValue("@Quantity", TxtbookQuantiy);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void returnBooks(string TxtStdID, string BookNoComboBox, string Book1ReturnedDateTimePicker)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("UPDATE BorrowReturntbl set return_date=@return_date , Std_flag_borrow =@Std_flag_borrow where StudentID=@StudentID and Book_ID=@Book_ID and Std_flag_borrow = '1'");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@StudentID", TxtStdID);
+            SQlCMD.Parameters.AddWithValue("@Book_ID", BookNoComboBox);
+            SQlCMD.Parameters.AddWithValue("@return_date", Book1ReturnedDateTimePicker);
+            SQlCMD.Parameters.AddWithValue("@Std_flag_borrow", "0");
+
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void IncreaseQuantity(string TxtbookQuantiy, string BookNoComboBox)
+        {
+            SQlConnect.OpenDbCon();
+
+            string Query = ("UPDATE LibraryBooks set Quantity=@Quantity+1 where Book_ID=@Book_ID ");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@Book_ID", BookNoComboBox);
+            SQlCMD.Parameters.AddWithValue("@Quantity", TxtbookQuantiy);
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Purchasing 
+        public void Purchasing(string TxtStdID, string txtuserID , string DisplayMenuNameListBox, string DisplayPriceTextBox, string txtcomputername, string DateTime, string txtcompusername)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("INSERT INTO PurchasingTbl (StudentID,UserID,RestMenuName,RestPrice,ComputerName,PurchaseDate,ComputerUserName) values (@StudentID,@UserID,@RestMenuName,@RestPrice,@ComputerName,@PurchaseDate,@ComputerUserName)");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@StudentID", TxtStdID);
+            SQlCMD.Parameters.AddWithValue("@UserID", txtuserID);
+            SQlCMD.Parameters.AddWithValue("@RestMenuName", DisplayMenuNameListBox);
+            SQlCMD.Parameters.AddWithValue("@RestPrice", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@ComputerName", txtcomputername);
+            SQlCMD.Parameters.AddWithValue("@PurchaseDate", DateTime);
+          //  SQlCMD.Parameters.AddWithValue("@status", DisplayStatusTextBox);
+            SQlCMD.Parameters.AddWithValue("@ComputerUserName", txtcompusername);
+
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region  Sale
+        public void Sale(string TxtStdID, string txtuserID, string DisplayMenuNameListBox, string DisplayPriceTextBox, string txtcomputername, string DateTime, string txtcompusername)
+        {
+            SQlConnect.OpenDbCon();
+           
+            string Query = ("INSERT INTO Sale_tbl (UserNID, StudentID, SaleID, PurchaseAmount,SaleAmount, LowerLimit, UpperLimit, TopUprecord, PurchaseDateTime, saledatetime,Transaction_ID) values (@UserNID,@StudentID,@SaleID,@PurchaseAmount,@SaleAmount,@LowerLimit,@UpperLimit,@TopUprecord,@saledatetime,@ComputerName,@PurchaseDate,@ComputerUserName,@Transaction_ID)");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@StudentID", TxtStdID);
+            SQlCMD.Parameters.AddWithValue("@UserNID", txtuserID);
+            SQlCMD.Parameters.AddWithValue("@SaleID", DisplayMenuNameListBox);
+            SQlCMD.Parameters.AddWithValue("@Amount", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@LowerLimit", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@UpperLimit", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@TopUprecord", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@PurchaseDateTime", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@saledatetime", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@ComputerName", txtcomputername);
+            SQlCMD.Parameters.AddWithValue("@PurchaseDate", DateTime);
+            //SQlCMD.Parameters.AddWithValue("@SaleAmount", DisplayStatusTextBox);
+            SQlCMD.Parameters.AddWithValue("@ComputerUserName", txtcompusername);
+            SQlCMD.Parameters.AddWithValue("@Transaction_ID", txtcompusername);
+
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region log
+        public void insertlog(string TxtStdID, string txtuserID, string DisplayMenuNameListBox, string DisplayPriceTextBox, string txtcomputername, string DateTime, string txtcompusername,string TransactionIDEPurse)
+        {
+            SQlConnect.OpenDbCon();
+            string Query = ("INSERT INTO transactionLog (StudentID,UserNID,RestMenuName,Transaction_Type,Transaction_ID,trans_amount,ComputerName,trans_datetime,ComputerUserName) values (@StudentID,@UserNID,@RestMenuName,@Transaction_Type,@Transaction_ID,@trans_amount,@ComputerName,@trans_datetime,@ComputerUserName)");
+
+            SqlCommand SQlCMD = new SqlCommand(Query, Dbconnection.GetDbConnection());
+            SQlCMD.Parameters.AddWithValue("@StudentID", TxtStdID);
+            SQlCMD.Parameters.AddWithValue("@UserNID", txtuserID);
+            SQlCMD.Parameters.AddWithValue("@RestMenuName", DisplayMenuNameListBox);
+            SQlCMD.Parameters.AddWithValue("@trans_amount", DisplayPriceTextBox);
+            SQlCMD.Parameters.AddWithValue("@ComputerName", txtcomputername);
+            SQlCMD.Parameters.AddWithValue("@trans_datetime", DateTime);
+            SQlCMD.Parameters.AddWithValue("@ComputerUserName", txtcompusername);
+            SQlCMD.Parameters.AddWithValue("@Transaction_ID", TransactionIDEPurse);
+            SQlCMD.Parameters.AddWithValue("@Transaction_Type", "Purchase");
+
+            SQlCMD.ExecuteNonQuery();
+            SQlConnect.CloseDbcon();
+        }
+        #endregion
     }
 }

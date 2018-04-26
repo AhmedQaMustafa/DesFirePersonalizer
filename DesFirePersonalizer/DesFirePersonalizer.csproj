@@ -202,6 +202,7 @@
     <Compile Include="Apps_Cod\General.cs" />
     <Compile Include="Apps_Cod\GetAllMenuStripItems.cs" />
     <Compile Include="Apps_Cod\PermitionClass.cs" />
+    <Compile Include="Apps_Cod\ReadCards.cs" />
     <Compile Include="Apps_Cod\ScanImage.cs" />
     <Compile Include="Apps_Cod\Setting.cs" />
     <Compile Include="Apps_Cod\SQlConnect.cs" />
@@ -249,12 +250,6 @@
     <Compile Include="Forms\Loginfrm.Designer.cs">
       <DependentUpon>Loginfrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -262,6 +257,12 @@
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Apps_Cod\Ocr.cs" />
+    <Compile Include="Configurations Pages\ReaderSettingsFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurations Pages\ReaderSettingsFRM.Designer.cs">
+      <DependentUpon>ReaderSettingsFRM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Wizered Pages\IssueCard_Pag.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -362,48 +363,6 @@
     <Compile Include="Reports\FrmReports.Designer.cs">
       <DependentUpon>FrmReports.cs</DependentUpon>
     </Compile>
-    <Compile Include="Wizered Pages\FrmIssueCard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmIssueCard.Designer.cs">
-      <DependentUpon>FrmIssueCard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmLastPageInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmLastPageInfo.Designer.cs">
-      <DependentUpon>FrmLastPageInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdEdInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdEdInfo.Designer.cs">
-      <DependentUpon>FrmStdEdInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdIncoding.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdIncoding.Designer.cs">
-      <DependentUpon>FrmStdIncoding.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdPrintCard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdPrintCard.Designer.cs">
-      <DependentUpon>FrmStdPrintCard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdtakPic.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmStdtakPic.Designer.cs">
-      <DependentUpon>FrmStdtakPic.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmWizered.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wizered Pages\FrmWizered.Designer.cs">
-      <DependentUpon>FrmWizered.cs</DependentUpon>
-    </Compile>
     <Compile Include="Apps_Cod\IWizardPage.cs" />
     <Compile Include="Wizered Pages\StdIncoding_Pag.cs">
       <SubType>UserControl</SubType>
@@ -430,6 +389,9 @@
       <DependentUpon>WizardHost.cs</DependentUpon>
     </Compile>
     <Compile Include="Apps_Cod\WizardPageCollection.cs" />
+    <None Include="resources\Actions-window-close-icon.png" />
+    <None Include="resources\1355747-200.png" />
+    <None Include="resources\images.jpg" />
     <Content Include="x64\liblept1742.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -442,56 +404,146 @@
     <Content Include="x86\libtesseract3051.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="Configurations Pages\LibrarySetup.ar-SA.resx">
+      <DependentUpon>LibrarySetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Configurations Pages\LibrarySetup.resx">
       <DependentUpon>LibrarySetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\MenuSetup.ar-SA.resx">
+      <DependentUpon>MenuSetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Configurations Pages\MenuSetup.resx">
       <DependentUpon>MenuSetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\ReaderSetting.ar-SA.resx">
+      <DependentUpon>ReaderSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Configurations Pages\ReaderSetting.resx">
       <DependentUpon>ReaderSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Configurations Pages\TerminalSetup.resx">
       <DependentUpon>TerminalSetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CardTemplatesForm.ar-SA.resx">
+      <DependentUpon>CardTemplatesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CardTemplatesForm.resx">
       <DependentUpon>CardTemplatesForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IssueCards.ar-SA.resx">
+      <DependentUpon>IssueCards.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\IssueCards.resx">
       <DependentUpon>IssueCards.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loginfrm.ar-SA.resx">
+      <DependentUpon>Loginfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Loginfrm.resx">
       <DependentUpon>Loginfrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\MainPage.ar-SA.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.ar-SA.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StdInformations.ar-SA.resx">
+      <DependentUpon>StdInformations.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\StdInformations.resx">
       <DependentUpon>StdInformations.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\StudentsFrm.resx">
       <DependentUpon>StudentsFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users Permitions.ar-SA.resx">
+      <DependentUpon>Users Permitions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.ar-SA.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersCategory.ar-SA.resx">
+      <DependentUpon>UsersCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Library Pages\FrmLibrary.ar-SA.resx">
+      <DependentUpon>FrmLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchasing Pages\FrmEItems.ar-SA.resx">
+      <DependentUpon>FrmEItems.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchasing Pages\FrmPurchaseTrAc.ar-SA.resx">
+      <DependentUpon>FrmPurchaseTrAc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\ReaderSettingsFRM.ar-SA.resx">
+      <DependentUpon>ReaderSettingsFRM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurations Pages\ReaderSettingsFRM.resx">
+      <DependentUpon>ReaderSettingsFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\IssueCard_Pag.ar-SA.resx">
+      <DependentUpon>IssueCard_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\IssueCard_Pag.resx">
       <DependentUpon>IssueCard_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\LastPageInfo_Pag.resx">
+      <DependentUpon>LastPageInfo_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdEdInfo_Pag.ar-SA.resx">
+      <DependentUpon>StdEdInfo_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\StdEdInfo_Pag.resx">
       <DependentUpon>StdEdInfo_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Users Permitions.resx">
       <DependentUpon>Users Permitions.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UsersCategory.resx">
       <DependentUpon>UsersCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Library Pages\FrmLibrary.resx">
       <DependentUpon>FrmLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -505,6 +557,7 @@
     </Compile>
     <EmbeddedResource Include="Forms\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <Content Include="Content\tessdata\eng.DangAmbigs" />
     <Content Include="Content\tessdata\eng.freq-dawg" />
@@ -516,45 +569,39 @@
     <Content Include="Content\tessdata\eng.word-dawg" />
     <EmbeddedResource Include="Purchasing Pages\FrmEItems.resx">
       <DependentUpon>FrmEItems.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Purchasing Pages\FrmPurchaseTrAc.resx">
       <DependentUpon>FrmPurchaseTrAc.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\FrmReports.resx">
       <DependentUpon>FrmReports.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmIssueCard.resx">
-      <DependentUpon>FrmIssueCard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmLastPageInfo.resx">
-      <DependentUpon>FrmLastPageInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmStdEdInfo.resx">
-      <DependentUpon>FrmStdEdInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmStdIncoding.resx">
-      <DependentUpon>FrmStdIncoding.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmStdPrintCard.resx">
-      <DependentUpon>FrmStdPrintCard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmStdtakPic.resx">
-      <DependentUpon>FrmStdtakPic.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wizered Pages\FrmWizered.resx">
-      <DependentUpon>FrmWizered.cs</DependentUpon>
+    <EmbeddedResource Include="Wizered Pages\StdIncoding_Pag.ar-SA.resx">
+      <DependentUpon>StdIncoding_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\StdIncoding_Pag.resx">
       <DependentUpon>StdIncoding_Pag.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdPrintCard_Pag.ar-SA.resx">
+      <DependentUpon>StdPrintCard_Pag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\StdPrintCard_Pag.resx">
       <DependentUpon>StdPrintCard_Pag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\StdtakPic_Pag.ar-SA.resx">
+      <DependentUpon>StdtakPic_Pag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\StdtakPic_Pag.resx">
       <DependentUpon>StdtakPic_Pag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\WizardHost.resx">
       <DependentUpon>WizardHost.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="log4net.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

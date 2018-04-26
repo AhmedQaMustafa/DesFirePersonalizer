@@ -108,7 +108,6 @@ namespace DesFirePersonalizer
             host.WizardPages.Add(3, new StdIncoding_Pag());
             host.WizardPages.Add(4, new IssueCard_Pag());
             host.WizardPages.Add(5, new StdPrintCard_Pag());
-            host.WizardPages.Add(6, new LastPageInfo_Pag());
             host.Left = 0;
             host.Top = 0;
             host.Size = this.ClientRectangle.Size;

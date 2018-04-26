@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnScanCard.Text" xml:space="preserve">
+    <value>قراءة البطاقة</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Book2ReturnedDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 179</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Book2ReturnedDateTimePicker.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Book2ReturnedDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="Book2BorrowedDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 153</value>
+  </data>
+  <data name="Book2BorrowedDateTimePicker.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Book2BorrowedDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="Book1ReturnedDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 91</value>
+  </data>
+  <data name="Book1ReturnedDateTimePicker.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Book1ReturnedDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="Book1BorrowedDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 65</value>
+  </data>
+  <data name="Book1BorrowedDateTimePicker.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Book1BorrowedDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 42</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value> (1)عنوان الكتاب</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 68</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>رقم الكتاب </value>
+  </data>
+  <data name="Book1NoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 65</value>
+  </data>
+  <data name="Book1NoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 94</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>مكان الاستعارة </value>
+  </data>
+  <data name="Book1TerminalIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 91</value>
+  </data>
+  <data name="Book1TerminalIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 130</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>(2)عنوان الكتاب </value>
+  </data>
+  <data name="Book1TitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 39</value>
+  </data>
+  <data name="Book1TitleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="Book2TitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 127</value>
+  </data>
+  <data name="Book2TitleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 156</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>رقم الكتاب </value>
+  </data>
+  <data name="Book2NoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 153</value>
+  </data>
+  <data name="Book2NoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="Book2TerminalIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 179</value>
+  </data>
+  <data name="Book2TerminalIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 182</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>مكان الإستعارة </value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 68</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>تاريخ الإستعارة </value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 94</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>تاريخ الإسترجاع </value>
+  </data>
+  <data name="Book1StatusTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 39</value>
+  </data>
+  <data name="Book1StatusTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 42</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>الحالة </value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 130</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>الحالة </value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 156</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>تاريخ الإستعارة </value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 182</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>تاريخ الإسترجاع</value>
+  </data>
+  <data name="Book2StatusTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 127</value>
+  </data>
+  <data name="Book2StatusTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 6</value>
+  </data>
+  <data name="LibraryFreeSlotTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 3</value>
+  </data>
+  <data name="LibraryFreeSlotTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 20</value>
+  </data>
+  <data name="tableLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 36</value>
+  </data>
+  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 202</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>قراءة البطاقة </value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>الكتب</value>
+  </data>
+  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 32</value>
+  </data>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 159</value>
+  </data>
+  <data name="BookTitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 33</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>اسم الكتاب </value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 7</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>رقم الكتاب </value>
+  </data>
+  <data name="BookNoComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 59</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>المؤلف</value>
+  </data>
+  <data name="BookAuthorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 112</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>مكان الاستعارة </value>
+  </data>
+  <data name="TerminalIDLibComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 108</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 139</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>التاريخ </value>
+  </data>
+  <data name="BookDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 135</value>
+  </data>
+  <data name="BookDateTimePicker.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 85</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>امكانية الاستعارة </value>
+  </data>
+  <data name="BookAvailabilityTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 82</value>
+  </data>
+  <data name="BtnReturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 197</value>
+  </data>
+  <data name="BtnReturn.Text" xml:space="preserve">
+    <value>عرض </value>
+  </data>
+  <data name="BtnBorrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 197</value>
+  </data>
+  <data name="BtnBorrow.Text" xml:space="preserve">
+    <value>استعارة </value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>

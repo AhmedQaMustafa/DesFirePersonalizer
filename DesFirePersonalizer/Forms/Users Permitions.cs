@@ -82,19 +82,19 @@ namespace DesFirePersonalizer
             if (pType == 'E' || pType == 'B') // E=Enabled , B = Enabled&Clear
             {
                 Txtsearch.Enabled = pEdit;
-                CmbPermitions.Enabled = pSelect;
+                CombPermitions.Enabled = pSelect;
                 AddPermisionsGroup.Enabled = pADD;
             }
             if (pType == 'C' || pType == 'B')  // C=Clear
             {
                 Txtsearch.Text = "";
-                CmbPermitions.Text = "Please Select Permitions";
+                CombPermitions.Text = "Please Select Permitions";
             }
 
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        string[] ScreenText = { "Usr", "Std", "Cat", "Per","Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran" , "PurchEItem" , "Library", "LibraryInOu", "LibSet", "MenuSet", "Cards", "IssuCards", "IssCardsSet" , "CardsSet", "TermSet" , "LibraryBorrow","Libraryreturn", "RestCards", "IssueCards" };
+        string[] ScreenText = { "Usr", "Std", "Cat", "Per","Config", "Per", "Cat", "PeGr", "WalSet", "LibSet", "MenuSet", "Coun", "RedSet", "Purch", "PurchEtran" , "PurchEItem" , "Library", "LibraryInOu", "LibSet", "MenuSet", "Cards", "IssuCards", "IssCardsSet" , "CardsSet", "TermSet" , "LibraryBorrow","Libraryreturn", "RestCards", "IssueCards", "ReaderSettings", "WaRep","Rep" };
         string[] PermText = { "View","Add", "Update", "Delete", "Refresh", "Print","Edit","Insert" ,"Search", "Restore" };
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

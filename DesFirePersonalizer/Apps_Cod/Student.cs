@@ -70,6 +70,7 @@ namespace DesFirePersonalizer
         public static String LIBRARY_VALUE_FILE_ID = "00";
         public static String BOOK1_LOG_FILE_ID = "01";
         public static String BOOK2_LOG_FILE_ID = "02";
+        public static String Std_LOG_FILE_ID = "03";
 
         //D00001 Application
         public const String COUNTER_APP_AID = "D00001";
@@ -119,19 +120,19 @@ namespace DesFirePersonalizer
         //////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////
         public void fillStudentData(String PersonalData, String UniversityData, String ImageData,
-        String FingerPrintData, String initial_credit, String initial_book_value, String initial_counter_value, bool isFormatFirst)
-    {
-        this.PersonalData = PersonalData;
-        this.UniversityData = UniversityData;
-        this.ImageData = ImageData;
-        this.FingerPrintData = FingerPrintData;
-        this.InitialCreditValue = initial_credit;
-        this.isFormatFirst = isFormatFirst;
-        this.InitialBookValue = initial_book_value;
-        this.InitialCounterValue = initial_counter_value;
-    }
+                   String FingerPrintData, String initial_credit, String initial_book_value, String initial_counter_value, bool isFormatFirst)//
+        {
+            this.PersonalData = PersonalData;
+            this.UniversityData = UniversityData;
+            this.ImageData = ImageData;
+            this.FingerPrintData = FingerPrintData;
+            this.InitialCreditValue = initial_credit;
+            this.isFormatFirst = isFormatFirst;
+            this.InitialBookValue = initial_book_value;
+            this.InitialCounterValue = initial_counter_value;
+        }
 
-    public void LoadXml(bool fillData)
+        public void LoadXml(bool fillData)
         {
             loadXmlFile(this.xmlFileTemplate, fillData);
         }
@@ -1360,7 +1361,7 @@ namespace DesFirePersonalizer
             return success;
         }
 
-        public bool doCreditPurseValueFile00(String creditAmountInDec, String logData)
+        public bool doCreditPurseValueFile00(String creditAmountInDec)//, String logData
         {
             bool success = false;
             bool isDone = false;
@@ -1408,7 +1409,7 @@ namespace DesFirePersonalizer
 
                 isDone = true;
 
-                doWritePurseLog(logData, ref dfw_resp,CREDIT_PURSE_LOG_FILE_ID);
+                //doWritePurseLog(logData, ref dfw_resp,CREDIT_PURSE_LOG_FILE_ID);
 
                 dfw_resp = dsf.doCommitTransaction();
                 LogWrapper.Debug(dfw_resp);

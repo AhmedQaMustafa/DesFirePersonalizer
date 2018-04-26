@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            FastReport.Design.DesignerSettings designerSettings2 = new FastReport.Design.DesignerSettings();
-            FastReport.Design.DesignerRestrictions designerRestrictions2 = new FastReport.Design.DesignerRestrictions();
-            FastReport.Export.Email.EmailSettings emailSettings2 = new FastReport.Export.Email.EmailSettings();
-            FastReport.PreviewSettings previewSettings2 = new FastReport.PreviewSettings();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CardTemplatesForm));
-            FastReport.ReportSettings reportSettings2 = new FastReport.ReportSettings();
+            FastReport.Design.DesignerSettings designerSettings1 = new FastReport.Design.DesignerSettings();
+            FastReport.Design.DesignerRestrictions designerRestrictions1 = new FastReport.Design.DesignerRestrictions();
+            FastReport.Export.Email.EmailSettings emailSettings1 = new FastReport.Export.Email.EmailSettings();
+            FastReport.PreviewSettings previewSettings1 = new FastReport.PreviewSettings();
+            FastReport.ReportSettings reportSettings1 = new FastReport.ReportSettings();
             this.pnlTemplateCard = new System.Windows.Forms.Panel();
             this.grbInsRep = new System.Windows.Forms.GroupBox();
             this.pnlTmpType = new System.Windows.Forms.Panel();
@@ -64,16 +64,14 @@
             // 
             // pnlTemplateCard
             // 
+            resources.ApplyResources(this.pnlTemplateCard, "pnlTemplateCard");
             this.pnlTemplateCard.Controls.Add(this.grbInsRep);
             this.pnlTemplateCard.Controls.Add(this.dvgTemplateCard);
-            this.pnlTemplateCard.Location = new System.Drawing.Point(157, 34);
             this.pnlTemplateCard.Name = "pnlTemplateCard";
-            this.pnlTemplateCard.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pnlTemplateCard.Size = new System.Drawing.Size(855, 409);
-            this.pnlTemplateCard.TabIndex = 40;
             // 
             // grbInsRep
             // 
+            resources.ApplyResources(this.grbInsRep, "grbInsRep");
             this.grbInsRep.Controls.Add(this.pnlTmpType);
             this.grbInsRep.Controls.Add(this.btnDefTmp);
             this.grbInsRep.Controls.Add(this.txtTmpID);
@@ -85,155 +83,100 @@
             this.grbInsRep.Controls.Add(this.btnEditTmp);
             this.grbInsRep.Controls.Add(this.label16);
             this.grbInsRep.Controls.Add(this.label17);
-            this.grbInsRep.Location = new System.Drawing.Point(13, 11);
             this.grbInsRep.Name = "grbInsRep";
-            this.grbInsRep.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.grbInsRep.Size = new System.Drawing.Size(838, 109);
-            this.grbInsRep.TabIndex = 8;
             this.grbInsRep.TabStop = false;
-            this.grbInsRep.Text = "Templates";
             // 
             // pnlTmpType
             // 
+            resources.ApplyResources(this.pnlTmpType, "pnlTmpType");
             this.pnlTmpType.Controls.Add(this.Catcombbox);
             this.pnlTmpType.Controls.Add(this.lblTmpType);
-            this.pnlTmpType.Location = new System.Drawing.Point(559, 51);
             this.pnlTmpType.Name = "pnlTmpType";
-            this.pnlTmpType.Size = new System.Drawing.Size(273, 52);
-            this.pnlTmpType.TabIndex = 41;
             // 
             // Catcombbox
             // 
+            resources.ApplyResources(this.Catcombbox, "Catcombbox");
             this.Catcombbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Catcombbox.FormattingEnabled = true;
-            this.Catcombbox.Location = new System.Drawing.Point(48, 4);
             this.Catcombbox.Name = "Catcombbox";
-            this.Catcombbox.Size = new System.Drawing.Size(221, 21);
-            this.Catcombbox.TabIndex = 31;
-//            this.Catcombbox.SelectedIndexChanged += new System.EventHandler(this.Catcombbox_SelectedIndexChanged);
             // 
             // lblTmpType
             // 
-            this.lblTmpType.AutoSize = true;
-            this.lblTmpType.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTmpType.Location = new System.Drawing.Point(6, 9);
+            resources.ApplyResources(this.lblTmpType, "lblTmpType");
             this.lblTmpType.Name = "lblTmpType";
-            this.lblTmpType.Size = new System.Drawing.Size(37, 13);
-            this.lblTmpType.TabIndex = 32;
-            this.lblTmpType.Text = "Type :";
             // 
             // btnDefTmp
             // 
+            resources.ApplyResources(this.btnDefTmp, "btnDefTmp");
             this.btnDefTmp.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDefTmp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnDefTmp.Location = new System.Drawing.Point(405, 22);
             this.btnDefTmp.Name = "btnDefTmp";
-            this.btnDefTmp.Size = new System.Drawing.Size(159, 22);
-            this.btnDefTmp.TabIndex = 25;
-            this.btnDefTmp.Text = "Restore Defult";
             this.btnDefTmp.UseVisualStyleBackColor = false;
             this.btnDefTmp.Click += new System.EventHandler(this.btnDefTmp_Click);
             // 
             // txtTmpID
             // 
-            this.txtTmpID.Enabled = false;
-            this.txtTmpID.Location = new System.Drawing.Point(658, 22);
+            resources.ApplyResources(this.txtTmpID, "txtTmpID");
             this.txtTmpID.Name = "txtTmpID";
-            this.txtTmpID.Size = new System.Drawing.Size(170, 20);
-            this.txtTmpID.TabIndex = 5;
-            this.txtTmpID.Visible = false;
             // 
             // bntAddTmp
             // 
+            resources.ApplyResources(this.bntAddTmp, "bntAddTmp");
             this.bntAddTmp.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.bntAddTmp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.bntAddTmp.ForeColor = System.Drawing.Color.Black;
-            this.bntAddTmp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bntAddTmp.Location = new System.Drawing.Point(8, 21);
             this.bntAddTmp.Name = "bntAddTmp";
-            this.bntAddTmp.Size = new System.Drawing.Size(120, 23);
-            this.bntAddTmp.TabIndex = 9;
-            this.bntAddTmp.Text = "Add Template";
             this.bntAddTmp.UseVisualStyleBackColor = false;
             this.bntAddTmp.Click += new System.EventHandler(this.bntAddTmp_Click);
             // 
             // btnTmpPath
             // 
+            resources.ApplyResources(this.btnTmpPath, "btnTmpPath");
             this.btnTmpPath.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnTmpPath.ForeColor = System.Drawing.Color.Black;
-            this.btnTmpPath.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnTmpPath.Location = new System.Drawing.Point(520, 77);
             this.btnTmpPath.Name = "btnTmpPath";
-            this.btnTmpPath.Size = new System.Drawing.Size(30, 23);
-            this.btnTmpPath.TabIndex = 7;
-            this.btnTmpPath.Text = "...";
             this.btnTmpPath.UseVisualStyleBackColor = false;
             this.btnTmpPath.Click += new System.EventHandler(this.btnTmpPath_Click);
             // 
             // txtTmpPath
             // 
-            this.txtTmpPath.Enabled = false;
-            this.txtTmpPath.Location = new System.Drawing.Point(118, 77);
+            resources.ApplyResources(this.txtTmpPath, "txtTmpPath");
             this.txtTmpPath.Name = "txtTmpPath";
-            this.txtTmpPath.Size = new System.Drawing.Size(396, 20);
-            this.txtTmpPath.TabIndex = 6;
             // 
             // btnUpdTmp
             // 
+            resources.ApplyResources(this.btnUpdTmp, "btnUpdTmp");
             this.btnUpdTmp.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnUpdTmp.ForeColor = System.Drawing.Color.Black;
-            this.btnUpdTmp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnUpdTmp.Location = new System.Drawing.Point(143, 22);
             this.btnUpdTmp.Name = "btnUpdTmp";
-            this.btnUpdTmp.Size = new System.Drawing.Size(120, 23);
-            this.btnUpdTmp.TabIndex = 8;
-            this.btnUpdTmp.Text = "UpdateTemplate";
             this.btnUpdTmp.UseVisualStyleBackColor = false;
             this.btnUpdTmp.Click += new System.EventHandler(this.btnUpdTmp_Click);
             // 
             // txtTmpName
             // 
-            this.txtTmpName.Location = new System.Drawing.Point(118, 51);
+            resources.ApplyResources(this.txtTmpName, "txtTmpName");
             this.txtTmpName.Name = "txtTmpName";
-            this.txtTmpName.Size = new System.Drawing.Size(432, 20);
-            this.txtTmpName.TabIndex = 4;
             // 
             // btnEditTmp
             // 
+            resources.ApplyResources(this.btnEditTmp, "btnEditTmp");
             this.btnEditTmp.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEditTmp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnEditTmp.ForeColor = System.Drawing.Color.Black;
-            this.btnEditTmp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnEditTmp.Location = new System.Drawing.Point(279, 22);
             this.btnEditTmp.Name = "btnEditTmp";
-            this.btnEditTmp.Size = new System.Drawing.Size(120, 23);
-            this.btnEditTmp.TabIndex = 7;
-            this.btnEditTmp.Text = "Edit Templates";
             this.btnEditTmp.UseVisualStyleBackColor = false;
             this.btnEditTmp.Click += new System.EventHandler(this.btnEditTmp_Click);
             // 
             // label16
             // 
-            this.label16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label16.Location = new System.Drawing.Point(4, 79);
+            resources.ApplyResources(this.label16, "label16");
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(100, 13);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Template Path  : ";
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label17.Location = new System.Drawing.Point(0, 55);
+            resources.ApplyResources(this.label17, "label17");
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(97, 13);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Template Name :   ";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // dvgTemplateCard
             // 
+            resources.ApplyResources(this.dvgTemplateCard, "dvgTemplateCard");
             this.dvgTemplateCard.AllowUserToAddRows = false;
             this.dvgTemplateCard.AllowUserToOrderColumns = true;
             this.dvgTemplateCard.AllowUserToResizeColumns = false;
@@ -245,83 +188,74 @@
             this.Type,
             this.TmpName,
             this.TypeName});
-            this.dvgTemplateCard.Location = new System.Drawing.Point(14, 126);
             this.dvgTemplateCard.Name = "dvgTemplateCard";
             this.dvgTemplateCard.ReadOnly = true;
-            this.dvgTemplateCard.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.dvgTemplateCard.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dvgTemplateCard.Size = new System.Drawing.Size(837, 272);
-            this.dvgTemplateCard.TabIndex = 2;
             this.dvgTemplateCard.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dvgTemplateCard_CellMouseClick);
             // 
             // envSettingsReportCard
             // 
-            designerSettings2.ApplicationConnection = null;
-            designerSettings2.DefaultFont = new System.Drawing.Font("Arial", 10F);
-            designerSettings2.Icon = null;
-            designerSettings2.Restrictions = designerRestrictions2;
-            designerSettings2.Text = "";
-            this.envSettingsReportCard.DesignerSettings = designerSettings2;
-            emailSettings2.Address = "";
-            emailSettings2.Host = "";
-            emailSettings2.MessageTemplate = "";
-            emailSettings2.Name = "";
-            emailSettings2.Password = "";
-            emailSettings2.UserName = "";
-            this.envSettingsReportCard.EmailSettings = emailSettings2;
-            previewSettings2.Buttons = FastReport.PreviewButtons.Close;
-            previewSettings2.Icon = ((System.Drawing.Icon)(resources.GetObject("previewSettings2.Icon")));
-            previewSettings2.Text = "";
-            this.envSettingsReportCard.PreviewSettings = previewSettings2;
-            reportSettings2.ShowProgress = false;
-            this.envSettingsReportCard.ReportSettings = reportSettings2;
+            designerSettings1.ApplicationConnection = null;
+            designerSettings1.DefaultFont = new System.Drawing.Font("Arial", 10F);
+            designerSettings1.Icon = null;
+            designerSettings1.Restrictions = designerRestrictions1;
+            designerSettings1.Text = "";
+            this.envSettingsReportCard.DesignerSettings = designerSettings1;
+            emailSettings1.Address = "";
+            emailSettings1.Host = "";
+            emailSettings1.MessageTemplate = "";
+            emailSettings1.Name = "";
+            emailSettings1.Password = "";
+            emailSettings1.UserName = "";
+            this.envSettingsReportCard.EmailSettings = emailSettings1;
+            previewSettings1.Buttons = FastReport.PreviewButtons.Close;
+            previewSettings1.Icon = ((System.Drawing.Icon)(resources.GetObject("previewSettings1.Icon")));
+            previewSettings1.Text = "";
+            this.envSettingsReportCard.PreviewSettings = previewSettings1;
+            reportSettings1.ShowProgress = false;
+            this.envSettingsReportCard.ReportSettings = reportSettings1;
             this.envSettingsReportCard.UIStyle = FastReport.Utils.UIStyle.Office2007Blue;
             // 
             // ofdReport
             // 
             this.ofdReport.FileName = "openFileDialog1";
+            resources.ApplyResources(this.ofdReport, "ofdReport");
             // 
             // TmpID2
             // 
             this.TmpID2.DataPropertyName = "TmpID";
-            this.TmpID2.HeaderText = "Template ID";
+            resources.ApplyResources(this.TmpID2, "TmpID2");
             this.TmpID2.Name = "TmpID2";
             this.TmpID2.ReadOnly = true;
-            this.TmpID2.Width = 150;
             // 
             // Type
             // 
             this.Type.DataPropertyName = "EmpType";
-            this.Type.HeaderText = "EmpType";
+            resources.ApplyResources(this.Type, "Type");
             this.Type.Name = "Type";
             this.Type.ReadOnly = true;
-            this.Type.Visible = false;
             // 
             // TmpName
             // 
             this.TmpName.DataPropertyName = "TmpName";
-            this.TmpName.HeaderText = "Template Name";
+            resources.ApplyResources(this.TmpName, "TmpName");
             this.TmpName.Name = "TmpName";
             this.TmpName.ReadOnly = true;
-            this.TmpName.Width = 300;
             // 
             // TypeName
             // 
             this.TypeName.DataPropertyName = "TmpType";
-            this.TypeName.HeaderText = "Type";
+            resources.ApplyResources(this.TypeName, "TypeName");
             this.TypeName.Name = "TypeName";
             this.TypeName.ReadOnly = true;
-            this.TypeName.Width = 200;
             // 
             // CardTemplatesForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1212, 537);
             this.Controls.Add(this.pnlTemplateCard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CardTemplatesForm";
-            this.Text = "CardTemplatesForm";
             this.Load += new System.EventHandler(this.CardTemplatesForm_Load);
             this.pnlTemplateCard.ResumeLayout(false);
             this.grbInsRep.ResumeLayout(false);

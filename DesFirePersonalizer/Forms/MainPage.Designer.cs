@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addCategorysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.permitionsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.مجموعةالصلاحياتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.assignPermitionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.waletSetupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eTerminalSetupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,6 +43,7 @@
             this.menuSetupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.counterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.readerSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.selectReaderToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.studentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PurchasingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ePurchaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,10 +55,10 @@
             this.IssueCardsSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.waletReportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.languagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.applicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.lblLoginName = new System.Windows.Forms.Label();
             this.mainStatus = new System.Windows.Forms.StatusStrip();
@@ -69,29 +73,44 @@
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.sizeStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.CounterValueTextBox = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.RdnBtnTransID = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.TerminalIDEPurse = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.TransactionIDEPurse = new System.Windows.Forms.TextBox();
+            this.ApplicationDataEPurse = new System.Windows.Forms.TextBox();
+            this.RdmBtnAppData = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.mainStatus.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.homeToolStripMenuItem,
             this.adminToolStripMenuItem,
             this.studentsToolStripMenuItem,
             this.PurchasingToolStripMenuItem,
             this.LibraryToolStripMenuItem,
             this.CardToolStripMenuItem,
             this.reportsToolStripMenuItem,
-            this.languagesToolStripMenuItem,
-            this.logOutToolStripMenuItem,
             this.applicationToolStripMenuItem,
-            this.homeToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.logOutToolStripMenuItem,
+            this.languageToolStripMenuItem,
+            this.enToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1347, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // homeToolStripMenuItem
+            // 
+            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            resources.ApplyResources(this.homeToolStripMenuItem, "homeToolStripMenuItem");
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
             // adminToolStripMenuItem
             // 
@@ -104,41 +123,38 @@
             this.counterToolStripMenuItem,
             this.readerSettingsToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
-            this.adminToolStripMenuItem.Text = "Configrations";
-            this.adminToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.adminToolStripMenuItem, "adminToolStripMenuItem");
             this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // addUsersToolStripMenuItem
             // 
             this.addUsersToolStripMenuItem.Name = "addUsersToolStripMenuItem";
-            this.addUsersToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.addUsersToolStripMenuItem.Text = "Users";
-            this.addUsersToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.addUsersToolStripMenuItem, "addUsersToolStripMenuItem");
             this.addUsersToolStripMenuItem.Click += new System.EventHandler(this.addUsersToolStripMenuItem_Click);
             // 
             // addCategorysToolStripMenuItem
             // 
             this.addCategorysToolStripMenuItem.Name = "addCategorysToolStripMenuItem";
-            this.addCategorysToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.addCategorysToolStripMenuItem.Text = "Categorys";
-            this.addCategorysToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.addCategorysToolStripMenuItem, "addCategorysToolStripMenuItem");
             this.addCategorysToolStripMenuItem.Click += new System.EventHandler(this.addCategorysToolStripMenuItem_Click);
             // 
             // permitionsToolStripMenuItem1
             // 
+            this.permitionsToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.مجموعةالصلاحياتToolStripMenuItem});
             this.permitionsToolStripMenuItem1.Name = "permitionsToolStripMenuItem1";
-            this.permitionsToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.permitionsToolStripMenuItem1.Text = "Permitions";
-            this.permitionsToolStripMenuItem1.Visible = false;
+            resources.ApplyResources(this.permitionsToolStripMenuItem1, "permitionsToolStripMenuItem1");
             this.permitionsToolStripMenuItem1.Click += new System.EventHandler(this.permitionsToolStripMenuItem_Click);
+            // 
+            // مجموعةالصلاحياتToolStripMenuItem
+            // 
+            this.مجموعةالصلاحياتToolStripMenuItem.Name = "مجموعةالصلاحياتToolStripMenuItem";
+            resources.ApplyResources(this.مجموعةالصلاحياتToolStripMenuItem, "مجموعةالصلاحياتToolStripMenuItem");
             // 
             // assignPermitionsToolStripMenuItem
             // 
             this.assignPermitionsToolStripMenuItem.Name = "assignPermitionsToolStripMenuItem";
-            this.assignPermitionsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.assignPermitionsToolStripMenuItem.Text = "Premitions Group";
-            this.assignPermitionsToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.assignPermitionsToolStripMenuItem, "assignPermitionsToolStripMenuItem");
             // 
             // waletSetupToolStripMenuItem
             // 
@@ -147,56 +163,49 @@
             this.librarySetupToolStripMenuItem,
             this.menuSetupToolStripMenuItem});
             this.waletSetupToolStripMenuItem.Name = "waletSetupToolStripMenuItem";
-            this.waletSetupToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.waletSetupToolStripMenuItem.Text = " Setup";
-            this.waletSetupToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.waletSetupToolStripMenuItem, "waletSetupToolStripMenuItem");
             // 
             // eTerminalSetupToolStripMenuItem
             // 
             this.eTerminalSetupToolStripMenuItem.Name = "eTerminalSetupToolStripMenuItem";
-            this.eTerminalSetupToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.eTerminalSetupToolStripMenuItem.Text = "E-Terminal Setup";
-            this.eTerminalSetupToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.eTerminalSetupToolStripMenuItem, "eTerminalSetupToolStripMenuItem");
             this.eTerminalSetupToolStripMenuItem.Click += new System.EventHandler(this.eTerminalSetupToolStripMenuItem_Click);
             // 
             // librarySetupToolStripMenuItem
             // 
             this.librarySetupToolStripMenuItem.Name = "librarySetupToolStripMenuItem";
-            this.librarySetupToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.librarySetupToolStripMenuItem.Text = "Library Setup";
-            this.librarySetupToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.librarySetupToolStripMenuItem, "librarySetupToolStripMenuItem");
             this.librarySetupToolStripMenuItem.Click += new System.EventHandler(this.librarySetupToolStripMenuItem_Click);
             // 
             // menuSetupToolStripMenuItem
             // 
             this.menuSetupToolStripMenuItem.Name = "menuSetupToolStripMenuItem";
-            this.menuSetupToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.menuSetupToolStripMenuItem.Text = "Menu Setup";
-            this.menuSetupToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.menuSetupToolStripMenuItem, "menuSetupToolStripMenuItem");
             this.menuSetupToolStripMenuItem.Click += new System.EventHandler(this.menuSetupToolStripMenuItem_Click);
             // 
             // counterToolStripMenuItem
             // 
             this.counterToolStripMenuItem.Name = "counterToolStripMenuItem";
-            this.counterToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.counterToolStripMenuItem.Text = "Counter";
-            this.counterToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.counterToolStripMenuItem, "counterToolStripMenuItem");
             // 
             // readerSettingsToolStripMenuItem
             // 
+            this.readerSettingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.selectReaderToolStripMenuItem1});
             this.readerSettingsToolStripMenuItem.Name = "readerSettingsToolStripMenuItem";
-            this.readerSettingsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.readerSettingsToolStripMenuItem.Text = "Reader Settings";
-            this.readerSettingsToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.readerSettingsToolStripMenuItem, "readerSettingsToolStripMenuItem");
             this.readerSettingsToolStripMenuItem.Click += new System.EventHandler(this.readerSettingsToolStripMenuItem_Click);
+            // 
+            // selectReaderToolStripMenuItem1
+            // 
+            this.selectReaderToolStripMenuItem1.Name = "selectReaderToolStripMenuItem1";
+            resources.ApplyResources(this.selectReaderToolStripMenuItem1, "selectReaderToolStripMenuItem1");
+            this.selectReaderToolStripMenuItem1.Click += new System.EventHandler(this.selectReaderToolStripMenuItem1_Click);
             // 
             // studentsToolStripMenuItem
             // 
             this.studentsToolStripMenuItem.Name = "studentsToolStripMenuItem";
-            this.studentsToolStripMenuItem.ShowShortcutKeys = false;
-            this.studentsToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.studentsToolStripMenuItem.Text = "Students";
-            this.studentsToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.studentsToolStripMenuItem, "studentsToolStripMenuItem");
             this.studentsToolStripMenuItem.Click += new System.EventHandler(this.studentsToolStripMenuItem_Click);
             // 
             // PurchasingToolStripMenuItem
@@ -205,22 +214,18 @@
             this.ePurchaseToolStripMenuItem,
             this.eItemsToolStripMenuItem});
             this.PurchasingToolStripMenuItem.Name = "PurchasingToolStripMenuItem";
-            this.PurchasingToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.PurchasingToolStripMenuItem.Text = "Purchasing";
-            this.PurchasingToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.PurchasingToolStripMenuItem, "PurchasingToolStripMenuItem");
             // 
             // ePurchaseToolStripMenuItem
             // 
             this.ePurchaseToolStripMenuItem.Name = "ePurchaseToolStripMenuItem";
-            this.ePurchaseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.ePurchaseToolStripMenuItem.Text = "E-Trans Action";
+            resources.ApplyResources(this.ePurchaseToolStripMenuItem, "ePurchaseToolStripMenuItem");
             this.ePurchaseToolStripMenuItem.Click += new System.EventHandler(this.ePurchaseToolStripMenuItem_Click);
             // 
             // eItemsToolStripMenuItem
             // 
             this.eItemsToolStripMenuItem.Name = "eItemsToolStripMenuItem";
-            this.eItemsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.eItemsToolStripMenuItem.Text = "E-Items";
+            resources.ApplyResources(this.eItemsToolStripMenuItem, "eItemsToolStripMenuItem");
             this.eItemsToolStripMenuItem.Click += new System.EventHandler(this.eItemsToolStripMenuItem_Click);
             // 
             // LibraryToolStripMenuItem
@@ -228,16 +233,13 @@
             this.LibraryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eBookInOutToolStripMenuItem});
             this.LibraryToolStripMenuItem.Name = "LibraryToolStripMenuItem";
-            this.LibraryToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.LibraryToolStripMenuItem.Text = "Library";
-            this.LibraryToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.LibraryToolStripMenuItem, "LibraryToolStripMenuItem");
             this.LibraryToolStripMenuItem.Click += new System.EventHandler(this.testToolStripMenuItem_Click);
             // 
             // eBookInOutToolStripMenuItem
             // 
             this.eBookInOutToolStripMenuItem.Name = "eBookInOutToolStripMenuItem";
-            this.eBookInOutToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.eBookInOutToolStripMenuItem.Text = "E-Book(In\\Out)";
+            resources.ApplyResources(this.eBookInOutToolStripMenuItem, "eBookInOutToolStripMenuItem");
             this.eBookInOutToolStripMenuItem.Click += new System.EventHandler(this.eBookInOutToolStripMenuItem_Click);
             // 
             // CardToolStripMenuItem
@@ -246,22 +248,18 @@
             this.cardSettingsToolStripMenuItem,
             this.IssueCardsSettingsToolStripMenuItem});
             this.CardToolStripMenuItem.Name = "CardToolStripMenuItem";
-            this.CardToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.CardToolStripMenuItem.Text = "Cards ";
-            this.CardToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.CardToolStripMenuItem, "CardToolStripMenuItem");
             // 
             // cardSettingsToolStripMenuItem
             // 
             this.cardSettingsToolStripMenuItem.Name = "cardSettingsToolStripMenuItem";
-            this.cardSettingsToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.cardSettingsToolStripMenuItem.Text = "Card Settings";
+            resources.ApplyResources(this.cardSettingsToolStripMenuItem, "cardSettingsToolStripMenuItem");
             this.cardSettingsToolStripMenuItem.Click += new System.EventHandler(this.cardSettingsToolStripMenuItem_Click);
             // 
             // IssueCardsSettingsToolStripMenuItem
             // 
             this.IssueCardsSettingsToolStripMenuItem.Name = "IssueCardsSettingsToolStripMenuItem";
-            this.IssueCardsSettingsToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.IssueCardsSettingsToolStripMenuItem.Text = "Issue Cards";
+            resources.ApplyResources(this.IssueCardsSettingsToolStripMenuItem, "IssueCardsSettingsToolStripMenuItem");
             this.IssueCardsSettingsToolStripMenuItem.Click += new System.EventHandler(this.companySettingsToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
@@ -269,65 +267,48 @@
             this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.waletReportsToolStripMenuItem});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.reportsToolStripMenuItem.Text = "Reports";
-            this.reportsToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.reportsToolStripMenuItem, "reportsToolStripMenuItem");
             // 
             // waletReportsToolStripMenuItem
             // 
             this.waletReportsToolStripMenuItem.Name = "waletReportsToolStripMenuItem";
-            this.waletReportsToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.waletReportsToolStripMenuItem.Text = "Walet Reports";
+            resources.ApplyResources(this.waletReportsToolStripMenuItem, "waletReportsToolStripMenuItem");
             this.waletReportsToolStripMenuItem.Click += new System.EventHandler(this.waletReportsToolStripMenuItem_Click);
-            // 
-            // languagesToolStripMenuItem
-            // 
-            this.languagesToolStripMenuItem.Name = "languagesToolStripMenuItem";
-            this.languagesToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.languagesToolStripMenuItem.Text = "Languages";
-            this.languagesToolStripMenuItem.Visible = false;
-            // 
-            // logOutToolStripMenuItem
-            // 
-            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.logOutToolStripMenuItem.Text = "Log Out";
-            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // applicationToolStripMenuItem
             // 
             this.applicationToolStripMenuItem.Name = "applicationToolStripMenuItem";
-            this.applicationToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
-            this.applicationToolStripMenuItem.Text = "Application ";
-            this.applicationToolStripMenuItem.Visible = false;
+            resources.ApplyResources(this.applicationToolStripMenuItem, "applicationToolStripMenuItem");
             this.applicationToolStripMenuItem.Click += new System.EventHandler(this.applicationToolStripMenuItem_Click);
             // 
-            // homeToolStripMenuItem
+            // logOutToolStripMenuItem
             // 
-            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.homeToolStripMenuItem.Text = "Home";
-            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            resources.ApplyResources(this.logOutToolStripMenuItem, "logOutToolStripMenuItem");
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
+            // 
+            // languageToolStripMenuItem
+            // 
+            this.languageToolStripMenuItem.BackgroundImage = global::DesFirePersonalizer.Properties.Resources._1355747_200;
+            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+            this.languageToolStripMenuItem.Click += new System.EventHandler(this.languageToolStripMenuItem_Click);
+            // 
+            // enToolStripMenuItem
+            // 
+            this.enToolStripMenuItem.Name = "enToolStripMenuItem";
+            resources.ApplyResources(this.enToolStripMenuItem, "enToolStripMenuItem");
+            this.enToolStripMenuItem.Click += new System.EventHandler(this.enToolStripMenuItem_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1225, 6);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Welcom";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblLoginName
             // 
-            this.lblLoginName.AutoSize = true;
-            this.lblLoginName.Location = new System.Drawing.Point(1289, 6);
+            resources.ApplyResources(this.lblLoginName, "lblLoginName");
             this.lblLoginName.Name = "lblLoginName";
-            this.lblLoginName.Size = new System.Drawing.Size(35, 13);
-            this.lblLoginName.TabIndex = 3;
-            this.lblLoginName.Text = "label2";
-            this.lblLoginName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblLoginName.Click += new System.EventHandler(this.lblLoginName_Click);
             // 
             // mainStatus
@@ -344,113 +325,148 @@
             this.toolStripStatusLabel5,
             this.sizeStatusLabel,
             this.toolStripStatusLabel4});
-            this.mainStatus.Location = new System.Drawing.Point(0, 468);
+            resources.ApplyResources(this.mainStatus, "mainStatus");
             this.mainStatus.Name = "mainStatus";
-            this.mainStatus.Size = new System.Drawing.Size(1347, 22);
-            this.mainStatus.TabIndex = 6;
-            this.mainStatus.Text = "statusStrip1";
             // 
             // cardReaderToolStrip
             // 
-            this.cardReaderToolStrip.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.cardReaderToolStrip, "cardReaderToolStrip");
             this.cardReaderToolStrip.Name = "cardReaderToolStrip";
-            this.cardReaderToolStrip.Size = new System.Drawing.Size(70, 17);
-            this.cardReaderToolStrip.Text = "Card Reader";
             // 
             // toolStripStatusLabel6
             // 
-            this.toolStripStatusLabel6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
             this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            this.toolStripStatusLabel6.Size = new System.Drawing.Size(10, 17);
-            this.toolStripStatusLabel6.Text = "|";
             // 
             // toolStripStatusLabel2
             // 
-            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(42, 17);
-            this.toolStripStatusLabel2.Text = "Status:";
             // 
             // SmartCardStatusLabel
             // 
-            this.SmartCardStatusLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.SmartCardStatusLabel, "SmartCardStatusLabel");
             this.SmartCardStatusLabel.Name = "SmartCardStatusLabel";
-            this.SmartCardStatusLabel.Size = new System.Drawing.Size(26, 17);
-            this.SmartCardStatusLabel.Text = "N/A";
             // 
             // toolStripStatusLabel1
             // 
-            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(29, 17);
-            this.toolStripStatusLabel1.Text = "ATR:";
             // 
             // toolStripAtrLabel
             // 
-            this.toolStripAtrLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripAtrLabel, "toolStripAtrLabel");
             this.toolStripAtrLabel.Name = "toolStripAtrLabel";
-            this.toolStripAtrLabel.Size = new System.Drawing.Size(26, 17);
-            this.toolStripAtrLabel.Text = "N/A";
             // 
             // toolStripStatusLabel3
             // 
-            this.toolStripStatusLabel3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel3, "toolStripStatusLabel3");
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(29, 17);
-            this.toolStripStatusLabel3.Text = "UID:";
             // 
             // uidStatusLabel
             // 
-            this.uidStatusLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.uidStatusLabel, "uidStatusLabel");
             this.uidStatusLabel.Name = "uidStatusLabel";
-            this.uidStatusLabel.Size = new System.Drawing.Size(26, 17);
-            this.uidStatusLabel.Text = "N/A";
             // 
             // toolStripStatusLabel5
             // 
-            this.toolStripStatusLabel5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(30, 17);
-            this.toolStripStatusLabel5.Text = "Size:";
             // 
             // sizeStatusLabel
             // 
-            this.sizeStatusLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.sizeStatusLabel, "sizeStatusLabel");
             this.sizeStatusLabel.Name = "sizeStatusLabel";
-            this.sizeStatusLabel.Size = new System.Drawing.Size(26, 17);
-            this.sizeStatusLabel.Text = "N/A";
             // 
             // toolStripStatusLabel4
             // 
-            this.toolStripStatusLabel4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(34, 17);
-            this.toolStripStatusLabel4.Text = "Bytes";
             // 
-            // CounterValueTextBox
+            // tableLayoutPanel6
             // 
-            this.CounterValueTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.CounterValueTextBox.Enabled = false;
-            this.CounterValueTextBox.Location = new System.Drawing.Point(0, 448);
-            this.CounterValueTextBox.Name = "CounterValueTextBox";
-            this.CounterValueTextBox.Size = new System.Drawing.Size(1347, 20);
-            this.CounterValueTextBox.TabIndex = 9;
+            resources.ApplyResources(this.tableLayoutPanel6, "tableLayoutPanel6");
+            this.tableLayoutPanel6.Controls.Add(this.RdnBtnTransID, 2, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label16, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label15, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.TerminalIDEPurse, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label17, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.TransactionIDEPurse, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.ApplicationDataEPurse, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.RdmBtnAppData, 2, 2);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            // 
+            // RdnBtnTransID
+            // 
+            resources.ApplyResources(this.RdnBtnTransID, "RdnBtnTransID");
+            this.RdnBtnTransID.Name = "RdnBtnTransID";
+            this.RdnBtnTransID.UseVisualStyleBackColor = true;
+            this.RdnBtnTransID.Click += new System.EventHandler(this.RdnBtnTransID_Click);
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.Name = "label16";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
+            // 
+            // TerminalIDEPurse
+            // 
+            resources.ApplyResources(this.TerminalIDEPurse, "TerminalIDEPurse");
+            this.TerminalIDEPurse.Name = "TerminalIDEPurse";
+            this.TerminalIDEPurse.ReadOnly = true;
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // TransactionIDEPurse
+            // 
+            resources.ApplyResources(this.TransactionIDEPurse, "TransactionIDEPurse");
+            this.TransactionIDEPurse.Name = "TransactionIDEPurse";
+            // 
+            // ApplicationDataEPurse
+            // 
+            resources.ApplyResources(this.ApplicationDataEPurse, "ApplicationDataEPurse");
+            this.ApplicationDataEPurse.Name = "ApplicationDataEPurse";
+            // 
+            // RdmBtnAppData
+            // 
+            resources.ApplyResources(this.RdmBtnAppData, "RdmBtnAppData");
+            this.RdmBtnAppData.Name = "RdmBtnAppData";
+            this.RdmBtnAppData.UseVisualStyleBackColor = true;
+            this.RdmBtnAppData.Click += new System.EventHandler(this.RdmBtnAppData_Click);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // CardReaderComboBox
+            // 
+            resources.ApplyResources(this.CardReaderComboBox, "CardReaderComboBox");
+            this.CardReaderComboBox.FormattingEnabled = true;
+            this.CardReaderComboBox.Name = "CardReaderComboBox";
+            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
             // 
             // MainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1347, 490);
-            this.Controls.Add(this.CounterValueTextBox);
             this.Controls.Add(this.mainStatus);
             this.Controls.Add(this.lblLoginName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.tableLayoutPanel6);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.CardReaderComboBox);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainPage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainPage";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainPage_Load);
             this.Shown += new System.EventHandler(this.MainPage_Shown);
@@ -458,6 +474,8 @@
             this.menuStrip1.PerformLayout();
             this.mainStatus.ResumeLayout(false);
             this.mainStatus.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -483,6 +501,19 @@
         private System.Windows.Forms.ToolStripMenuItem eTerminalSetupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem librarySetupToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuSetupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem counterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem readerSettingsToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem studentsToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem CardToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem PurchasingToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem LibraryToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem مجموعةالصلاحياتToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enToolStripMenuItem;
         private System.Windows.Forms.StatusStrip mainStatus;
         private System.Windows.Forms.ToolStripStatusLabel cardReaderToolStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel6;
@@ -495,17 +526,17 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
         private System.Windows.Forms.ToolStripStatusLabel sizeStatusLabel;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
-        private System.Windows.Forms.TextBox CounterValueTextBox;
-        private System.Windows.Forms.ToolStripMenuItem counterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem readerSettingsToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem studentsToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem CardToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem PurchasingToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem LibraryToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem languagesToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.Button RdnBtnTransID;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox TerminalIDEPurse;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox TransactionIDEPurse;
+        private System.Windows.Forms.TextBox ApplicationDataEPurse;
+        private System.Windows.Forms.Button RdmBtnAppData;
+        private System.Windows.Forms.ToolStripMenuItem selectReaderToolStripMenuItem1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox CardReaderComboBox;
     }
 }

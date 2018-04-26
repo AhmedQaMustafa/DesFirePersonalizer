@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SetupUpdateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>979, 19</value>
+  </data>
+  <data name="SetupUpdateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="SetupUpdateButton.Text" xml:space="preserve">
+    <value>تعديل </value>
+  </data>
+  <data name="BtnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1060, 19</value>
+  </data>
+  <data name="BtnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="BtnAdd.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="SetupDeleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 19</value>
+  </data>
+  <data name="SetupDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="SetupDeleteButton.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="LoadButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="LoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="LoadButton.Text" xml:space="preserve">
+    <value>عرض الكل </value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 19</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>817, 20</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 12</value>
+  </data>
+  <data name="groupBox1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1149, 222</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 54</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>رقم الكتاب </value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 80</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>عنوان الكتاب </value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 106</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>المؤلف</value>
+  </data>
+  <data name="SetupBookIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 51</value>
+  </data>
+  <data name="SetupBookIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 20</value>
+  </data>
+  <data name="SetupTitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 77</value>
+  </data>
+  <data name="SetupAuthorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 103</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 133</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>السنة</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 160</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>حالة الكتاب </value>
+  </data>
+  <data name="SetupStatusAvailabilityComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 156</value>
+  </data>
+  <data name="SetupStatusAvailabilityComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="SearchBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 51</value>
+  </data>
+  <data name="SearchBtn.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SetupYearTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 129</value>
+  </data>
+  <data name="SetupYearTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="RecordIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 25</value>
+  </data>
+  <data name="RecordIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 20</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 28</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>الرقم </value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 240</value>
+  </data>
+  <data name="groupBox2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1149, 73</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>الإجراء</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Quantity.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="status.HeaderText" xml:space="preserve">
+    <value>حالة الكتاب </value>
+  </data>
+  <data name="status.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="BookYear.HeaderText" xml:space="preserve">
+    <value>السنة </value>
+  </data>
+  <data name="BookYear.Width" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="BookAuthor.HeaderText" xml:space="preserve">
+    <value>مؤلف الكتاب </value>
+  </data>
+  <data name="BookAuthor.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="BookTitle.HeaderText" xml:space="preserve">
+    <value>عنوان الكتاب </value>
+  </data>
+  <data name="BookTitle.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="Book_ID.HeaderText" xml:space="preserve">
+    <value>رقم الكتاب </value>
+  </data>
+  <data name="Book_ID.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="Record_ID.HeaderText" xml:space="preserve">
+    <value>الرقم </value>
+  </data>
+  <data name="Record_ID.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="SetupDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 336</value>
+  </data>
+  <data name="SetupDataGridView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="SetupDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 389</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="TxtQuantity.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TxtQuantity.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1295, 758</value>
+  </data>
+</root>

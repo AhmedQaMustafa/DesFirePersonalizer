@@ -28,183 +28,343 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEItems));
+            this.mainStatus = new System.Windows.Forms.StatusStrip();
+            this.cardReaderToolStrip = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel6 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.SmartCardStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripAtrLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.uidStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.sizeStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.RdnBtnTransID = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.TerminalIDEPurse = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.RdmBtnAppData = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.DisplayPriceTextBox = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label49 = new System.Windows.Forms.Label();
             this.DisplayStatusTextBox = new System.Windows.Forms.TextBox();
             this.DisplayMenuNameListBox = new System.Windows.Forms.ListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.ApplicationDataEPurse = new System.Windows.Forms.TextBox();
             this.TransactionIDEPurse = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel11.SuspendLayout();
+            this.txtcompusername = new System.Windows.Forms.TextBox();
+            this.txtcomputername = new System.Windows.Forms.TextBox();
+            this.txtuserID = new System.Windows.Forms.TextBox();
+            this.TxtStdInc = new System.Windows.Forms.TextBox();
+            this.mainStatus.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel11
+            // mainStatus
             // 
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel11.Controls.Add(this.DisplayPriceTextBox, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.label47, 0, 1);
-            this.tableLayoutPanel11.Controls.Add(this.label48, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.button1, 1, 3);
-            this.tableLayoutPanel11.Controls.Add(this.label49, 0, 2);
-            this.tableLayoutPanel11.Controls.Add(this.DisplayStatusTextBox, 1, 2);
-            this.tableLayoutPanel11.Controls.Add(this.DisplayMenuNameListBox, 1, 1);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(23, 12);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 3;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(1208, 550);
-            this.tableLayoutPanel11.TabIndex = 5;
+            this.mainStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cardReaderToolStrip,
+            this.toolStripStatusLabel6,
+            this.toolStripStatusLabel2,
+            this.SmartCardStatusLabel,
+            this.toolStripStatusLabel1,
+            this.toolStripAtrLabel,
+            this.toolStripStatusLabel3,
+            this.uidStatusLabel,
+            this.toolStripStatusLabel5,
+            this.sizeStatusLabel,
+            this.toolStripStatusLabel4});
+            resources.ApplyResources(this.mainStatus, "mainStatus");
+            this.mainStatus.Name = "mainStatus";
             // 
-            // DisplayPriceTextBox
+            // cardReaderToolStrip
             // 
-            this.DisplayPriceTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DisplayPriceTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DisplayPriceTextBox.Location = new System.Drawing.Point(107, 3);
-            this.DisplayPriceTextBox.Name = "DisplayPriceTextBox";
-            this.DisplayPriceTextBox.ReadOnly = true;
-            this.DisplayPriceTextBox.Size = new System.Drawing.Size(1143, 49);
-            this.DisplayPriceTextBox.TabIndex = 3;
+            resources.ApplyResources(this.cardReaderToolStrip, "cardReaderToolStrip");
+            this.cardReaderToolStrip.Name = "cardReaderToolStrip";
             // 
-            // label47
+            // toolStripStatusLabel6
             // 
-            this.label47.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(3, 153);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(85, 31);
-            this.label47.TabIndex = 0;
-            this.label47.Text = "Menu";
+            resources.ApplyResources(this.toolStripStatusLabel6, "toolStripStatusLabel6");
+            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
             // 
-            // label48
+            // toolStripStatusLabel2
             // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(3, 12);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(81, 31);
-            this.label48.TabIndex = 1;
-            this.label48.Text = "Price";
+            resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            // 
+            // SmartCardStatusLabel
+            // 
+            resources.ApplyResources(this.SmartCardStatusLabel, "SmartCardStatusLabel");
+            this.SmartCardStatusLabel.Name = "SmartCardStatusLabel";
+            // 
+            // toolStripStatusLabel1
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            // 
+            // toolStripAtrLabel
+            // 
+            resources.ApplyResources(this.toolStripAtrLabel, "toolStripAtrLabel");
+            this.toolStripAtrLabel.Name = "toolStripAtrLabel";
+            // 
+            // toolStripStatusLabel3
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel3, "toolStripStatusLabel3");
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            // 
+            // uidStatusLabel
+            // 
+            resources.ApplyResources(this.uidStatusLabel, "uidStatusLabel");
+            this.uidStatusLabel.Name = "uidStatusLabel";
+            // 
+            // toolStripStatusLabel5
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel5, "toolStripStatusLabel5");
+            this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
+            // 
+            // sizeStatusLabel
+            // 
+            resources.ApplyResources(this.sizeStatusLabel, "sizeStatusLabel");
+            this.sizeStatusLabel.Name = "sizeStatusLabel";
+            // 
+            // toolStripStatusLabel4
+            // 
+            resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // CardReaderComboBox
+            // 
+            this.CardReaderComboBox.FormattingEnabled = true;
+            resources.ApplyResources(this.CardReaderComboBox, "CardReaderComboBox");
+            this.CardReaderComboBox.Name = "CardReaderComboBox";
+            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
+            // 
+            // tableLayoutPanel6
+            // 
+            resources.ApplyResources(this.tableLayoutPanel6, "tableLayoutPanel6");
+            this.tableLayoutPanel6.Controls.Add(this.RdnBtnTransID, 2, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label16, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label15, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.TerminalIDEPurse, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label17, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.textBox1, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.textBox2, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.RdmBtnAppData, 2, 2);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            // 
+            // RdnBtnTransID
+            // 
+            resources.ApplyResources(this.RdnBtnTransID, "RdnBtnTransID");
+            this.RdnBtnTransID.Name = "RdnBtnTransID";
+            this.RdnBtnTransID.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.Name = "label16";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
+            // 
+            // TerminalIDEPurse
+            // 
+            resources.ApplyResources(this.TerminalIDEPurse, "TerminalIDEPurse");
+            this.TerminalIDEPurse.Name = "TerminalIDEPurse";
+            this.TerminalIDEPurse.ReadOnly = true;
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // RdmBtnAppData
+            // 
+            resources.ApplyResources(this.RdmBtnAppData, "RdmBtnAppData");
+            this.RdmBtnAppData.Name = "RdmBtnAppData";
+            this.RdmBtnAppData.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.DisplayPriceTextBox);
+            this.panel1.Controls.Add(this.label47);
+            this.panel1.Controls.Add(this.label48);
+            this.panel1.Controls.Add(this.label49);
+            this.panel1.Controls.Add(this.DisplayStatusTextBox);
+            this.panel1.Controls.Add(this.DisplayMenuNameListBox);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.button1.Location = new System.Drawing.Point(598, 340);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 65);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "BUY";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // DisplayPriceTextBox
+            // 
+            resources.ApplyResources(this.DisplayPriceTextBox, "DisplayPriceTextBox");
+            this.DisplayPriceTextBox.Name = "DisplayPriceTextBox";
+            this.DisplayPriceTextBox.ReadOnly = true;
+            // 
+            // label47
+            // 
+            resources.ApplyResources(this.label47, "label47");
+            this.label47.Name = "label47";
+            // 
+            // label48
+            // 
+            resources.ApplyResources(this.label48, "label48");
+            this.label48.Name = "label48";
+            // 
             // label49
             // 
-            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(3, 294);
+            resources.ApplyResources(this.label49, "label49");
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(98, 31);
-            this.label49.TabIndex = 0;
-            this.label49.Text = "Status";
             // 
             // DisplayStatusTextBox
             // 
-            this.DisplayStatusTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DisplayStatusTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
-            this.DisplayStatusTextBox.Location = new System.Drawing.Point(107, 285);
+            resources.ApplyResources(this.DisplayStatusTextBox, "DisplayStatusTextBox");
             this.DisplayStatusTextBox.Name = "DisplayStatusTextBox";
             this.DisplayStatusTextBox.ReadOnly = true;
-            this.DisplayStatusTextBox.Size = new System.Drawing.Size(1143, 49);
-            this.DisplayStatusTextBox.TabIndex = 5;
             // 
             // DisplayMenuNameListBox
             // 
-            this.DisplayMenuNameListBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DisplayMenuNameListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            resources.ApplyResources(this.DisplayMenuNameListBox, "DisplayMenuNameListBox");
             this.DisplayMenuNameListBox.FormattingEnabled = true;
-            this.DisplayMenuNameListBox.ItemHeight = 31;
-            this.DisplayMenuNameListBox.Location = new System.Drawing.Point(107, 58);
             this.DisplayMenuNameListBox.Name = "DisplayMenuNameListBox";
-            this.DisplayMenuNameListBox.Size = new System.Drawing.Size(1143, 221);
-            this.DisplayMenuNameListBox.TabIndex = 6;
             this.DisplayMenuNameListBox.SelectedIndexChanged += new System.EventHandler(this.DisplayMenuNameListBox_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(601, 578);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 13);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Application Data";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(317, 574);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "TransAction ID";
             // 
             // ApplicationDataEPurse
             // 
-            this.ApplicationDataEPurse.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.ApplicationDataEPurse.Location = new System.Drawing.Point(692, 574);
-            this.ApplicationDataEPurse.MaxLength = 24;
+            resources.ApplyResources(this.ApplicationDataEPurse, "ApplicationDataEPurse");
             this.ApplicationDataEPurse.Name = "ApplicationDataEPurse";
-            this.ApplicationDataEPurse.Size = new System.Drawing.Size(182, 20);
-            this.ApplicationDataEPurse.TabIndex = 11;
-            this.ApplicationDataEPurse.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // TransactionIDEPurse
             // 
-            this.TransactionIDEPurse.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.TransactionIDEPurse.Location = new System.Drawing.Point(401, 575);
-            this.TransactionIDEPurse.MaxLength = 8;
+            resources.ApplyResources(this.TransactionIDEPurse, "TransactionIDEPurse");
             this.TransactionIDEPurse.Name = "TransactionIDEPurse";
-            this.TransactionIDEPurse.Size = new System.Drawing.Size(182, 20);
-            this.TransactionIDEPurse.TabIndex = 10;
-            this.TransactionIDEPurse.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtcompusername
+            // 
+            resources.ApplyResources(this.txtcompusername, "txtcompusername");
+            this.txtcompusername.Name = "txtcompusername";
+            // 
+            // txtcomputername
+            // 
+            resources.ApplyResources(this.txtcomputername, "txtcomputername");
+            this.txtcomputername.Name = "txtcomputername";
+            // 
+            // txtuserID
+            // 
+            resources.ApplyResources(this.txtuserID, "txtuserID");
+            this.txtuserID.Name = "txtuserID";
+            // 
+            // TxtStdInc
+            // 
+            resources.ApplyResources(this.TxtStdInc, "TxtStdInc");
+            this.TxtStdInc.Name = "TxtStdInc";
             // 
             // FrmEItems
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1318, 607);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.CardReaderComboBox);
+            this.Controls.Add(this.mainStatus);
+            this.Controls.Add(this.tableLayoutPanel6);
             this.Controls.Add(this.ApplicationDataEPurse);
             this.Controls.Add(this.TransactionIDEPurse);
-            this.Controls.Add(this.tableLayoutPanel11);
+            this.Controls.Add(this.txtcompusername);
+            this.Controls.Add(this.txtcomputername);
+            this.Controls.Add(this.txtuserID);
+            this.Controls.Add(this.TxtStdInc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmEItems";
-            this.Text = "E_Items";
             this.Load += new System.EventHandler(this.FrmEItems_Load);
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.tableLayoutPanel11.PerformLayout();
+            this.mainStatus.ResumeLayout(false);
+            this.mainStatus.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
+        private System.Windows.Forms.StatusStrip mainStatus;
+        private System.Windows.Forms.ToolStripStatusLabel cardReaderToolStrip;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel6;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.ToolStripStatusLabel SmartCardStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripAtrLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.ToolStripStatusLabel uidStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
+        private System.Windows.Forms.ToolStripStatusLabel sizeStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox CardReaderComboBox;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.Button RdnBtnTransID;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox TerminalIDEPurse;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button RdmBtnAppData;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox DisplayPriceTextBox;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
@@ -212,9 +372,11 @@
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.TextBox DisplayStatusTextBox;
         private System.Windows.Forms.ListBox DisplayMenuNameListBox;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox ApplicationDataEPurse;
         private System.Windows.Forms.TextBox TransactionIDEPurse;
+        private System.Windows.Forms.TextBox txtcompusername;
+        private System.Windows.Forms.TextBox txtcomputername;
+        private System.Windows.Forms.TextBox txtuserID;
+        private System.Windows.Forms.TextBox TxtStdInc;
     }
 }

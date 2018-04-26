@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IssueCard_Pag));
             this.TxtNameEdit = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.CardsGridData = new System.Windows.Forms.DataGridView();
@@ -58,51 +59,37 @@
             // 
             // TxtNameEdit
             // 
-            this.TxtNameEdit.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.TxtNameEdit, "TxtNameEdit");
             this.TxtNameEdit.Name = "TxtNameEdit";
-            this.TxtNameEdit.Size = new System.Drawing.Size(81, 20);
-            this.TxtNameEdit.TabIndex = 84;
-            this.TxtNameEdit.Visible = false;
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.CardsGridData);
-            this.groupBox2.Location = new System.Drawing.Point(260, 19);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(685, 177);
-            this.groupBox2.TabIndex = 83;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "All Cards";
             // 
             // CardsGridData
             // 
+            resources.ApplyResources(this.CardsGridData, "CardsGridData");
             this.CardsGridData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.CardsGridData.Location = new System.Drawing.Point(30, 19);
             this.CardsGridData.Name = "CardsGridData";
-            this.CardsGridData.Size = new System.Drawing.Size(639, 141);
-            this.CardsGridData.TabIndex = 4;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(622, 493);
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(154, 90);
-            this.btnCancel.TabIndex = 82;
-            this.btnCancel.Text = "Skip";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(445, 493);
+            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(154, 90);
-            this.btnSave.TabIndex = 81;
-            this.btnSave.Text = "Issue Card";
             this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.TxtIsDesc);
             this.groupBox3.Controls.Add(this.CmbIsTemptype);
             this.groupBox3.Controls.Add(this.CmbIsStatus);
@@ -120,177 +107,115 @@
             this.groupBox3.Controls.Add(this.label59);
             this.groupBox3.Controls.Add(this.label60);
             this.groupBox3.Controls.Add(this.label61);
-            this.groupBox3.Location = new System.Drawing.Point(191, 202);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(832, 269);
-            this.groupBox3.TabIndex = 80;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Card Issue Informations";
             // 
             // TxtIsDesc
             // 
-            this.TxtIsDesc.Location = new System.Drawing.Point(179, 168);
+            resources.ApplyResources(this.TxtIsDesc, "TxtIsDesc");
             this.TxtIsDesc.Name = "TxtIsDesc";
-            this.TxtIsDesc.Size = new System.Drawing.Size(337, 76);
-            this.TxtIsDesc.TabIndex = 40;
-            this.TxtIsDesc.Text = "";
             // 
             // CmbIsTemptype
             // 
+            resources.ApplyResources(this.CmbIsTemptype, "CmbIsTemptype");
             this.CmbIsTemptype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CmbIsTemptype.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CmbIsTemptype.FormattingEnabled = true;
             this.CmbIsTemptype.Items.AddRange(new object[] {
-            "Student"});
-            this.CmbIsTemptype.Location = new System.Drawing.Point(538, 131);
+            resources.GetString("CmbIsTemptype.Items")});
             this.CmbIsTemptype.Name = "CmbIsTemptype";
-            this.CmbIsTemptype.Size = new System.Drawing.Size(203, 21);
-            this.CmbIsTemptype.TabIndex = 39;
             // 
             // CmbIsStatus
             // 
+            resources.ApplyResources(this.CmbIsStatus, "CmbIsStatus");
             this.CmbIsStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CmbIsStatus.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CmbIsStatus.FormattingEnabled = true;
             this.CmbIsStatus.Items.AddRange(new object[] {
-            "Active",
-            "InActive"});
-            this.CmbIsStatus.Location = new System.Drawing.Point(179, 131);
+            resources.GetString("CmbIsStatus.Items"),
+            resources.GetString("CmbIsStatus.Items1")});
             this.CmbIsStatus.Name = "CmbIsStatus";
-            this.CmbIsStatus.Size = new System.Drawing.Size(203, 21);
-            this.CmbIsStatus.TabIndex = 38;
             // 
             // CmbIsIssueType
             // 
+            resources.ApplyResources(this.CmbIsIssueType, "CmbIsIssueType");
             this.CmbIsIssueType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbIsIssueType.FormattingEnabled = true;
-            this.CmbIsIssueType.Location = new System.Drawing.Point(179, 64);
             this.CmbIsIssueType.Name = "CmbIsIssueType";
-            this.CmbIsIssueType.Size = new System.Drawing.Size(203, 21);
-            this.CmbIsIssueType.TabIndex = 37;
             // 
             // DateTimeISEnd
             // 
-            this.DateTimeISEnd.Location = new System.Drawing.Point(538, 99);
+            resources.ApplyResources(this.DateTimeISEnd, "DateTimeISEnd");
             this.DateTimeISEnd.Name = "DateTimeISEnd";
-            this.DateTimeISEnd.Size = new System.Drawing.Size(203, 20);
-            this.DateTimeISEnd.TabIndex = 36;
             // 
             // DateTimeISStart
             // 
-            this.DateTimeISStart.Location = new System.Drawing.Point(179, 99);
+            resources.ApplyResources(this.DateTimeISStart, "DateTimeISStart");
             this.DateTimeISStart.Name = "DateTimeISStart";
-            this.DateTimeISStart.Size = new System.Drawing.Size(203, 20);
-            this.DateTimeISStart.TabIndex = 35;
             // 
             // TxtIsStudentName
             // 
-            this.TxtIsStudentName.Enabled = false;
-            this.TxtIsStudentName.Location = new System.Drawing.Point(538, 24);
+            resources.ApplyResources(this.TxtIsStudentName, "TxtIsStudentName");
             this.TxtIsStudentName.Name = "TxtIsStudentName";
-            this.TxtIsStudentName.Size = new System.Drawing.Size(197, 20);
-            this.TxtIsStudentName.TabIndex = 34;
             // 
             // TxtIsStudentID
             // 
-            this.TxtIsStudentID.Enabled = false;
-            this.TxtIsStudentID.Location = new System.Drawing.Point(179, 28);
+            resources.ApplyResources(this.TxtIsStudentID, "TxtIsStudentID");
             this.TxtIsStudentID.Name = "TxtIsStudentID";
-            this.TxtIsStudentID.Size = new System.Drawing.Size(203, 20);
-            this.TxtIsStudentID.TabIndex = 33;
             // 
             // label53
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(99, 168);
+            resources.ApplyResources(this.label53, "label53");
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(69, 13);
-            this.label53.TabIndex = 32;
-            this.label53.Text = "Description : ";
             // 
             // label54
             // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(451, 134);
+            resources.ApplyResources(this.label54, "label54");
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(57, 13);
-            this.label54.TabIndex = 31;
-            this.label54.Text = "Template :";
             // 
             // label55
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(93, 134);
+            resources.ApplyResources(this.label55, "label55");
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(75, 13);
-            this.label55.TabIndex = 30;
-            this.label55.Text = "* Card Status :";
             // 
             // label56
             // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(451, 99);
+            resources.ApplyResources(this.label56, "label56");
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(65, 13);
-            this.label56.TabIndex = 29;
-            this.label56.Text = "* End Date :";
             // 
             // label57
             // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(93, 99);
+            resources.ApplyResources(this.label57, "label57");
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(68, 13);
-            this.label57.TabIndex = 28;
-            this.label57.Text = "* Start Date :";
             // 
             // label58
             // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(440, 64);
+            resources.ApplyResources(this.label58, "label58");
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(92, 13);
-            this.label58.TabIndex = 27;
-            this.label58.Text = "* Issue Condition :";
             // 
             // label59
             // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(99, 64);
+            resources.ApplyResources(this.label59, "label59");
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(72, 13);
-            this.label59.TabIndex = 26;
-            this.label59.Text = "* Issue Type :";
             // 
             // label60
             // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(439, 31);
+            resources.ApplyResources(this.label60, "label60");
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(84, 13);
-            this.label60.TabIndex = 25;
-            this.label60.Text = "Student Name  :";
             // 
             // label61
             // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(92, 31);
+            resources.ApplyResources(this.label61, "label61");
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(64, 13);
-            this.label61.TabIndex = 24;
-            this.label61.Text = "Student ID :";
             // 
             // IssueCard_Pag
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.TxtNameEdit);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.TxtNameEdit);
             this.Name = "IssueCard_Pag";
-            this.Size = new System.Drawing.Size(1283, 666);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CardsGridData)).EndInit();
             this.groupBox3.ResumeLayout(false);

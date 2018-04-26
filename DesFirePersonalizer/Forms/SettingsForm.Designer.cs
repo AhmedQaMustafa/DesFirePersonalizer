@@ -28,56 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
             this.SettingsTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
             this.SettingsTableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // SettingsTableLayoutPanel
             // 
-            this.SettingsTableLayoutPanel.ColumnCount = 2;
-            this.SettingsTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.SettingsTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.SettingsTableLayoutPanel.Controls.Add(this.label1, 0, 0);
+            resources.ApplyResources(this.SettingsTableLayoutPanel, "SettingsTableLayoutPanel");
             this.SettingsTableLayoutPanel.Controls.Add(this.CardReaderComboBox, 1, 0);
-            this.SettingsTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SettingsTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.SettingsTableLayoutPanel.Controls.Add(this.label1, 0, 0);
             this.SettingsTableLayoutPanel.Name = "SettingsTableLayoutPanel";
-            this.SettingsTableLayoutPanel.RowCount = 2;
-            this.SettingsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.SettingsTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.SettingsTableLayoutPanel.Size = new System.Drawing.Size(520, 46);
-            this.SettingsTableLayoutPanel.TabIndex = 0;
-            // 
-            // CardReaderComboBox
-            // 
-            this.CardReaderComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CardReaderComboBox.FormattingEnabled = true;
-            this.CardReaderComboBox.Location = new System.Drawing.Point(76, 3);
-            this.CardReaderComboBox.MinimumSize = new System.Drawing.Size(250, 0);
-            this.CardReaderComboBox.Name = "CardReaderComboBox";
-            this.CardReaderComboBox.Size = new System.Drawing.Size(441, 21);
-            this.CardReaderComboBox.TabIndex = 1;
-            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Card Reader";
+            // 
+            // CardReaderComboBox
+            // 
+            resources.ApplyResources(this.CardReaderComboBox, "CardReaderComboBox");
+            this.CardReaderComboBox.FormattingEnabled = true;
+            this.CardReaderComboBox.Name = "CardReaderComboBox";
+            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
             // 
             // SettingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 46);
             this.Controls.Add(this.SettingsTableLayoutPanel);
             this.Name = "SettingsForm";
-            this.Text = "Settings";
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.SettingsTableLayoutPanel.ResumeLayout(false);
             this.SettingsTableLayoutPanel.PerformLayout();

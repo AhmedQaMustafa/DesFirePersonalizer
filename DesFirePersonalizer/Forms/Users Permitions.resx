@@ -117,4 +117,3103 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 312</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 38</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 9</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 25</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Txtsearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 7</value>
+  </data>
+  <data name="Txtsearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="Txtsearch.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;Txtsearch.Name" xml:space="preserve">
+    <value>Txtsearch</value>
+  </data>
+  <data name="&gt;&gt;Txtsearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txtsearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txtsearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 10</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Permition Group Name</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25px, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 447</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 12</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>279</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chbInsertMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbInsertMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 231</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbInsertMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbInsertMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbInsertMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>278</value>
+  </data>
+  <data name="chbInsertMenuSet.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="&gt;&gt;chbInsertMenuSet.Name" xml:space="preserve">
+    <value>chbInsertMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbInsertMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbInsertMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbInsertMenuSet.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chbSearchIssueCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbSearchIssueCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 569</value>
+  </data>
+  <data name="chbSearchIssueCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="chbSearchIssueCards.TabIndex" type="System.Int32, mscorlib">
+    <value>275</value>
+  </data>
+  <data name="chbSearchIssueCards.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;chbSearchIssueCards.Name" xml:space="preserve">
+    <value>chbSearchIssueCards</value>
+  </data>
+  <data name="&gt;&gt;chbSearchIssueCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbSearchIssueCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbSearchIssueCards.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chbAddIssuCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddIssuCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 569</value>
+  </data>
+  <data name="chbAddIssuCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddIssuCards.TabIndex" type="System.Int32, mscorlib">
+    <value>276</value>
+  </data>
+  <data name="chbAddIssuCards.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddIssuCards.Name" xml:space="preserve">
+    <value>chbAddIssuCards</value>
+  </data>
+  <data name="&gt;&gt;chbAddIssuCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddIssuCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddIssuCards.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chbViewIssCardsSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewIssCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 569</value>
+  </data>
+  <data name="chbViewIssCardsSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewIssCardsSet.TabIndex" type="System.Int32, mscorlib">
+    <value>277</value>
+  </data>
+  <data name="chbViewIssCardsSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewIssCardsSet.Name" xml:space="preserve">
+    <value>chbViewIssCardsSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewIssCardsSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewIssCardsSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewIssCardsSet.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chbRestoreRestCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRestoreRestCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 548</value>
+  </data>
+  <data name="chbRestoreRestCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="chbRestoreRestCards.TabIndex" type="System.Int32, mscorlib">
+    <value>273</value>
+  </data>
+  <data name="chbRestoreRestCards.Text" xml:space="preserve">
+    <value>Restore Defult</value>
+  </data>
+  <data name="&gt;&gt;chbRestoreRestCards.Name" xml:space="preserve">
+    <value>chbRestoreRestCards</value>
+  </data>
+  <data name="&gt;&gt;chbRestoreRestCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRestoreRestCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRestoreRestCards.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chbEditCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbEditCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 548</value>
+  </data>
+  <data name="chbEditCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="chbEditCards.TabIndex" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="chbEditCards.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;chbEditCards.Name" xml:space="preserve">
+    <value>chbEditCards</value>
+  </data>
+  <data name="&gt;&gt;chbEditCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbEditCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbEditCards.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chbUpdateCardsSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 548</value>
+  </data>
+  <data name="chbUpdateCardsSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateCardsSet.TabIndex" type="System.Int32, mscorlib">
+    <value>271</value>
+  </data>
+  <data name="chbUpdateCardsSet.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCardsSet.Name" xml:space="preserve">
+    <value>chbUpdateCardsSet</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCardsSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCardsSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCardsSet.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chbAddCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 548</value>
+  </data>
+  <data name="chbAddCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddCards.TabIndex" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="chbAddCards.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddCards.Name" xml:space="preserve">
+    <value>chbAddCards</value>
+  </data>
+  <data name="&gt;&gt;chbAddCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddCards.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="chbViewCardsSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewCardsSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 548</value>
+  </data>
+  <data name="chbViewCardsSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewCardsSet.TabIndex" type="System.Int32, mscorlib">
+    <value>274</value>
+  </data>
+  <data name="chbViewCardsSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewCardsSet.Name" xml:space="preserve">
+    <value>chbViewCardsSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewCardsSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewCardsSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewCardsSet.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chbViewLibraryBorrow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 500</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="chbViewLibraryBorrow.TabIndex" type="System.Int32, mscorlib">
+    <value>268</value>
+  </data>
+  <data name="chbViewLibraryBorrow.Text" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryBorrow.Name" xml:space="preserve">
+    <value>chbViewLibraryBorrow</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryBorrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryBorrow.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryBorrow.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chbViewRedSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewRedSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 291</value>
+  </data>
+  <data name="chbViewRedSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewRedSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewRedSet.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="chbViewRedSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewRedSet.Name" xml:space="preserve">
+    <value>chbViewRedSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewRedSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewRedSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewRedSet.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 291</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Reader Settings</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chbViewCoun.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewCoun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 265</value>
+  </data>
+  <data name="chbViewCoun.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewCoun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewCoun.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="chbViewCoun.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewCoun.Name" xml:space="preserve">
+    <value>chbViewCoun</value>
+  </data>
+  <data name="&gt;&gt;chbViewCoun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewCoun.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewCoun.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 265</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Counter :</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chbSearchMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbSearchMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 231</value>
+  </data>
+  <data name="chbSearchMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbSearchMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="chbSearchMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <data name="chbSearchMenuSet.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;chbSearchMenuSet.Name" xml:space="preserve">
+    <value>chbSearchMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbSearchMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbSearchMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbSearchMenuSet.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="chbSearchLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbSearchLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 205</value>
+  </data>
+  <data name="chbSearchLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbSearchLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="chbSearchLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>253</value>
+  </data>
+  <data name="chbSearchLibSet.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;chbSearchLibSet.Name" xml:space="preserve">
+    <value>chbSearchLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbSearchLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbSearchLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbSearchLibSet.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="chbRefreshPeGr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 129</value>
+  </data>
+  <data name="chbRefreshPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshPeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshPeGr.TabIndex" type="System.Int32, mscorlib">
+    <value>243</value>
+  </data>
+  <data name="chbRefreshPeGr.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPeGr.Name" xml:space="preserve">
+    <value>chbRefreshPeGr</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPeGr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPeGr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPeGr.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="chbRefreshLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 205</value>
+  </data>
+  <data name="chbRefreshLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="chbRefreshLibSet.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshLibSet.Name" xml:space="preserve">
+    <value>chbRefreshLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshLibSet.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="chbRefreshMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 231</value>
+  </data>
+  <data name="chbRefreshMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="chbRefreshMenuSet.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshMenuSet.Name" xml:space="preserve">
+    <value>chbRefreshMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshMenuSet.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="chbDeleteLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeleteLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 205</value>
+  </data>
+  <data name="chbDeleteLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeleteLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeleteLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="chbDeleteLibSet.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteLibSet.Name" xml:space="preserve">
+    <value>chbDeleteLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteLibSet.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="chbRefreshCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 107</value>
+  </data>
+  <data name="chbRefreshCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshCat.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
+  </data>
+  <data name="chbRefreshCat.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshCat.Name" xml:space="preserve">
+    <value>chbRefreshCat</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshCat.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshCat.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="chbDeleteMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeleteMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 231</value>
+  </data>
+  <data name="chbDeleteMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeleteMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeleteMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="chbDeleteMenuSet.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteMenuSet.Name" xml:space="preserve">
+    <value>chbDeleteMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteMenuSet.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="chbUpdateLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 205</value>
+  </data>
+  <data name="chbUpdateLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdateLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="chbUpdateLibSet.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateLibSet.Name" xml:space="preserve">
+    <value>chbUpdateLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateLibSet.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="chbViewTermSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewTermSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 183</value>
+  </data>
+  <data name="chbViewTermSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewTermSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewTermSet.TabIndex" type="System.Int32, mscorlib">
+    <value>214</value>
+  </data>
+  <data name="chbViewTermSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewTermSet.Name" xml:space="preserve">
+    <value>chbViewTermSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewTermSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewTermSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewTermSet.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="chbViewWalSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewWalSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 161</value>
+  </data>
+  <data name="chbViewWalSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewWalSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewWalSet.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="chbViewWalSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewWalSet.Name" xml:space="preserve">
+    <value>chbViewWalSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewWalSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewWalSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewWalSet.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="chbUpdateMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 231</value>
+  </data>
+  <data name="chbUpdateMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdateMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>257</value>
+  </data>
+  <data name="chbUpdateMenuSet.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateMenuSet.Name" xml:space="preserve">
+    <value>chbUpdateMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateMenuSet.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 165</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Walet Setup</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 231</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Menu Setup</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="chbInsertLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbInsertLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 205</value>
+  </data>
+  <data name="chbInsertLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbInsertLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="chbInsertLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>249</value>
+  </data>
+  <data name="chbInsertLibSet.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="&gt;&gt;chbInsertLibSet.Name" xml:space="preserve">
+    <value>chbInsertLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbInsertLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbInsertLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbInsertLibSet.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 209</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Library Setup</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="chbAddLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 205</value>
+  </data>
+  <data name="chbAddLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="chbAddLibSet.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddLibSet.Name" xml:space="preserve">
+    <value>chbAddLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbAddLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddLibSet.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="chbRefreshPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 88</value>
+  </data>
+  <data name="chbRefreshPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshPer.TabIndex" type="System.Int32, mscorlib">
+    <value>233</value>
+  </data>
+  <data name="chbRefreshPer.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPer.Name" xml:space="preserve">
+    <value>chbRefreshPer</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPer.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshPer.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="chbAddMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 231</value>
+  </data>
+  <data name="chbAddMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="chbAddMenuSet.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddMenuSet.Name" xml:space="preserve">
+    <value>chbAddMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbAddMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddMenuSet.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnCancel.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 356</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 38</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 185</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Terminal Setup :</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="chbViewLibSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewLibSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 205</value>
+  </data>
+  <data name="chbViewLibSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewLibSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewLibSet.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
+  <data name="chbViewLibSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibSet.Name" xml:space="preserve">
+    <value>chbViewLibSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibSet.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="chbRefreshUsr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 66</value>
+  </data>
+  <data name="chbRefreshUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbRefreshUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>232</value>
+  </data>
+  <data name="chbRefreshUsr.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshUsr.Name" xml:space="preserve">
+    <value>chbRefreshUsr</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshUsr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshUsr.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="chbDeleteUsr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeleteUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 66</value>
+  </data>
+  <data name="chbDeleteUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeleteUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeleteUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>231</value>
+  </data>
+  <data name="chbDeleteUsr.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteUsr.Name" xml:space="preserve">
+    <value>chbDeleteUsr</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteUsr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteUsr.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="chbAddUsr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 68</value>
+  </data>
+  <data name="chbAddUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="chbAddUsr.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddUsr.Name" xml:space="preserve">
+    <value>chbAddUsr</value>
+  </data>
+  <data name="&gt;&gt;chbAddUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddUsr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddUsr.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="chbViewMenuSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewMenuSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 231</value>
+  </data>
+  <data name="chbViewMenuSet.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewMenuSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewMenuSet.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="chbViewMenuSet.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewMenuSet.Name" xml:space="preserve">
+    <value>chbViewMenuSet</value>
+  </data>
+  <data name="&gt;&gt;chbViewMenuSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewMenuSet.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewMenuSet.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="chbDeleteCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeleteCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 108</value>
+  </data>
+  <data name="chbDeleteCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeleteCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeleteCat.TabIndex" type="System.Int32, mscorlib">
+    <value>241</value>
+  </data>
+  <data name="chbDeleteCat.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteCat.Name" xml:space="preserve">
+    <value>chbDeleteCat</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteCat.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteCat.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="chbDeletePeGr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeletePeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 129</value>
+  </data>
+  <data name="chbDeletePeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeletePeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeletePeGr.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="chbDeletePeGr.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePeGr.Name" xml:space="preserve">
+    <value>chbDeletePeGr</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePeGr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePeGr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePeGr.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="chbDeletePer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeletePer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 88</value>
+  </data>
+  <data name="chbDeletePer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbDeletePer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeletePer.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="chbDeletePer.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePer.Name" xml:space="preserve">
+    <value>chbDeletePer</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePer.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeletePer.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="chbViewPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 88</value>
+  </data>
+  <data name="chbViewPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewPer.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
+  </data>
+  <data name="chbViewPer.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewPer.Name" xml:space="preserve">
+    <value>chbViewPer</value>
+  </data>
+  <data name="&gt;&gt;chbViewPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewPer.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewPer.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="chbUpdateUsr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 66</value>
+  </data>
+  <data name="chbUpdateUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdateUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
+  <data name="chbUpdateUsr.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateUsr.Name" xml:space="preserve">
+    <value>chbUpdateUsr</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateUsr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateUsr.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="chbUpdatePer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdatePer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 88</value>
+  </data>
+  <data name="chbUpdatePer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdatePer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdatePer.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="chbUpdatePer.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePer.Name" xml:space="preserve">
+    <value>chbUpdatePer</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePer.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePer.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="chbViewLibraryreturn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewLibraryreturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 500</value>
+  </data>
+  <data name="chbViewLibraryreturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="chbViewLibraryreturn.TabIndex" type="System.Int32, mscorlib">
+    <value>267</value>
+  </data>
+  <data name="chbViewLibraryreturn.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryreturn.Name" xml:space="preserve">
+    <value>chbViewLibraryreturn</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryreturn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryreturn.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryreturn.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="chbUpdateCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 108</value>
+  </data>
+  <data name="chbUpdateCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdateCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateCat.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="chbUpdateCat.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCat.Name" xml:space="preserve">
+    <value>chbUpdateCat</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCat.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateCat.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="chbViewUsr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 69</value>
+  </data>
+  <data name="chbViewUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>228</value>
+  </data>
+  <data name="chbViewUsr.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewUsr.Name" xml:space="preserve">
+    <value>chbViewUsr</value>
+  </data>
+  <data name="&gt;&gt;chbViewUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewUsr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewUsr.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="chbUpdatePeGr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdatePeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 129</value>
+  </data>
+  <data name="chbUpdatePeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbUpdatePeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdatePeGr.TabIndex" type="System.Int32, mscorlib">
+    <value>245</value>
+  </data>
+  <data name="chbUpdatePeGr.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePeGr.Name" xml:space="preserve">
+    <value>chbUpdatePeGr</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePeGr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePeGr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdatePeGr.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="chbViewLibraryInOu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewLibraryInOu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 500</value>
+  </data>
+  <data name="chbViewLibraryInOu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewLibraryInOu.TabIndex" type="System.Int32, mscorlib">
+    <value>269</value>
+  </data>
+  <data name="chbViewLibraryInOu.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryInOu.Name" xml:space="preserve">
+    <value>chbViewLibraryInOu</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryInOu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryInOu.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibraryInOu.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="chbAddPer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 90</value>
+  </data>
+  <data name="chbAddPer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddPer.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="chbAddPer.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddPer.Name" xml:space="preserve">
+    <value>chbAddPer</value>
+  </data>
+  <data name="&gt;&gt;chbAddPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddPer.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddPer.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="chbDeleteStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbDeleteStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 348</value>
+  </data>
+  <data name="chbDeleteStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="chbDeleteStd.TabIndex" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="chbDeleteStd.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteStd.Name" xml:space="preserve">
+    <value>chbDeleteStd</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbDeleteStd.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="chbAddStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 348</value>
+  </data>
+  <data name="chbAddStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddStd.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="chbAddStd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddStd.Name" xml:space="preserve">
+    <value>chbAddStd</value>
+  </data>
+  <data name="&gt;&gt;chbAddStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddStd.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="chbRefreshStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbRefreshStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 348</value>
+  </data>
+  <data name="chbRefreshStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="chbRefreshStd.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="chbRefreshStd.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshStd.Name" xml:space="preserve">
+    <value>chbRefreshStd</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbRefreshStd.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="chbUpdateStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbUpdateStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 348</value>
+  </data>
+  <data name="chbUpdateStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="chbUpdateStd.TabIndex" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="chbUpdateStd.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateStd.Name" xml:space="preserve">
+    <value>chbUpdateStd</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbUpdateStd.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="chbPrintStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbPrintStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 348</value>
+  </data>
+  <data name="chbPrintStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="chbPrintStd.TabIndex" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="chbPrintStd.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;chbPrintStd.Name" xml:space="preserve">
+    <value>chbPrintStd</value>
+  </data>
+  <data name="&gt;&gt;chbPrintStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbPrintStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbPrintStd.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="chbViewStd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewStd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 348</value>
+  </data>
+  <data name="chbViewStd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewStd.TabIndex" type="System.Int32, mscorlib">
+    <value>266</value>
+  </data>
+  <data name="chbViewStd.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewStd.Name" xml:space="preserve">
+    <value>chbViewStd</value>
+  </data>
+  <data name="&gt;&gt;chbViewStd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewStd.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewStd.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="chbAddPeGr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 129</value>
+  </data>
+  <data name="chbAddPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddPeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddPeGr.TabIndex" type="System.Int32, mscorlib">
+    <value>244</value>
+  </data>
+  <data name="chbAddPeGr.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddPeGr.Name" xml:space="preserve">
+    <value>chbAddPeGr</value>
+  </data>
+  <data name="&gt;&gt;chbAddPeGr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddPeGr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddPeGr.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="chbAddCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbAddCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 109</value>
+  </data>
+  <data name="chbAddCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbAddCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="chbAddCat.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="chbAddCat.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;chbAddCat.Name" xml:space="preserve">
+    <value>chbAddCat</value>
+  </data>
+  <data name="&gt;&gt;chbAddCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAddCat.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbAddCat.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="chbViewCat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewCat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 108</value>
+  </data>
+  <data name="chbViewCat.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewCat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewCat.TabIndex" type="System.Int32, mscorlib">
+    <value>242</value>
+  </data>
+  <data name="chbViewCat.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewCat.Name" xml:space="preserve">
+    <value>chbViewCat</value>
+  </data>
+  <data name="&gt;&gt;chbViewCat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewCat.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewCat.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="chbViewPeGr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewPeGr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 129</value>
+  </data>
+  <data name="chbViewPeGr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewPeGr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewPeGr.TabIndex" type="System.Int32, mscorlib">
+    <value>247</value>
+  </data>
+  <data name="chbViewPeGr.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewPeGr.Name" xml:space="preserve">
+    <value>chbViewPeGr</value>
+  </data>
+  <data name="&gt;&gt;chbViewPeGr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewPeGr.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewPeGr.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="chbViewConfig.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 47</value>
+  </data>
+  <data name="chbViewConfig.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbViewConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="chbViewConfig.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewConfig.Name" xml:space="preserve">
+    <value>chbViewConfig</value>
+  </data>
+  <data name="&gt;&gt;chbViewConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewConfig.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewConfig.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 141</value>
+  </data>
+  <data name="label23.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 13</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>227</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 128</value>
+  </data>
+  <data name="label8.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Permitions Group</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 68</value>
+  </data>
+  <data name="label16.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="Permitions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Permitions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="Permitions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 89</value>
+  </data>
+  <data name="Permitions.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="Permitions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="Permitions.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="Permitions.Text" xml:space="preserve">
+    <value>Permitions</value>
+  </data>
+  <data name="&gt;&gt;Permitions.Name" xml:space="preserve">
+    <value>Permitions</value>
+  </data>
+  <data name="&gt;&gt;Permitions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Permitions.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;Permitions.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 109</value>
+  </data>
+  <data name="label13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="label38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 569</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label38.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Issue Card </value>
+  </data>
+  <data name="&gt;&gt;label38.Name" xml:space="preserve">
+    <value>label38</value>
+  </data>
+  <data name="&gt;&gt;label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label38.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label38.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 549</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Card Settings</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="chbViewCards.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewCards.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 530</value>
+  </data>
+  <data name="chbViewCards.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewCards.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="chbViewCards.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewCards.Name" xml:space="preserve">
+    <value>chbViewCards</value>
+  </data>
+  <data name="&gt;&gt;chbViewCards.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewCards.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewCards.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="label36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 530</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="label37.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25px, style=Bold</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 586</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 12</value>
+  </data>
+  <data name="label37.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label37.Name" xml:space="preserve">
+    <value>label37</value>
+  </data>
+  <data name="&gt;&gt;label37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label37.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label37.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="label33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 501</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Library (In\Out)</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="btnSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 398</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 38</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chbViewWaRep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewWaRep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbViewWaRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 632</value>
+  </data>
+  <data name="chbViewWaRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewWaRep.TabIndex" type="System.Int32, mscorlib">
+    <value>285</value>
+  </data>
+  <data name="chbViewWaRep.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewWaRep.Name" xml:space="preserve">
+    <value>chbViewWaRep</value>
+  </data>
+  <data name="&gt;&gt;chbViewWaRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewWaRep.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewWaRep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 632</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>286</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Walet Reports</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chbViewRep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewRep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbViewRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 608</value>
+  </data>
+  <data name="chbViewRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewRep.TabIndex" type="System.Int32, mscorlib">
+    <value>282</value>
+  </data>
+  <data name="chbViewRep.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewRep.Name" xml:space="preserve">
+    <value>chbViewRep</value>
+  </data>
+  <data name="&gt;&gt;chbViewRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewRep.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewRep.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 609</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>283</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chbViewReaderSettings.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewReaderSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbViewReaderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 317</value>
+  </data>
+  <data name="chbViewReaderSettings.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="chbViewReaderSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewReaderSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>281</value>
+  </data>
+  <data name="chbViewReaderSettings.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewReaderSettings.Name" xml:space="preserve">
+    <value>chbViewReaderSettings</value>
+  </data>
+  <data name="&gt;&gt;chbViewReaderSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewReaderSettings.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewReaderSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 317</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>280</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Select Reader</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chbViewLibrary.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewLibrary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 480</value>
+  </data>
+  <data name="chbViewLibrary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewLibrary.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="chbViewLibrary.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibrary.Name" xml:space="preserve">
+    <value>chbViewLibrary</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibrary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibrary.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewLibrary.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 482</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 431</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>E- Items</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="chbViewPurchEItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewPurchEItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 431</value>
+  </data>
+  <data name="chbViewPurchEItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewPurchEItem.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="chbViewPurchEItem.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEItem.Name" xml:space="preserve">
+    <value>chbViewPurchEItem</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEItem.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEItem.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 408</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>E- TransActions</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="chbViewPurchEtran.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewPurchEtran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 407</value>
+  </data>
+  <data name="chbViewPurchEtran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewPurchEtran.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="chbViewPurchEtran.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEtran.Name" xml:space="preserve">
+    <value>chbViewPurchEtran</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEtran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEtran.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurchEtran.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="chbViewPurch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbViewPurch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 383</value>
+  </data>
+  <data name="chbViewPurch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="chbViewPurch.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="chbViewPurch.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurch.Name" xml:space="preserve">
+    <value>chbViewPurch</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurch.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbViewPurch.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 384</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Purchasing</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 348</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 47</value>
+  </data>
+  <data name="label7.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Configrations</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="chbSelectAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbSelectAll.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chbSelectAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="chbSelectAll.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="chbSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="chbSelectAll.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="chbSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="chbSelectAll.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chbSelectAll.Name" xml:space="preserve">
+    <value>chbSelectAll</value>
+  </data>
+  <data name="&gt;&gt;chbSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbSelectAll.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;chbSelectAll.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 13</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>664, 13</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="label31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25px, style=Bold</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 368</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 12</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25px, style=Bold</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 514</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>663, 12</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>__________________________________________________-___________________________________________________________</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="AddPermisionsGroup.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AddPermisionsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 75</value>
+  </data>
+  <data name="AddPermisionsGroup.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="AddPermisionsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>739, 675</value>
+  </data>
+  <data name="AddPermisionsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="AddPermisionsGroup.Text" xml:space="preserve">
+    <value>Permitions Group</value>
+  </data>
+  <data name="&gt;&gt;AddPermisionsGroup.Name" xml:space="preserve">
+    <value>AddPermisionsGroup</value>
+  </data>
+  <data name="&gt;&gt;AddPermisionsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddPermisionsGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddPermisionsGroup.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 35</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Select Permitions Group</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CombPermitions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 34</value>
+  </data>
+  <data name="CombPermitions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 21</value>
+  </data>
+  <data name="CombPermitions.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;CombPermitions.Name" xml:space="preserve">
+    <value>CombPermitions</value>
+  </data>
+  <data name="&gt;&gt;CombPermitions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CombPermitions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CombPermitions.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 265</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 38</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnEdit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1267, 762</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Users_Permitions</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

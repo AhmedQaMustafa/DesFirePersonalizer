@@ -18,17 +18,23 @@ namespace DesFirePersonalizer.Wizered_Pages
         {
             InitializeComponent();
         }
-        private DataTable Empdt;
-        private DataTable Stdt;
+        private DataTable CMdt;
+        private DataTable ISdt;
         private DataTable dt;
-        DataTable CatDt;
-        DataTable IssueDt;
-        DataTable Carddt;
+        private DataTable Tempdt;
+        DatabaseProvider Provider = new DatabaseProvider();
 
         string PermissionScreen = DatabaseProvider.UsrPermission;
-         string GridQuery = "Select StudentID,IsID,StartDate,ExpiryDate,CardStatus From CardMaster ";
-        string StdGridQuery = "Select *  From CardInfoView ";
-        string StGridQuery = " SELECT * From CardInfoView ";
+        string CardMasterQuery = " SELECT * From CardMaster";
+        string TempTypeQuery = " SELECT TmpName ,TmpType FROM CardTemplate WHERE TmpType = 'Student'";
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void IssueCard_Pag_Load(object sender, EventArgs e)
+        {
+            TxtIsStudentID.Text = DatabaseProvider.StedentID;
+            TxtIsStudentName.Text = DatabaseProvider.StedentName;
+            CardsGridData.DataSource = FillCardsData(" WHERE StudentID LIKE '%" + TxtIsStudentID.Text + "%'");
+        }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         #region IWizardPage Members
@@ -44,7 +50,9 @@ namespace DesFirePersonalizer.Wizered_Pages
             TxtNameEdit.Text = DatabaseProvider.StedentName;
             TxtIsStudentID.Text = DatabaseProvider.StedentID;
             TxtIsStudentName.Text = DatabaseProvider.StedentName;
-            FillIssueState();
+            FillIssuestatus();
+
+            PopulateTemplatesType();
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -78,127 +86,134 @@ namespace DesFirePersonalizer.Wizered_Pages
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         #endregion
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        #region fill data 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Fill Data
 
-        private DataTable FillGridData(string pWhere)
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private DataTable FillCardsData(string pWhere)
         {
-            return Empdt = DBFun.FetchData(StdGridQuery + " " + pWhere);
+            return CMdt = DBFun.FetchData(CardMasterQuery + " " + pWhere);
         }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private DataTable FillIssueData()
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void FillIssuestatus()
         {
-
-            string GridQuery1 = "SELECT 0 as IsID,'Please select Card Issue'  as IsNameEn, null as IsNameAr UNION ALL SELECT IsID , IsNameEn , IsNameAr FROM  IssueState";
-            return IssueDt = DBFun.FetchData(GridQuery1);
-
-        }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private DataTable FillCategoryData()
-        {
-            string GridQueryTemplates = "SELECT 0 as CatId,'Please select Template'  as CatName, null as CatCode UNION ALL SELECT CatId , CatName , CatCode FROM  CatogryType";
-            return CatDt = DBFun.FetchData(GridQueryTemplates);
-        }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private void FillIssueState()
-        {
-            IssueDt = FillIssueData();
+            ISdt = FillIssueStatusData();
             CmbIsIssueType.ValueMember = "IsID";
             CmbIsIssueType.DisplayMember = "IsNameEn";
-            CmbIsIssueType.DataSource = IssueDt;
-            CatDt = FillCategoryData();
-            CmbIsTemptype.ValueMember = "CatId";
-            CmbIsTemptype.DisplayMember = "CatName";
-            CmbIsTemptype.DataSource = CatDt;
-            if (!String.IsNullOrEmpty(TxtIsStudentID.Text)) { CardsGridData.DataSource = FillStudentData(" WHERE StudentID LIKE '%" + TxtIsStudentID.Text + "%'"); } else { CardsGridData.DataSource = FillGridData("Where IsID = -1"); CardsGridData.ClearSelection(); }
+            CmbIsIssueType.DataSource = ISdt;
+        }
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public void PopulateTemplatesType()
+        {
+            FillIsTemplatesType();
+            Tempdt = DBFun.FetchData(TempTypeQuery); // + " WHERE TmpType = 'Student' "
+            DataRow DRs = (DataRow)Tempdt.Rows[0];
+            string e = DRs["TmpType"].ToString();
+            CmbIsTemptype.Text = DRs["TmpType"].ToString();
         }
 
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        private DataTable FillStudentData(string StpWhere)
-        {
-            return Stdt = DBFun.FetchData(StGridQuery + " " + StpWhere);
-        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        private DataTable FillCardsGridData(string pWhere1)
+        private void FillIsTemplatesType()
         {
-            return Carddt = DBFun.FetchData(GridQuery + " " + pWhere1);
+            Tempdt = FillTemplateTypeData();
+            CmbIsTemptype.ValueMember = "TmpID";
+            CmbIsTemptype.DisplayMember = "TmpType";
+            CmbIsTemptype.DataSource = Tempdt;
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private DataTable FillIssueStatusData()
+        {
+
+            string IssueStstusQuery = "SELECT 0 as IsID,'Please select Issue Status' as IsNameEn, null as IsDescription UNION ALL SELECT IsID , IsNameEn ,IsDescription FROM  IssueState  ";
+
+            return ISdt = DBFun.FetchData(IssueStstusQuery);
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private DataTable FillTemplateTypeData()
+        {
+
+            string TemplatesTypeQuery = "SELECT  TmpID,TmpType FROM  CardTemplate"; //WHERE TmpType =// 'Student'
+
+            return Tempdt = DBFun.FetchData(TemplatesTypeQuery);
         }
         #endregion
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        protected void CommandStatus(String pBtn) // A-E-D-S-C
-        {
-           // btnSearch.Enabled = Convert.ToBoolean(Convert.ToInt32(pBtn[0].ToString()));
-            btnSave.Enabled = Convert.ToBoolean(Convert.ToInt32(pBtn[1].ToString()));
-            btnCancel.Enabled = Convert.ToBoolean(Convert.ToInt32(pBtn[2].ToString()));
-
-            if (pBtn[0] != '0') { btnSave.Enabled = PermissionScreen.Contains("AddUsr"); }
-            if (pBtn[1] != '0') { btnCancel.Enabled = PermissionScreen.Contains("UpdateUsr"); }
-           // if (pBtn[2] != '0') { btnSearch.Enabled = PermissionScreen.Contains("DeleteUsr"); }
-        }
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #region Issue Cards 
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+
             try
             {
-                Carddt = FillGridData("WHERE StudentID = '" + TxtIsStudentID.Text + " ' ");
-
-                if (CmbIsIssueType.Text != "Please select Card Issue" && CmbIsStatus.Text != "" && CmbIsTemptype.Text != "Please select Template" )
+                if (TxtIsStudentID.Text != "" && CmbIsIssueType.SelectedValue.ToString() != "0")
                 {
-
-                    if (!DBFun.IsNullOrEmpty(Carddt))
+                    DateTime StartDate = DateTime.Parse(Convert.ToDateTime(DateTimeISStart.Text).ToShortDateString());
+                    DateTime EndDate = DateTime.Parse(Convert.ToDateTime(DateTimeISEnd.Text).ToShortDateString());
+                    if (StartDate >= EndDate)
                     {
-                        DatabaseProvider provider = new DatabaseProvider();
-                        provider.IssueNewCards(TxtIsStudentID.Text, Convert.ToInt32(CmbIsIssueType.SelectedValue), DateTimeISStart.Value, DateTimeISEnd.Value, TxtIsDesc.Text, Convert.ToInt32(CmbIsStatus.SelectedValue), Convert.ToInt32(CmbIsTemptype.SelectedValue));
+                        MessageBox.Show("End Date Less than DateStart ");
+                        return;
+                    }
+                    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+                    CMdt = DBFun.FetchData("select * from CardMaster where EmpID = '" + CmbIsStatus.SelectedValue + TxtIsStudentID.Text.Trim() + "'  AND isPrinted = 1 ");  //AND CardStatus = 2
+                    if (!DBFun.IsNullOrEmpty(CMdt) && CmbIsStatus.SelectedValue.ToString() == "1")
+                    {
+                        MessageBox.Show("This employee has a previous card can not be issued a new card type", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
 
-                        MessageBox.Show("Card Issued Succesfully", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ////if (DBFun.IsNullOrEmpty(CMdt) && CmbIsStatus.SelectedValue.ToString() != "1")
+                    ////{
+                    ////    MessageBox.Show("This employee does not have a card can not be issued previous card of the specified type", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ////    return;
+                    ////}
+
+                    //CMdt = DBFun.FetchData(" WHERE StudentID = '" + TxtIsStudentID.Text + " ' ");  
+                    //if (DBFun.IsNullOrEmpty(CMdt) && CmbIsStatus.SelectedValue.ToString() == "Cancel")
+                    //{
+                    //    MessageBox.Show("You Cant Use this option in card status", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //    return;
+                    //}
+                    CMdt = FillCardsData("WHERE StudentID = '" + TxtIsStudentID.Text + " ' "); //
+                    if (DBFun.IsNullOrEmpty(CMdt))
+                    {
+                        Provider.IssueNewCards(TxtIsStudentID.Text, Int32.Parse(CmbIsIssueType.SelectedValue.ToString()),
+                         DateTimeISStart.Value, DateTimeISEnd.Value, TxtIsDesc.Text, Int32.Parse(CmbIsStatus.SelectedIndex.ToString()), Int32.Parse(CmbIsTemptype.SelectedValue.ToString()));
+                        MessageBox.Show("card issued Succesfully", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Student Already have Card please restore old card", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else
                 {
                     MessageBox.Show("Please Fill All Fields", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 }
             }
+
             catch (Exception ex)
             {
-                MessageBox.Show("Procces Not compleate please contact administrator", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("You Cant Issue Card from the specified Card , Procces will Not compleate please contact administrator", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //public void PopulateStudentData(string STDpID)
-        //{
-        //    dt = DBFun.FetchData(StdGridQuery + " WHERE StudentID = '" + STDpID + "'");
-        //    DataRow dr = (DataRow)dt.Rows[0];
-        //TxtStdID.Text = dr["StudentID"].ToString();
-        //// TxtStdID.Text = DRs["StudentID"].ToString();
-        //TxtStdFirstName.Text = dr["STDFirstName"].ToString();
-        //TxtStdSecondName.Text = dr["STDSecondName"].ToString();
-        //TxtStdLastName.Text = dr["STDFamilyName"].ToString();
-        //cmbnationality.Text = dr["STDNationality"].ToString();
-        //TxtNationalID.Text = dr["STDNatID"].ToString();
-        //CombCollage.Text = dr["STDCollage"].ToString();
-        //CombBloodType.Text = dr["STDBloodGroup"].ToString();
-        //CombGender.Text = dr["STDGender"].ToString();
-        //TxtMobile.Text = dr["STDMobileNo"].ToString();
-        //TxtPassportID.Text = dr["STDPassportID"].ToString();
-        //TxtPassportIssuePlace.Text = dr["STDPassportIssuePlace"].ToString();
-        //ChecBoxActive.Checked = Convert.ToBoolean(dr["STDStatus"].ToString());
-        //TxtEmail.Text = dr["STDEmailID"].ToString();
-        //StdDateBirth.Text = (dr["STDBirthDate"].ToString());
-        //PassportEndDate.Text = (dr["STDPassportEndDate"].ToString());
-        //TxtStdDesc.Text = dr["STDDescription"].ToString();
-        //CmbPlaceOfBirth.Text = dr["PlaceOfBirth"].ToString();
-        //}
+
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        #endregion
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     }
 }

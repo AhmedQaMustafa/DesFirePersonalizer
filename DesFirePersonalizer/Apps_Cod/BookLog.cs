@@ -28,9 +28,11 @@ namespace DesFirePersonalizer
 
             String Number = log.Substring(index, 8); index += 4 * 2;
             String Title = log.Substring(index, 32); index += 16 * 2;
+            String STDIDNO = log.Substring(index, 8); index += 4 * 2;
             book = new Model.Book();
             book.BookID = Number;
             book.Title = Title;
+            book.STDID = STDIDNO;
 
             Type = log.Substring(index, 2); index += 1 * 2;
 
@@ -55,6 +57,8 @@ namespace DesFirePersonalizer
 
             return theDate;
         }
+
+
 
     }
 }

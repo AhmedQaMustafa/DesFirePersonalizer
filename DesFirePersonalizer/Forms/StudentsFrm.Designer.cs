@@ -2244,7 +2244,7 @@
             this.advancedWizered1.ButtonLayout = AdvancedWizardControl.Enums.ButtonLayoutKind.Default;
             this.advancedWizered1.ButtonsVisible = true;
             this.advancedWizered1.CancelButtonText = "&Cancel";
-            this.advancedWizered1.Controls.Add(this.StudentInformation);
+          //  this.advancedWizered1.Controls.Add(this.StudentInformation);
             this.advancedWizered1.Controls.Add(this.FinalInformation);
             this.advancedWizered1.Controls.Add(this.StudentCardPrint);
             this.advancedWizered1.Controls.Add(this.StudentCardIncoder);
