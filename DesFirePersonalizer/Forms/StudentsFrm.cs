@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
-using Aspose.OCR; // for reading text
+//using Aspose.OCR; // for reading text
 using WIA;// for scanner lists
 using System.IO;
 using DesFirePersonalizer.Apps_Cood;
-using Tesseract;
+//using Tesseract;
 using IronOcr;
 using IronOcr.Languages;
 using DesFireWrapperLib;
@@ -63,7 +63,7 @@ namespace DesFirePersonalizer
             #region OCR Engin Load
             /*****************************************************************************************************/
 
-            ocr = new OcrEngine();
+            //ocr = new OcrEngine();
 
             var deviceManager = new DeviceManager();
             // Loop through the list of devices
@@ -277,7 +277,7 @@ namespace DesFirePersonalizer
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         #region Cameras Loading
         /*******************************Cameras Loading*******************************************************/
-        OcrEngine ocr;
+      //  OcrEngine ocr;
         private FilterInfoCollection VideoCaptureDev;
         private VideoCaptureDevice finalvedio;
         private Bitmap img1;
@@ -1483,6 +1483,16 @@ namespace DesFirePersonalizer
             }
 
 
+
+        }
+
+        private void ChooseScannerbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StudentOCR_Paint(object sender, PaintEventArgs e)
+        {
 
         }
 

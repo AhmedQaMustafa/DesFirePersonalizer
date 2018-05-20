@@ -72,41 +72,42 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.LblStdExpiryDat = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.LblPlaceOfbirth = new System.Windows.Forms.Label();
-            this.LblStdName = new System.Windows.Forms.Label();
-            this.LblStdNat = new System.Windows.Forms.Label();
-            this.LblStdEmail = new System.Windows.Forms.Label();
-            this.LblStdTemType = new System.Windows.Forms.Label();
             this.LblStdStatus = new System.Windows.Forms.Label();
             this.LblStdMobi = new System.Windows.Forms.Label();
-            this.LblStdGen = new System.Windows.Forms.Label();
-            this.LblStdNationality = new System.Windows.Forms.Label();
-            this.LblStdPassIssuePlace = new System.Windows.Forms.Label();
-            this.LblStdPassportID = new System.Windows.Forms.Label();
             this.LblStdCol = new System.Windows.Forms.Label();
+            this.LblStdEmail = new System.Windows.Forms.Label();
+            this.LblStdTemType = new System.Windows.Forms.Label();
+            this.LblStdDaBth = new System.Windows.Forms.Label();
+            this.LblStdGen = new System.Windows.Forms.Label();
+            this.LblStdPassIssuePlace = new System.Windows.Forms.Label();
+            this.LblStdExpiryDat = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.LblStdPassportID = new System.Windows.Forms.Label();
+            this.LblStdNationality = new System.Windows.Forms.Label();
+            this.LblStdID = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.LblPlaceOfbirth = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.LblStdName = new System.Windows.Forms.Label();
+            this.LblStdNat = new System.Windows.Forms.Label();
             this.LblStdBloTy = new System.Windows.Forms.Label();
             this.LblStdDesc = new System.Windows.Forms.Label();
-            this.LblStdDaBth = new System.Windows.Forms.Label();
-            this.LblStdID = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.StdGridView)).BeginInit();
@@ -117,9 +118,9 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // label1
@@ -130,7 +131,6 @@
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.btnRefresh);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.cmbSearch);
@@ -140,6 +140,7 @@
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.btnUpdate);
             this.panel2.Controls.Add(this.btnSearch);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // btnRefresh
@@ -155,13 +156,13 @@
             // 
             // cmbSearch
             // 
-            resources.ApplyResources(this.cmbSearch, "cmbSearch");
             this.cmbSearch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSearch.FormattingEnabled = true;
             this.cmbSearch.Items.AddRange(new object[] {
             resources.GetString("cmbSearch.Items"),
             resources.GetString("cmbSearch.Items1"),
             resources.GetString("cmbSearch.Items2")});
+            resources.ApplyResources(this.cmbSearch, "cmbSearch");
             this.cmbSearch.Name = "cmbSearch";
             this.cmbSearch.SelectedIndexChanged += new System.EventHandler(this.cmbSearch_SelectedIndexChanged);
             // 
@@ -185,8 +186,8 @@
             // 
             // btnAdd
             // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Image = global::DesFirePersonalizer.Properties.Resources.Document_Add;
+            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -207,7 +208,6 @@
             // 
             // StdGridView
             // 
-            resources.ApplyResources(this.StdGridView, "StdGridView");
             this.StdGridView.AllowUserToAddRows = false;
             this.StdGridView.AllowUserToDeleteRows = false;
             this.StdGridView.AllowUserToOrderColumns = true;
@@ -233,6 +233,7 @@
             this.STDCollage,
             this.STDMobileNo,
             this.STDGender});
+            resources.ApplyResources(this.StdGridView, "StdGridView");
             this.StdGridView.Name = "StdGridView";
             this.StdGridView.ReadOnly = true;
             this.StdGridView.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.StdGridView_CellMouseClick);
@@ -391,16 +392,15 @@
             // 
             // tabControl1
             // 
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage3);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             // 
             // tabPage2
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Controls.Add(this.label24);
             this.tabPage2.Controls.Add(this.label23);
             this.tabPage2.Controls.Add(this.label22);
@@ -440,6 +440,7 @@
             this.tabPage2.Controls.Add(this.LblStdNat);
             this.tabPage2.Controls.Add(this.LblStdBloTy);
             this.tabPage2.Controls.Add(this.LblStdDesc);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
@@ -473,105 +474,20 @@
             resources.ApplyResources(this.label19, "label19");
             this.label19.Name = "label19";
             // 
-            // LblStdExpiryDat
+            // LblStdStatus
             // 
-            resources.ApplyResources(this.LblStdExpiryDat, "LblStdExpiryDat");
-            this.LblStdExpiryDat.Name = "LblStdExpiryDat";
+            resources.ApplyResources(this.LblStdStatus, "LblStdStatus");
+            this.LblStdStatus.Name = "LblStdStatus";
             // 
-            // label2
+            // LblStdMobi
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.LblStdMobi, "LblStdMobi");
+            this.LblStdMobi.Name = "LblStdMobi";
             // 
-            // label18
+            // LblStdCol
             // 
-            resources.ApplyResources(this.label18, "label18");
-            this.label18.Name = "label18";
-            // 
-            // label17
-            // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.Name = "label17";
-            // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.Name = "label16";
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.Name = "label15";
-            // 
-            // label14
-            // 
-            resources.ApplyResources(this.label14, "label14");
-            this.label14.Name = "label14";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
-            // 
-            // label12
-            // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
-            // 
-            // label11
-            // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // LblPlaceOfbirth
-            // 
-            resources.ApplyResources(this.LblPlaceOfbirth, "LblPlaceOfbirth");
-            this.LblPlaceOfbirth.Name = "LblPlaceOfbirth";
-            // 
-            // LblStdName
-            // 
-            resources.ApplyResources(this.LblStdName, "LblStdName");
-            this.LblStdName.Name = "LblStdName";
-            // 
-            // LblStdNat
-            // 
-            resources.ApplyResources(this.LblStdNat, "LblStdNat");
-            this.LblStdNat.Name = "LblStdNat";
+            resources.ApplyResources(this.LblStdCol, "LblStdCol");
+            this.LblStdCol.Name = "LblStdCol";
             // 
             // LblStdEmail
             // 
@@ -583,40 +499,135 @@
             resources.ApplyResources(this.LblStdTemType, "LblStdTemType");
             this.LblStdTemType.Name = "LblStdTemType";
             // 
-            // LblStdStatus
+            // LblStdDaBth
             // 
-            resources.ApplyResources(this.LblStdStatus, "LblStdStatus");
-            this.LblStdStatus.Name = "LblStdStatus";
-            // 
-            // LblStdMobi
-            // 
-            resources.ApplyResources(this.LblStdMobi, "LblStdMobi");
-            this.LblStdMobi.Name = "LblStdMobi";
+            resources.ApplyResources(this.LblStdDaBth, "LblStdDaBth");
+            this.LblStdDaBth.Name = "LblStdDaBth";
             // 
             // LblStdGen
             // 
             resources.ApplyResources(this.LblStdGen, "LblStdGen");
             this.LblStdGen.Name = "LblStdGen";
             // 
-            // LblStdNationality
-            // 
-            resources.ApplyResources(this.LblStdNationality, "LblStdNationality");
-            this.LblStdNationality.Name = "LblStdNationality";
-            // 
             // LblStdPassIssuePlace
             // 
             resources.ApplyResources(this.LblStdPassIssuePlace, "LblStdPassIssuePlace");
             this.LblStdPassIssuePlace.Name = "LblStdPassIssuePlace";
+            // 
+            // LblStdExpiryDat
+            // 
+            resources.ApplyResources(this.LblStdExpiryDat, "LblStdExpiryDat");
+            this.LblStdExpiryDat.Name = "LblStdExpiryDat";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.Name = "label15";
             // 
             // LblStdPassportID
             // 
             resources.ApplyResources(this.LblStdPassportID, "LblStdPassportID");
             this.LblStdPassportID.Name = "LblStdPassportID";
             // 
-            // LblStdCol
+            // LblStdNationality
             // 
-            resources.ApplyResources(this.LblStdCol, "LblStdCol");
-            this.LblStdCol.Name = "LblStdCol";
+            resources.ApplyResources(this.LblStdNationality, "LblStdNationality");
+            this.LblStdNationality.Name = "LblStdNationality";
+            // 
+            // LblStdID
+            // 
+            resources.ApplyResources(this.LblStdID, "LblStdID");
+            this.LblStdID.Name = "LblStdID";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // LblPlaceOfbirth
+            // 
+            resources.ApplyResources(this.LblPlaceOfbirth, "LblPlaceOfbirth");
+            this.LblPlaceOfbirth.Name = "LblPlaceOfbirth";
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.Name = "label18";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.Name = "label11";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.Name = "label12";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.Name = "label14";
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.Name = "label17";
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.Name = "label16";
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.Name = "label13";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // LblStdName
+            // 
+            resources.ApplyResources(this.LblStdName, "LblStdName");
+            this.LblStdName.Name = "LblStdName";
+            // 
+            // LblStdNat
+            // 
+            resources.ApplyResources(this.LblStdNat, "LblStdNat");
+            this.LblStdNat.Name = "LblStdNat";
             // 
             // LblStdBloTy
             // 
@@ -627,16 +638,6 @@
             // 
             resources.ApplyResources(this.LblStdDesc, "LblStdDesc");
             this.LblStdDesc.Name = "LblStdDesc";
-            // 
-            // LblStdDaBth
-            // 
-            resources.ApplyResources(this.LblStdDaBth, "LblStdDaBth");
-            this.LblStdDaBth.Name = "LblStdDaBth";
-            // 
-            // LblStdID
-            // 
-            resources.ApplyResources(this.LblStdID, "LblStdID");
-            this.LblStdID.Name = "LblStdID";
             // 
             // tabPage1
             // 
@@ -650,10 +651,18 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // StdInformations
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.chkboxStatus);
             this.Controls.Add(this.PicBoxStd);
@@ -757,5 +766,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn STDCollage;
         private System.Windows.Forms.DataGridViewTextBoxColumn STDMobileNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn STDGender;
+        private System.Windows.Forms.Button button1;
     }
 }

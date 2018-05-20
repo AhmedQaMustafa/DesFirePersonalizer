@@ -1065,6 +1065,7 @@
             this.StudentOCR.SubTitle = "";
             this.StudentOCR.SubTitleFont = new System.Drawing.Font("Tahoma", 8F);
             this.StudentOCR.TabIndex = 3;
+            this.StudentOCR.Paint += new System.Windows.Forms.PaintEventHandler(this.StudentOCR_Paint);
             // 
             // BtnUpdate
             // 
@@ -1092,6 +1093,7 @@
             this.ChooseScannerbtn.TabIndex = 16;
             this.ChooseScannerbtn.Text = "Choose Scanner";
             this.ChooseScannerbtn.UseVisualStyleBackColor = true;
+            this.ChooseScannerbtn.Click += new System.EventHandler(this.ChooseScannerbtn_Click);
             // 
             // SCDevCombox
             // 
@@ -1106,14 +1108,14 @@
             this.OCRPicturebox.Cursor = System.Windows.Forms.Cursors.SizeAll;
             this.OCRPicturebox.Location = new System.Drawing.Point(17, 101);
             this.OCRPicturebox.Name = "OCRPicturebox";
-            this.OCRPicturebox.Size = new System.Drawing.Size(678, 380);
+            this.OCRPicturebox.Size = new System.Drawing.Size(506, 250);
             this.OCRPicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.OCRPicturebox.TabIndex = 14;
             this.OCRPicturebox.TabStop = false;
             // 
             // ocrtxtar
             // 
-            this.ocrtxtar.Location = new System.Drawing.Point(704, 300);
+            this.ocrtxtar.Location = new System.Drawing.Point(558, 227);
             this.ocrtxtar.Multiline = true;
             this.ocrtxtar.Name = "ocrtxtar";
             this.ocrtxtar.Size = new System.Drawing.Size(343, 103);
@@ -1121,7 +1123,7 @@
             // 
             // OcrTextbox
             // 
-            this.OcrTextbox.Location = new System.Drawing.Point(701, 179);
+            this.OcrTextbox.Location = new System.Drawing.Point(555, 106);
             this.OcrTextbox.Multiline = true;
             this.OcrTextbox.Name = "OcrTextbox";
             this.OcrTextbox.Size = new System.Drawing.Size(343, 106);
@@ -2244,12 +2246,11 @@
             this.advancedWizered1.ButtonLayout = AdvancedWizardControl.Enums.ButtonLayoutKind.Default;
             this.advancedWizered1.ButtonsVisible = true;
             this.advancedWizered1.CancelButtonText = "&Cancel";
-          //  this.advancedWizered1.Controls.Add(this.StudentInformation);
+            this.advancedWizered1.Controls.Add(this.StudentOCR);
+            this.advancedWizered1.Controls.Add(this.StudentPicture);
             this.advancedWizered1.Controls.Add(this.FinalInformation);
             this.advancedWizered1.Controls.Add(this.StudentCardPrint);
             this.advancedWizered1.Controls.Add(this.StudentCardIncoder);
-            this.advancedWizered1.Controls.Add(this.StudentOCR);
-            this.advancedWizered1.Controls.Add(this.StudentPicture);
             this.advancedWizered1.Controls.Add(this.FinalPage);
             this.advancedWizered1.CurrentPageIsFinishPage = false;
             this.advancedWizered1.FinishButton = true;

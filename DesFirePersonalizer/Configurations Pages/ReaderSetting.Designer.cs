@@ -541,7 +541,6 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tableLayoutPanel6);
             this.Controls.Add(this.UniversityGroupBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ResetButton);
@@ -555,6 +554,7 @@
             this.Controls.Add(this.mainStatus);
             this.Controls.Add(this.CardReaderComboBox);
             this.Controls.Add(this.CounterValueTextBox);
+            this.Controls.Add(this.tableLayoutPanel6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ReaderSetting";
             this.Load += new System.EventHandler(this.ReaderSetting_Load);

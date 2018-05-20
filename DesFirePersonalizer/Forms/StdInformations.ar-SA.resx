@@ -137,12 +137,6 @@
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>944, 30</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>301, 44</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 44</value>
-  </data>
   <data name="btnRefresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -218,14 +212,11 @@
   <data name="btnSearch.Text" xml:space="preserve">
     <value>بحث</value>
   </data>
-  <data name="StdGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>301, 94</value>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 44</value>
   </data>
-  <data name="StdGridView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="StdGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 199</value>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 44</value>
   </data>
   <data name="StudentID.HeaderText" xml:space="preserve">
     <value>رقم الطالب </value>
@@ -263,6 +254,15 @@
   </data>
   <data name="STDGender.HeaderText" xml:space="preserve">
     <value>الجنس</value>
+  </data>
+  <data name="StdGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 94</value>
+  </data>
+  <data name="StdGridView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="StdGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 199</value>
   </data>
   <data name="PicBoxStd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -524,14 +524,8 @@
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
     <value>747, 163</value>
   </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
-  </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 49</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>575, 76</value>
@@ -598,9 +592,6 @@
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>221, 76</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>300, 107</value>

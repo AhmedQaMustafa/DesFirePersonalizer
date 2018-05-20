@@ -63,6 +63,7 @@ namespace DesFirePersonalizer
             host.WizardPages.Add(4, new IssueCard_Pag());
             host.WizardPages.Add(5, new StdPrintCard_Pag());
             host.WizardPages.Add(6, new LastPageInfo_Pag());
+          //  host.WizardPages.Add(6, new OCRUserControl());
             host.Left = 0;
             host.Top = 0;
             host.Size = this.ClientRectangle.Size;
@@ -108,6 +109,7 @@ namespace DesFirePersonalizer
             host.WizardPages.Add(3, new StdIncoding_Pag());
             host.WizardPages.Add(4, new IssueCard_Pag());
             host.WizardPages.Add(5, new StdPrintCard_Pag());
+           // host.WizardPages.Add(6, new OCRUserControl());
             host.Left = 0;
             host.Top = 0;
             host.Size = this.ClientRectangle.Size;
@@ -296,6 +298,13 @@ namespace DesFirePersonalizer
             {
                 MessageBox.Show("Procces NoT compleate please contact administrator", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OCRUSERFRm  ocrfrm= new OCRUSERFRm();
+            ocrfrm.Show();
+
         }
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

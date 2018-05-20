@@ -77,10 +77,6 @@
       <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Aspose.OCR, Version=17.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.OCR.17.11.0\lib\net46\Aspose.OCR.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -121,13 +117,11 @@
     <Reference Include="IKVM.Runtime">
       <HintPath>libs\IKVM.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="IronOcr, Version=4.1.1.30421, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IronOcr.4.1.1.0\lib\net40\IronOcr.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="IronOcr, Version=4.3.0.16185, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.4.3.0.1\lib\net40\IronOcr.dll</HintPath>
     </Reference>
-    <Reference Include="IronOcr.Arabic, Version=4.0.0.25037, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IronOcr.Languages.Arabic.4.0.0\lib\net40\IronOcr.Arabic.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="IronOcr.Arabic, Version=4.0.0.20745, Culture=neutral, PublicKeyToken=5f366048dc436899, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronOcr.Languages.Arabic.4.4.2.51\lib\net40\IronOcr.Arabic.dll</HintPath>
     </Reference>
     <Reference Include="leptonica.net, Version=1.74.4.14, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\leptonica.net.1.74.4.14\lib\net452\leptonica.net.dll</HintPath>
@@ -185,14 +179,6 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tesseract, Version=0.0.0.0, Culture=neutral, PublicKeyToken=ebeb3d86bef60cbe, processorArchitecture=MSIL">
-      <HintPath>..\packages\Tesseract.3.2.0-alpha4\lib\net451\Tesseract.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="tesseract.net, Version=4.0.0.6, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\tesseract.net.4.0.0.6\lib\net452\tesseract.net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Apps_Cod\CloseAllForms.cs" />
@@ -274,6 +260,18 @@
     </Compile>
     <Compile Include="Wizered Pages\LastPageInfo_Pag.Designer.cs">
       <DependentUpon>LastPageInfo_Pag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\OCRUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\OCRUserControl.Designer.cs">
+      <DependentUpon>OCRUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizered Pages\OCRUSERFRm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizered Pages\OCRUSERFRm.Designer.cs">
+      <DependentUpon>OCRUSERFRm.cs</DependentUpon>
     </Compile>
     <Compile Include="Wizered Pages\StdEdInfo_Pag.cs">
       <SubType>UserControl</SubType>
@@ -520,6 +518,12 @@
     <EmbeddedResource Include="Wizered Pages\LastPageInfo_Pag.resx">
       <DependentUpon>LastPageInfo_Pag.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\OCRUserControl.resx">
+      <DependentUpon>OCRUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizered Pages\OCRUSERFRm.resx">
+      <DependentUpon>OCRUSERFRm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizered Pages\StdEdInfo_Pag.ar-SA.resx">
       <DependentUpon>StdEdInfo_Pag.cs</DependentUpon>
