@@ -62,7 +62,6 @@
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.CounterValueTextBox = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
-            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
             this.TxtStdInc = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.btnSearchandScan = new System.Windows.Forms.Button();
@@ -96,6 +95,7 @@
             this.ApplicationDataEPurse = new System.Windows.Forms.TextBox();
             this.RdmBtnAppData = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.CardReaderComboBox = new System.Windows.Forms.ComboBox();
             this.UniversityGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HolderFPpictureBox)).BeginInit();
             this.mainStatus.SuspendLayout();
@@ -315,13 +315,6 @@
             resources.ApplyResources(this.label50, "label50");
             this.label50.Name = "label50";
             // 
-            // CardReaderComboBox
-            // 
-            this.CardReaderComboBox.FormattingEnabled = true;
-            resources.ApplyResources(this.CardReaderComboBox, "CardReaderComboBox");
-            this.CardReaderComboBox.Name = "CardReaderComboBox";
-            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
-            // 
             // TxtStdInc
             // 
             resources.ApplyResources(this.TxtStdInc, "TxtStdInc");
@@ -537,10 +530,18 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // CardReaderComboBox
+            // 
+            this.CardReaderComboBox.FormattingEnabled = true;
+            resources.ApplyResources(this.CardReaderComboBox, "CardReaderComboBox");
+            this.CardReaderComboBox.Name = "CardReaderComboBox";
+            this.CardReaderComboBox.SelectedIndexChanged += new System.EventHandler(this.CardReaderComboBox_SelectedIndexChanged);
+            // 
             // ReaderSetting
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.CardReaderComboBox);
             this.Controls.Add(this.UniversityGroupBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ResetButton);
@@ -552,7 +553,6 @@
             this.Controls.Add(this.TxtStdInc);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.mainStatus);
-            this.Controls.Add(this.CardReaderComboBox);
             this.Controls.Add(this.CounterValueTextBox);
             this.Controls.Add(this.tableLayoutPanel6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -589,7 +589,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.TextBox CounterValueTextBox;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.ComboBox CardReaderComboBox;
         private System.Windows.Forms.TextBox TxtStdInc;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button btnSearchandScan;
@@ -641,5 +640,6 @@
         private System.Windows.Forms.TextBox ApplicationDataEPurse;
         private System.Windows.Forms.Button RdmBtnAppData;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox CardReaderComboBox;
     }
 }

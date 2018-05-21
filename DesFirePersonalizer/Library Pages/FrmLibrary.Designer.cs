@@ -104,8 +104,8 @@
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.sizeStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.LblIncode = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.LblIncode = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -592,29 +592,29 @@
             resources.ApplyResources(this.toolStripStatusLabel4, "toolStripStatusLabel4");
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
             // 
-            // LblIncode
-            // 
-            resources.ApplyResources(this.LblIncode, "LblIncode");
-            this.LblIncode.Name = "LblIncode";
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
+            // LblIncode
+            // 
+            resources.ApplyResources(this.LblIncode, "LblIncode");
+            this.LblIncode.Name = "LblIncode";
+            // 
             // FrmLibrary
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.LblIncode);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.CardReaderComboBox);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tableLayoutPanel6);
             this.Controls.Add(this.BtnReturn);
             this.Controls.Add(this.BtnBorrow);
+            this.Controls.Add(this.CardReaderComboBox);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.mainStatus);
+            this.Controls.Add(this.LblIncode);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmLibrary";
             this.Load += new System.EventHandler(this.FrmLibrary_Load);
@@ -687,7 +687,6 @@
         private System.Windows.Forms.TextBox Book2StatusTextBox;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TextBox LibraryFreeSlotTextBox;
-        private System.Windows.Forms.Label LblIncode;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox TxtStdInc;
         private System.Windows.Forms.Label TxtStdIDInc;
@@ -709,5 +708,6 @@
         private System.Windows.Forms.DateTimePicker BookDateTimePicker;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.TextBox BookAvailabilityTextBox;
+        private System.Windows.Forms.Label LblIncode;
     }
 }

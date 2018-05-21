@@ -862,6 +862,54 @@ namespace DesFirePersonalizer.Configurations_Pages
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void parseStudentIDData(String data)
+        {
+
+            int index = 0;
+            int len = 0;
+            String content = null;
+
+            if (data == null || String.IsNullOrWhiteSpace(data))
+            {
+                MessageBox.Show("Data is not containing University Data", "Info",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+
+            String header = data.Substring(index, 4);
+            index += 4;
+            String lenStr = data.Substring(index, 4);
+            index += 4;
+
+            if (String.Equals(UniversityDataTag, header, StringComparison.OrdinalIgnoreCase) == false)
+            {
+                studentNoTextBox.Text = MyUtil.ConvertHextoAscii(content);
+                MessageBox.Show("Data is not containing University Data", "Info", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            while (index < data.Length)
+            {
+                header = data.Substring(index, 4);
+                index += 4;
+                lenStr = data.Substring(index, 4);
+                index += 4;
+
+                len = Convert.ToInt16(lenStr, 16);
+                content = data.Substring(index, len * 4);
+                index += len * 4;
+
+                if (String.Equals(header, StudentNoTag, StringComparison.OrdinalIgnoreCase))
+                {
+                    studentNoTextBox.Text = MyUtil.ConvertHextoAscii(content);
+                }
+
+                   
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void parsePhotoData(String data)
         {
             int index = 0;
@@ -1023,8 +1071,9 @@ namespace DesFirePersonalizer.Configurations_Pages
             scc = null;
             loadFromSettings();
             redoRegisterEvent();
+
             //  populateDataForm();
-      
+
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1068,7 +1117,7 @@ namespace DesFirePersonalizer.Configurations_Pages
             loadFromSettings();
             UpdateSetting("CardReader", cardReaderToolStrip.Text);
 
-            //  redoRegisterEvent();
+            //redoRegisterEvent();
             tryToConnect();
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1090,34 +1139,30 @@ namespace DesFirePersonalizer.Configurations_Pages
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         private void scancard()
         {
+            String newfilename = FirstNameTextBox.Text + DateTime.Now.ToString("yyyyMMdd_hmmtt");
             try
             {
+                     Student aStudent = new Student(dsf, ConfigurationManager.AppSettings.Get("TemplateXmlFiles"), newfilename);
 
-                Student aStudent = new Student(dsf, ConfigurationManager.AppSettings.Get("TemplateXmlFiles"), "tmp");
-                aStudent.LoadXml(false);
+                    aStudent.LoadXml(false);
+                    aStudent.readAStudentCard();
 
-                ValueFile vf = aStudent.getCreditLibraryAppValueFile();
+                 aStudent.fillStudentData(aStudent.getContentFromAFile(Student.PERSONAL_DATA),
+                 aStudent.getContentFromAFile(Student.UNIVERSITY_DATA),
+                 aStudent.getContentFromAFile(Student.PHOTO_DATA),
+                 aStudent.getContentFromAFile(Student.FINGERPRINT_DATA),
+                 getInitialiCreditInHex(),
+                 getInitialBookCreditInHex(),
+                 getInitialCounterInHex(),
+                 false);
 
-                //Check if cards are empty
-                RecordFile book1 = (RecordFile)aStudent.getFileSettings(Student.BOOK1_LOG_FILE_ID);
-                BasicFile bf = (BasicFile)book1;
+                aStudent.LoadXml(true);
+                    parseStudentIDData(aStudent.getContentFromAFile(Student.UNIVERSITY_DATA));
 
 
-                aStudent.readFile(ref bf);
+                    MessageBox.Show("Card Read Successfully", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                RecordFile book1Rf = (RecordFile)bf;
-
-
-                parseAndDisplayLogBook1(book1Rf.content);
-
-                //if (book1.getCurrentNoOfRecordsInInt() !=0 )
-                //{
-                //    //read and write to form
-
-                //    //success = true;
-                //}
-
-            }
+                }
             catch (Exception ex)
             {
                 MessageBox.Show("Please pe sure the reader connected or card placed on the reader");

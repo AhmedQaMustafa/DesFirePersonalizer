@@ -739,15 +739,16 @@ namespace DesFirePersonalizer.Library_Pages
 
                 CardReaderComboBox.SelectedIndex = index;
             }
+            scc.Cancel();
+            scc.Dispose();
+            scc = null;
+
+            redoRegisterEvent();
+            loadFromSettings();
 
             randomInstance = new Random();
             RdnBtnTransID_Click(null, null);
             RdmBtnAppData_Click(null, null);
-            scc.Cancel();
-            scc.Dispose();
-            scc = null;
-            loadFromSettings();
-            redoRegisterEvent();
 
             //   listAvailableBook();
             FillBookList();

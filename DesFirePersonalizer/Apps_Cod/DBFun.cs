@@ -15,8 +15,9 @@ namespace DesFirePersonalizer.Apps_Cood
          static  SqlDataAdapter da = new SqlDataAdapter();
         //static SqlConnection con;
          static DataTable dt;
-         public static string SQL = "Data Source=QASEM-PC;Initial Catalog=OneCard_Solution; User ID=sa;Password=admin123";
-         public static SqlConnection con = new SqlConnection(SQL);
+        // public static string SQL = "Data Source=QASEM-PC;Initial Catalog=OneCard_Solution; User ID=sa;Password=admin123";
+        public static string SQL = "Data Source=50.62.35.11;Initial Catalog=OneCard_Solution;Integrated Security=False; Persist Security Info=True; User ID=ams;Password=123123123;Connection Timeout=6000; Max pool size=3500;";
+        public static SqlConnection con = new SqlConnection(SQL);
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

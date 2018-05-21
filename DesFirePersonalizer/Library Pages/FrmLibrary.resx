@@ -955,10 +955,10 @@
     <value>27</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 37</value>
+    <value>167, 28</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>804, 279</value>
+    <value>813, 279</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -976,7 +976,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="TxtAllowdQuantity.Location" type="System.Drawing.Point, System.Drawing">
     <value>125, 162</value>
@@ -1519,7 +1519,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="BtnReturn.Location" type="System.Drawing.Point, System.Drawing">
     <value>615, 614</value>
@@ -1543,7 +1543,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnReturn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="BtnBorrow.Location" type="System.Drawing.Point, System.Drawing">
     <value>436, 614</value>
@@ -1567,7 +1567,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnBorrow.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>5</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1576,7 +1576,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 13</value>
+    <value>309, 128</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 13</value>
@@ -1600,13 +1600,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>7</value>
   </data>
   <data name="CardReaderComboBox.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="CardReaderComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 10</value>
+    <value>411, 125</value>
   </data>
   <data name="CardReaderComboBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>250, 0</value>
@@ -1630,7 +1630,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CardReaderComboBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="tableLayoutPanel6.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1909,7 +1909,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tableLayoutPanel6.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="tableLayoutPanel6.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="RdnBtnTransID" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label16" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TerminalIDEPurse" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label17" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TransactionIDEPurse" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ApplicationDataEPurse" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="RdmBtnAppData" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label15" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
@@ -2041,34 +2041,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mainStatus.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="LblIncode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblIncode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 297</value>
-  </data>
-  <data name="LblIncode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="LblIncode.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="LblIncode.Text" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;LblIncode.Name" xml:space="preserve">
-    <value>LblIncode</value>
-  </data>
-  <data name="&gt;&gt;LblIncode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblIncode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LblIncode.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>129, 17</value>
@@ -2081,6 +2054,33 @@
   </data>
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblIncode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblIncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 294</value>
+  </data>
+  <data name="LblIncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="LblIncode.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LblIncode.Text" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;LblIncode.Name" xml:space="preserve">
+    <value>LblIncode</value>
+  </data>
+  <data name="&gt;&gt;LblIncode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblIncode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblIncode.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -814,7 +814,7 @@ namespace DesFirePersonalizer
                     aStudent.getContentFromAFile(Student.UNIVERSITY_DATA),
                     aStudent.getContentFromAFile(Student.PHOTO_DATA),
                     aStudent.getContentFromAFile(Student.FINGERPRINT_DATA),
-                    getInitialiCreditInHex(),
+                   getInitialiCreditInHex(),
                     getInitialBookCreditInHex(),
                     getInitialCounterInHex(),
                     false);

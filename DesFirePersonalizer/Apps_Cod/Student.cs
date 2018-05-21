@@ -126,12 +126,22 @@ namespace DesFirePersonalizer
             this.UniversityData = UniversityData;
             this.ImageData = ImageData;
             this.FingerPrintData = FingerPrintData;
-            this.InitialCreditValue = initial_credit;
+           this.InitialCreditValue = initial_credit;
             this.isFormatFirst = isFormatFirst;
             this.InitialBookValue = initial_book_value;
             this.InitialCounterValue = initial_counter_value;
         }
-
+        //////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////// for finding student id 
+        public void fillStudentDataID( String UniversityData, bool isFormatFirst)//
+        {
+            this.UniversityData = UniversityData;
+            this.isFormatFirst = isFormatFirst;
+      
+     
+        }
+        //////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////
         public void LoadXml(bool fillData)
         {
             loadXmlFile(this.xmlFileTemplate, fillData);
