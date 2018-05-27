@@ -997,12 +997,12 @@ namespace DesFirePersonalizer.Configurations_Pages
                 aStudent.LoadXml(false);
                 aStudent.readAStudentCard();
 
-                aStudent.fillStudentData(aStudent.getContentFromAFile(Student.PERSONAL_DATA),
+                aStudent.fillStudentData2(aStudent.getContentFromAFile(Student.PERSONAL_DATA),
                     aStudent.getContentFromAFile(Student.UNIVERSITY_DATA),
                     aStudent.getContentFromAFile(Student.PHOTO_DATA),
                     aStudent.getContentFromAFile(Student.FINGERPRINT_DATA),
-                    getInitialiCreditInHex(),
-                    getInitialBookCreditInHex(),
+                    //getInitialiCreditInHex(),
+                    //getInitialBookCreditInHex(),
                     getInitialCounterInHex(),
                     false);
 
@@ -1019,6 +1019,7 @@ namespace DesFirePersonalizer.Configurations_Pages
             {
                 DialogResult result = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1144,21 +1145,21 @@ namespace DesFirePersonalizer.Configurations_Pages
             {
                      Student aStudent = new Student(dsf, ConfigurationManager.AppSettings.Get("TemplateXmlFiles"), newfilename);
 
-                    aStudent.LoadXml(false);
-                    aStudent.readAStudentCard();
+                     aStudent.LoadXml(false);
+                     aStudent.readAStudentCard();
 
-                 aStudent.fillStudentData(aStudent.getContentFromAFile(Student.PERSONAL_DATA),
-                 aStudent.getContentFromAFile(Student.UNIVERSITY_DATA),
-                 aStudent.getContentFromAFile(Student.PHOTO_DATA),
-                 aStudent.getContentFromAFile(Student.FINGERPRINT_DATA),
-                 getInitialiCreditInHex(),
-                 getInitialBookCreditInHex(),
-                 getInitialCounterInHex(),
-                 false);
+                     aStudent.fillStudentData(aStudent.getContentFromAFile(Student.PERSONAL_DATA),
+                     aStudent.getContentFromAFile(Student.UNIVERSITY_DATA),
+                     aStudent.getContentFromAFile(Student.PHOTO_DATA),
+                     aStudent.getContentFromAFile(Student.FINGERPRINT_DATA),
+                     getInitialiCreditInHex(),
+                     getInitialBookCreditInHex(),
+                     getInitialCounterInHex(),
+                     false);
 
-                aStudent.LoadXml(true);
-                    parseStudentIDData(aStudent.getContentFromAFile(Student.UNIVERSITY_DATA));
-
+                     aStudent.LoadXml(true);
+                     parseStudentIDData(aStudent.getContentFromAFile(Student.UNIVERSITY_DATA));
+                 
 
                     MessageBox.Show("Card Read Successfully", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

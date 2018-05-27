@@ -119,16 +119,31 @@ namespace DesFirePersonalizer
         }
         //////////////////////////////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////
+ 
         public void fillStudentData(String PersonalData, String UniversityData, String ImageData,
-                   String FingerPrintData, String initial_credit, String initial_book_value, String initial_counter_value, bool isFormatFirst)//
+           String FingerPrintData, String initial_book_value, String initial_credit, String initial_counter_value, bool isFormatFirst)
         {
             this.PersonalData = PersonalData;
             this.UniversityData = UniversityData;
             this.ImageData = ImageData;
             this.FingerPrintData = FingerPrintData;
-           this.InitialCreditValue = initial_credit;
+            this.InitialCreditValue = initial_credit;
             this.isFormatFirst = isFormatFirst;
             this.InitialBookValue = initial_book_value;
+            this.InitialCounterValue = initial_counter_value;
+        }
+        //////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////
+        public void fillStudentData2(String PersonalData, String UniversityData, String ImageData,
+            String FingerPrintData, String initial_counter_value, bool isFormatFirst)//String initial_book_value, String initial_credit,
+        {
+            this.PersonalData = PersonalData;
+            this.UniversityData = UniversityData;
+            this.ImageData = ImageData;
+            this.FingerPrintData = FingerPrintData;
+            //  this.InitialCreditValue = initial_credit;
+            this.isFormatFirst = isFormatFirst;
+            //  this.InitialBookValue = initial_book_value;
             this.InitialCounterValue = initial_counter_value;
         }
         //////////////////////////////////////////////////////////////////////////////
